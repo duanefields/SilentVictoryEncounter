@@ -7,8 +7,26 @@ var dom = require('xmldom').DOMParser;
 
 var filePath = path.join(__dirname, "../assets/vassal.xml");
 var xml = fs.readFileSync(filePath, {encoding: 'utf-8'});
-
 var doc = new dom().parseFromString(xml);
+
+var expandType = function (type) {
+  switch(type) {
+    case "BB": return "Battleship";
+    case "CV": return "Aircraft Carrier";
+    case "CVS": return "Antisubmarine Aircraft Carrier";
+    case "SS": return "Submarine";
+    case "CVE": return "Escort Carrier";
+    case "CA": return "Cruiser";
+    case "CL": return "Light Cruiser";
+    case "DD": return "Destoryer";
+    case "FF": return "Frigate";
+    case "ML": return "Minelayer";
+    case "AS": return "Repair Ship";
+    default:
+      console.log("Warning: Unknown Type", type);
+      return type;
+  }
+}
 
 var cardSlots = xpath.select("//VASSAL.build.widget.CardSlot", doc);
 var contacts = [];
@@ -18,20 +36,20 @@ _.each(cardSlots, function(cardSlot) {
   parts = cardSlot.textContent.split(';');
 
   if (contact.entryName.match(/^(Warship|Capital Ship)/)) {
+    contact.entryType = contact.entryName.match(/^Warship/) ? "Warship" : "Capital Ship";
     details = parts[33].split('\t');
-    contact.entryType = contract.entryName.match(/^Warship/) ? "Warship" : "Capital Ship";
     var typeParts = details[2].replace(/\\/g, '').split(' ')
     if (typeParts.length === 1) {
-      contact.type = "SS"
+      contact.type = expandType("SS");
       contact.name = typeParts[0];
     } else {
-      contact.type = typeParts[0];
+      contact.type = expandType(typeParts[0]);
       contact.name = typeParts.slice(1).join(' ');
     }
     contact.tonnage = Number(details[3].replace(/\\/g, ''));
   } else if (contact.entryName.match(/^(Small|Large)/)) {
-    details = parts[25].split('\t');
     contact.entryType = "Freighter";
+    details = parts[25].split('\t');
     contact.type = parts[1].replace(/\s+label$/, '');
     contact.name = details[1].replace(/\\/g, '');
     contact.tonnage = Number(details[2].replace(/\\/g, ''));
@@ -43,14 +61,14 @@ _.each(cardSlots, function(cardSlot) {
   //console.log(JSON.stringify(contact));
 });
 
-write (contacts, entryType) {
+var save = function (contacts, entryType) {
   records = _.filter(contacts, {entryType});
   json = JSON.stringify(records, null, 2);
   fileName = `${entryType.toLowerCase().replace(/\s/g, '')}s.json`;
-  var filePath = path.join(__dirname, `../data/${fileName}`);
+  var filePath = path.join(__dirname, `../src/data/${fileName}`);
   fs.writeFileSync(filePath, json);
 }
 
-write(contacts, "Warship");
-write(contacts, "Capital Ship");
-write(contacts, "Freighter");
+save(contacts, "Warship");
+save(contacts, "Capital Ship");
+save(contacts, "Freighter");

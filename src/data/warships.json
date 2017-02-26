@@ -1,0 +1,702 @@
+[
+  {
+    "entryName": "Warship Target 01",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Isoname",
+    "tonnage": 2000
+  },
+  {
+    "entryName": "Warship Target 02",
+    "entryType": "Warship",
+    "type": "Antisubmarine Aircraft Carrier",
+    "name": "Mizuho",
+    "tonnage": 9000
+  },
+  {
+    "entryName": "Warship Target 03",
+    "entryType": "Warship",
+    "type": "Submarine",
+    "name": "R-30",
+    "tonnage": 1000
+  },
+  {
+    "entryName": "Warship Target 04",
+    "entryType": "Warship",
+    "type": "Submarine",
+    "name": "I-64",
+    "tonnage": 1600
+  },
+  {
+    "entryName": "Warship Target 05",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Yamakaze",
+    "tonnage": 1400
+  },
+  {
+    "entryName": "Warship Target 06",
+    "entryType": "Warship",
+    "type": "Submarine",
+    "name": "I-28",
+    "tonnage": 1500
+  },
+  {
+    "entryName": "Warship Target 07",
+    "entryType": "Warship",
+    "type": "Repair Ship",
+    "name": "Asahi",
+    "tonnage": 11400
+  },
+  {
+    "entryName": "Warship Target 08",
+    "entryType": "Warship",
+    "type": "Light Cruiser",
+    "name": "Tenryu",
+    "tonnage": 3300
+  },
+  {
+    "entryName": "Warship Target 09",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Okikaze",
+    "tonnage": 1200
+  },
+  {
+    "entryName": "Warship Target 10",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Shirakumo",
+    "tonnage": 2100
+  },
+  {
+    "entryName": "Warship Target 11",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Sazaname",
+    "tonnage": 2100
+  },
+  {
+    "entryName": "Warship Target 12",
+    "entryType": "Warship",
+    "type": "Submarine",
+    "name": "I-24",
+    "tonnage": 2200
+  },
+  {
+    "entryName": "Warship Target 13",
+    "entryType": "Warship",
+    "type": "Submarine",
+    "name": "I-182",
+    "tonnage": 1500
+  },
+  {
+    "entryName": "Warship Target 14",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Suzukaze",
+    "tonnage": 1400
+  },
+  {
+    "entryName": "Warship Target 15",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Umikaze",
+    "tonnage": 1400
+  },
+  {
+    "entryName": "Warship Target 16",
+    "entryType": "Warship",
+    "type": "Light Cruiser",
+    "name": "Agano",
+    "tonnage": 5500
+  },
+  {
+    "entryName": "Warship Target 17",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Ikazuchi",
+    "tonnage": 2000
+  },
+  {
+    "entryName": "Warship Target 18",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Minekaze",
+    "tonnage": 1300
+  },
+  {
+    "entryName": "Warship Target 19",
+    "entryType": "Warship",
+    "type": "Light Cruiser",
+    "name": "Tatsuta",
+    "tonnage": 3300
+  },
+  {
+    "entryName": "Warship Target 20",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Yunagi",
+    "tonnage": 1200
+  },
+  {
+    "entryName": "Warship Target 21",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Akigumo",
+    "tonnage": 1400
+  },
+  {
+    "entryName": "Warship Target 22",
+    "entryType": "Warship",
+    "type": "Light Cruiser",
+    "name": "Yubari",
+    "tonnage": 3500
+  },
+  {
+    "entryName": "Warship Target 23",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Kazegumo",
+    "tonnage": 1400
+  },
+  {
+    "entryName": "Warship Target 24",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Minatsuki",
+    "tonnage": 1300
+  },
+  {
+    "entryName": "Warship Target 25",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Tanikaze",
+    "tonnage": 2000
+  },
+  {
+    "entryName": "Warship Target 26",
+    "entryType": "Warship",
+    "type": "Submarine",
+    "name": "I-43",
+    "tonnage": 2100
+  },
+  {
+    "entryName": "Warship Target 27",
+    "entryType": "Warship",
+    "type": "Submarine",
+    "name": "I-29",
+    "tonnage": 2600
+  },
+  {
+    "entryName": "Warship Target 28",
+    "entryType": "Warship",
+    "type": "Light Cruiser",
+    "name": "Natori",
+    "tonnage": 5700
+  },
+  {
+    "entryName": "Warship Target 29",
+    "entryType": "Warship",
+    "type": "Light Cruiser",
+    "name": "Nagara",
+    "tonnage": 5700
+  },
+  {
+    "entryName": "Warship Target 30",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Shimotsuki",
+    "tonnage": 2000
+  },
+  {
+    "entryName": "Warship Target 31",
+    "entryType": "Warship",
+    "type": "Minelayer",
+    "name": "Shirataka",
+    "tonnage": 1300
+  },
+  {
+    "entryName": "Warship Target 32",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Shikinami",
+    "tonnage": 2000
+  },
+  {
+    "entryName": "Warship Target 33",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Suzutsuki",
+    "tonnage": 2000
+  },
+  {
+    "entryName": "Warship Target 34",
+    "entryType": "Warship",
+    "type": "Cruiser",
+    "name": "Kako",
+    "tonnage": 8800
+  },
+  {
+    "entryName": "Warship Target 35",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Akitsuki",
+    "tonnage": 2000
+  },
+  {
+    "entryName": "Warship Target 36",
+    "entryType": "Warship",
+    "type": "Light Cruiser",
+    "name": "Tama",
+    "tonnage": 5100
+  },
+  {
+    "entryName": "Warship Target 37",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Urakaze",
+    "tonnage": 1200
+  },
+  {
+    "entryName": "Warship Target 38",
+    "entryType": "Warship",
+    "type": "Cruiser",
+    "name": "Maya",
+    "tonnage": 12200
+  },
+  {
+    "entryName": "Warship Target 39",
+    "entryType": "Warship",
+    "type": "Cruiser",
+    "name": "Atago",
+    "tonnage": 12000
+  },
+  {
+    "entryName": "Warship Target 40",
+    "entryType": "Warship",
+    "type": "Submarine",
+    "name": "RO-115",
+    "tonnage": 1100
+  },
+  {
+    "entryName": "Warship Target 41",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Kishinami",
+    "tonnage": 2100
+  },
+  {
+    "entryName": "Warship Target 42",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Iwanami",
+    "tonnage": 0
+  },
+  {
+    "entryName": "Warship Target 43",
+    "entryType": "Warship",
+    "type": "Cruiser",
+    "name": "Myoko",
+    "tonnage": 10000
+  },
+  {
+    "entryName": "Warship Target 44",
+    "entryType": "Warship",
+    "type": "Cruiser",
+    "name": "Aoba",
+    "tonnage": 8800
+  },
+  {
+    "entryName": "Warship Target 45",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Kuretake",
+    "tonnage": 1000
+  },
+  {
+    "entryName": "Warship Target 46",
+    "entryType": "Warship",
+    "type": "Cruiser",
+    "name": "Takao",
+    "tonnage": 10000
+  },
+  {
+    "entryName": "Warship Target 47",
+    "entryType": "Warship",
+    "type": "Light Cruiser",
+    "name": "Isuzu",
+    "tonnage": 5700
+  },
+  {
+    "entryName": "Warship Target 48",
+    "entryType": "Warship",
+    "type": "Cruiser",
+    "name": "Ashigara",
+    "tonnage": 10000
+  },
+  {
+    "entryName": "Warship Target 49",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Akikaze",
+    "tonnage": 1200
+  },
+  {
+    "entryName": "Warship Target 50",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Natugumo",
+    "tonnage": 2000
+  },
+  {
+    "entryName": "Warship Target 51",
+    "entryType": "Warship",
+    "type": "Minelayer",
+    "name": "Okinoshima",
+    "tonnage": 4400
+  },
+  {
+    "entryName": "Warship Target 52",
+    "entryType": "Warship",
+    "type": "Submarine",
+    "name": "U-537",
+    "tonnage": 1200
+  },
+  {
+    "entryName": "Warship Target 53",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Hubuki",
+    "tonnage": 2100
+  },
+  {
+    "entryName": "Warship Target 54",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Akebono",
+    "tonnage": 2100
+  },
+  {
+    "entryName": "Warship Target 55",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Yukaze",
+    "tonnage": 1200
+  },
+  {
+    "entryName": "Warship Target 56",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Sagiri",
+    "tonnage": 2100
+  },
+  {
+    "entryName": "Warship Target 57",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Kagero",
+    "tonnage": 2000
+  },
+  {
+    "entryName": "Warship Target 58",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Hokaze",
+    "tonnage": 1400
+  },
+  {
+    "entryName": "Warship Target 59",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Oshio",
+    "tonnage": 1900
+  },
+  {
+    "entryName": "Warship Target 60",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Sazanami",
+    "tonnage": 2000
+  },
+  {
+    "entryName": "Warship Target 61",
+    "entryType": "Warship",
+    "type": "Submarine",
+    "name": "I-373",
+    "tonnage": 1700
+  },
+  {
+    "entryName": "Warship Target 62",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Shigure",
+    "tonnage": 1600
+  },
+  {
+    "entryName": "Warship Target 63",
+    "entryType": "Warship",
+    "type": "Submarine",
+    "name": "I-351",
+    "tonnage": 2700
+  },
+  {
+    "entryName": "Warship Target 64",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Inazuma",
+    "tonnage": 2000
+  },
+  {
+    "entryName": "Warship Target 65",
+    "entryType": "Warship",
+    "type": "Minelayer",
+    "name": "Yurishima",
+    "tonnage": 700
+  },
+  {
+    "entryName": "Warship Target 66",
+    "entryType": "Warship",
+    "type": "Minelayer",
+    "name": "Tsugaru",
+    "tonnage": 4400
+  },
+  {
+    "entryName": "Warship Target 67",
+    "entryType": "Warship",
+    "type": "Light Cruiser",
+    "name": "Oi",
+    "tonnage": 5700
+  },
+  {
+    "entryName": "Warship Target 68",
+    "entryType": "Warship",
+    "type": "Submarine",
+    "name": "I-18",
+    "tonnage": 2200
+  },
+  {
+    "entryName": "Warship Target 69",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Numakaze",
+    "tonnage": 1300
+  },
+  {
+    "entryName": "Warship Target 70",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Arare",
+    "tonnage": 1900
+  },
+  {
+    "entryName": "Warship Target 71",
+    "entryType": "Warship",
+    "type": "Submarine",
+    "name": "I-173",
+    "tonnage": 1800
+  },
+  {
+    "entryName": "Warship Target 72",
+    "entryType": "Warship",
+    "type": "Frigate",
+    "name": "Wakamiya",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Warship Target 73",
+    "entryType": "Warship",
+    "type": "Frigate",
+    "name": "Sado",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Warship Target 74",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Asakaze",
+    "tonnage": 1300
+  },
+  {
+    "entryName": "Warship Target 75",
+    "entryType": "Warship",
+    "type": "Frigate",
+    "name": "Yaku",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Warship Target 76",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Hayanami",
+    "tonnage": 2100
+  },
+  {
+    "entryName": "Warship Target 77",
+    "entryType": "Warship",
+    "type": "Frigate",
+    "name": "Matsuwa",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Warship Target 78",
+    "entryType": "Warship",
+    "type": "Frigate",
+    "name": "Hiburi",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Warship Target 79",
+    "entryType": "Warship",
+    "type": "Frigate",
+    "name": "Ishigaki",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Warship Target 80",
+    "entryType": "Warship",
+    "type": "Submarine",
+    "name": "RO-49",
+    "tonnage": 1000
+  },
+  {
+    "entryName": "Warship Target 81",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Tamanami",
+    "tonnage": 2100
+  },
+  {
+    "entryName": "Warship Target 82",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Nokaze",
+    "tonnage": 1300
+  },
+  {
+    "entryName": "Warship Target 83",
+    "entryType": "Warship",
+    "type": "Minelayer",
+    "name": "Aotaka",
+    "tonnage": 1600
+  },
+  {
+    "entryName": "Warship Target 84",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Asanagi",
+    "tonnage": 1300
+  },
+  {
+    "entryName": "Warship Target 85",
+    "entryType": "Warship",
+    "type": "Frigate",
+    "name": "Iki",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Warship Target 86",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Natsushio",
+    "tonnage": 1900
+  },
+  {
+    "entryName": "Warship Target 87",
+    "entryType": "Warship",
+    "type": "Minelayer",
+    "name": "Hirashima",
+    "tonnage": 700
+  },
+  {
+    "entryName": "Warship Target 88",
+    "entryType": "Warship",
+    "type": "Submarine",
+    "name": "I-365",
+    "tonnage": 1500
+  },
+  {
+    "entryName": "Warship Target 89",
+    "entryType": "Warship",
+    "type": "Submarine",
+    "name": "I-4",
+    "tonnage": 2000
+  },
+  {
+    "entryName": "Warship Target 90",
+    "entryType": "Warship",
+    "type": "Submarine",
+    "name": "I-42",
+    "tonnage": 2200
+  },
+  {
+    "entryName": "Warship Target 91",
+    "entryType": "Warship",
+    "type": "Frigate",
+    "name": "Ioshima",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Warship Target 92",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Usugumo",
+    "tonnage": 2000
+  },
+  {
+    "entryName": "Warship Target 93",
+    "entryType": "Warship",
+    "type": "Frigate",
+    "name": "Mutsure",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Warship Target 94",
+    "entryType": "Warship",
+    "type": "Frigate",
+    "name": "Kume",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Warship Target 95",
+    "entryType": "Warship",
+    "type": "Frigate",
+    "name": "Ojika",
+    "tonnage": 1000
+  },
+  {
+    "entryName": "Warship Target 96",
+    "entryType": "Warship",
+    "type": "Frigate",
+    "name": "Mikura",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Warship Target 97",
+    "entryType": "Warship",
+    "type": "Frigate",
+    "name": "Nomi",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Warship Target 98",
+    "entryType": "Warship",
+    "type": "Destoryer",
+    "name": "Nenohi",
+    "tonnage": 1600
+  },
+  {
+    "entryName": "Warship Target 99",
+    "entryType": "Warship",
+    "type": "Frigate",
+    "name": "Coast Def",
+    "tonnage": 800
+  },
+  {
+    "entryName": "Warship Target 100",
+    "entryType": "Warship",
+    "type": "Frigate",
+    "name": "Coast Def",
+    "tonnage": 1000
+  }
+]

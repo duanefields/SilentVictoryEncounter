@@ -1,0 +1,142 @@
+[
+  {
+    "entryName": "Capital Ship 01",
+    "entryType": "Capital Ship",
+    "type": "Battleship",
+    "name": "Musashi",
+    "tonnage": 62300
+  },
+  {
+    "entryName": "Capital Ship 02",
+    "entryType": "Capital Ship",
+    "type": "Aircraft Carrier",
+    "name": "Shokaku",
+    "tonnage": 30000
+  },
+  {
+    "entryName": "Capital Ship 03",
+    "entryType": "Capital Ship",
+    "type": "Aircraft Carrier",
+    "name": "Zuikaku",
+    "tonnage": 30000
+  },
+  {
+    "entryName": "Capital Ship 04",
+    "entryType": "Capital Ship",
+    "type": "Escort Carrier",
+    "name": "Shinyo",
+    "tonnage": 21000
+  },
+  {
+    "entryName": "Capital Ship 05",
+    "entryType": "Capital Ship",
+    "type": "Aircraft Carrier",
+    "name": "Hiyo",
+    "tonnage": 27500
+  },
+  {
+    "entryName": "Capital Ship 06",
+    "entryType": "Capital Ship",
+    "type": "Aircraft Carrier",
+    "name": "Kaga",
+    "tonnage": 28100
+  },
+  {
+    "entryName": "Capital Ship 07",
+    "entryType": "Capital Ship",
+    "type": "Battleship",
+    "name": "Fuso",
+    "tonnage": 29300
+  },
+  {
+    "entryName": "Capital Ship 08",
+    "entryType": "Capital Ship",
+    "type": "Escort Carrier",
+    "name": "Chuyo",
+    "tonnage": 20000
+  },
+  {
+    "entryName": "Capital Ship 09",
+    "entryType": "Capital Ship",
+    "type": "Battleship",
+    "name": "Haruna",
+    "tonnage": 37200
+  },
+  {
+    "entryName": "Capital Ship 10",
+    "entryType": "Capital Ship",
+    "type": "Aircraft Carrier",
+    "name": "Akagi",
+    "tonnage": 28100
+  },
+  {
+    "entryName": "Capital Ship 11",
+    "entryType": "Capital Ship",
+    "type": "Battleship",
+    "name": "Nagato",
+    "tonnage": 32700
+  },
+  {
+    "entryName": "Capital Ship 12",
+    "entryType": "Capital Ship",
+    "type": "Aircraft Carrier",
+    "name": "Taiho",
+    "tonnage": 31000
+  },
+  {
+    "entryName": "Capital Ship 13",
+    "entryType": "Capital Ship",
+    "type": "Battleship",
+    "name": "Ise",
+    "tonnage": 30000
+  },
+  {
+    "entryName": "Capital Ship 14",
+    "entryType": "Capital Ship",
+    "type": "Escort Carrier",
+    "name": "Unyo",
+    "tonnage": 20000
+  },
+  {
+    "entryName": "Capital Ship 15",
+    "entryType": "Capital Ship",
+    "type": "Battleship",
+    "name": "Kirishima",
+    "tonnage": 36600
+  },
+  {
+    "entryName": "Capital Ship 16",
+    "entryType": "Capital Ship",
+    "type": "Aircraft Carrier",
+    "name": "Unryu",
+    "tonnage": 18500
+  },
+  {
+    "entryName": "Capital Ship 17",
+    "entryType": "Capital Ship",
+    "type": "Battleship",
+    "name": "Hiei",
+    "tonnage": 36600
+  },
+  {
+    "entryName": "Capital Ship 18",
+    "entryType": "Capital Ship",
+    "type": "Battleship",
+    "name": "Yamashiro",
+    "tonnage": 29800
+  },
+  {
+    "entryName": "Capital Ship 19",
+    "entryType": "Capital Ship",
+    "type": "Battleship",
+    "name": "Kongo",
+    "tonnage": 37200
+  },
+  {
+    "entryName": "Capital Ship 20",
+    "entryType": "Capital Ship",
+    "type": "Battleship",
+    "name": "Yamato",
+    "tonnage": 62300
+  }
+]

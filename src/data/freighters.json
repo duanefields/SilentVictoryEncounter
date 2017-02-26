@@ -1,0 +1,4167 @@
+[
+  {
+    "entryName": "Small Freighter 01a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Heijo Maru",
+    "tonnage": 2600
+  },
+  {
+    "entryName": "Small Freighter 02a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Kenzan Maru",
+    "tonnage": 4700
+  },
+  {
+    "entryName": "Small Freighter 03a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Choko Maru",
+    "tonnage": 2600
+  },
+  {
+    "entryName": "Small Freighter 04a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Shingetsu Maru",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Small Freighter 05a",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Shirogane Maru",
+    "tonnage": 3100
+  },
+  {
+    "entryName": "Small Freighter 06a",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Senkai Maru",
+    "tonnage": 2100
+  },
+  {
+    "entryName": "Small Freighter 07a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Shuko Maru",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Small Freighter 08a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Otori Maru",
+    "tonnage": 2100
+  },
+  {
+    "entryName": "Small Freighter 09a",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Nanrei Maru",
+    "tonnage": 2400
+  },
+  {
+    "entryName": "Small Freighter 10a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Daido Maru",
+    "tonnage": 3000
+  },
+  {
+    "entryName": "Small Freighter 11a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Hachirogata Maru",
+    "tonnage": 2000
+  },
+  {
+    "entryName": "Small Freighter 12a",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Hakuai Maru",
+    "tonnage": 2600
+  },
+  {
+    "entryName": "Small Freighter 13a",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Peking Maru",
+    "tonnage": 2300
+  },
+  {
+    "entryName": "Small Freighter 14a",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Macassar Maru",
+    "tonnage": 4000
+  },
+  {
+    "entryName": "Small Freighter 15a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Shoho Maru",
+    "tonnage": 2700
+  },
+  {
+    "entryName": "Small Freighter 16a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Shinto Maru #1",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Small Freighter 17a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Fukusei Maru",
+    "tonnage": 2200
+  },
+  {
+    "entryName": "Small Freighter 18a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Takegawa Maru",
+    "tonnage": 1900
+  },
+  {
+    "entryName": "Small Freighter 19a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Nittatsu Maru",
+    "tonnage": 2900
+  },
+  {
+    "entryName": "Small Freighter 20a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Tokiwasan Maru",
+    "tonnage": 1800
+  },
+  {
+    "entryName": "Small Freighter 21a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Shoryu Maru",
+    "tonnage": 1900
+  },
+  {
+    "entryName": "Small Freighter 23a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Sakae Maru",
+    "tonnage": 2900
+  },
+  {
+    "entryName": "Small Freighter 24a",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Amakusa Maru",
+    "tonnage": 2300
+  },
+  {
+    "entryName": "Small Freighter 25a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Koto Maru",
+    "tonnage": 1100
+  },
+  {
+    "entryName": "Small Freighter 26a",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Madras Maru",
+    "tonnage": 3800
+  },
+  {
+    "entryName": "Small Freighter 27a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Toten Maru",
+    "tonnage": 3800
+  },
+  {
+    "entryName": "Small Freighter 28a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Chihaya Maru",
+    "tonnage": 1200
+  },
+  {
+    "entryName": "Small Freighter 29a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Naruo Maru",
+    "tonnage": 4800
+  },
+  {
+    "entryName": "Small Freighter 30a",
+    "entryType": "Freighter",
+    "type": "Small Tanker",
+    "name": "Sanyo Maru",
+    "tonnage": 2900
+  },
+  {
+    "entryName": "Small Freighter 31a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Sapporo Maru #11",
+    "tonnage": 2800
+  },
+  {
+    "entryName": "Small Freighter 32a",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Miyako Maru",
+    "tonnage": 1000
+  },
+  {
+    "entryName": "Small Freighter 33a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Yagi Maru",
+    "tonnage": 1900
+  },
+  {
+    "entryName": "Small Freighter 34a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Boko Maru",
+    "tonnage": 2300
+  },
+  {
+    "entryName": "Small Freighter 35a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Sugiyama Maru",
+    "tonnage": 4400
+  },
+  {
+    "entryName": "Small Freighter 36a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Misaki Maru",
+    "tonnage": 4400
+  },
+  {
+    "entryName": "Small Freighter 37a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Kuramasan Maru",
+    "tonnage": 2000
+  },
+  {
+    "entryName": "Small Freighter 38a",
+    "entryType": "Freighter",
+    "type": "Small Tanker",
+    "name": "Shimotsu Maru",
+    "tonnage": 2900
+  },
+  {
+    "entryName": "Small Freighter 39a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Junpo Maru",
+    "tonnage": 4300
+  },
+  {
+    "entryName": "Small Freighter 40a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Yanagigawa Maru",
+    "tonnage": 2800
+  },
+  {
+    "entryName": "Small Freighter 41a",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Nagaragwa Maru",
+    "tonnage": 1000
+  },
+  {
+    "entryName": "Small Freighter 42a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Shinshu Maru",
+    "tonnage": 4200
+  },
+  {
+    "entryName": "Small Freighter 43a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Kotobuki Maru #7",
+    "tonnage": 1000
+  },
+  {
+    "entryName": "Small Freighter 44a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Taiu Maru",
+    "tonnage": 2200
+  },
+  {
+    "entryName": "Small Freighter 45a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Kori Maru",
+    "tonnage": 1100
+  },
+  {
+    "entryName": "Small Freighter 46a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Kaika Maru",
+    "tonnage": 2100
+  },
+  {
+    "entryName": "Small Freighter 47a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Unkai Maru #12",
+    "tonnage": 2700
+  },
+  {
+    "entryName": "Small Freighter 48a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Kenzui Maru",
+    "tonnage": 4200
+  },
+  {
+    "entryName": "Small Freighter 49a",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Mitakesan Maru",
+    "tonnage": 4200
+  },
+  {
+    "entryName": "Small Freighter 50a",
+    "entryType": "Freighter",
+    "type": "Small Tanker",
+    "name": "Nanshin Maru #21",
+    "tonnage": 800
+  },
+  {
+    "entryName": "Small Freighter 51a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Hosen Maru",
+    "tonnage": 1000
+  },
+  {
+    "entryName": "Small Freighter 52a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Hokoku Maru",
+    "tonnage": 500
+  },
+  {
+    "entryName": "Small Freighter 53a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Akashi Maru",
+    "tonnage": 3200
+  },
+  {
+    "entryName": "Small Freighter 54a",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Nanshin Maru",
+    "tonnage": 1400
+  },
+  {
+    "entryName": "Small Freighter 55a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Kanan Maru",
+    "tonnage": 3300
+  },
+  {
+    "entryName": "Small Freighter 56a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Miyaura Maru",
+    "tonnage": 1900
+  },
+  {
+    "entryName": "Small Freighter 57a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Sanju Maru",
+    "tonnage": 4600
+  },
+  {
+    "entryName": "Small Freighter 58a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Kojun Maru",
+    "tonnage": 1900
+  },
+  {
+    "entryName": "Small Freighter 59a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Chinzei Maru",
+    "tonnage": 2000
+  },
+  {
+    "entryName": "Small Freighter 60a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Isuzugawa Maru",
+    "tonnage": 4200
+  },
+  {
+    "entryName": "Small Freighter 61a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Suez Maru",
+    "tonnage": 4600
+  },
+  {
+    "entryName": "Small Freighter 62a",
+    "entryType": "Freighter",
+    "type": "Small Tanker",
+    "name": "Anjo Maru",
+    "tonnage": 2100
+  },
+  {
+    "entryName": "Small Freighter 63a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Fushimi Maru",
+    "tonnage": 2500
+  },
+  {
+    "entryName": "Small Freighter 64a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Shoyu Maru",
+    "tonnage": 4400
+  },
+  {
+    "entryName": "Small Freighter 65a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Tsukikawa Maru",
+    "tonnage": 4500
+  },
+  {
+    "entryName": "Small Freighter 70a",
+    "entryType": "Freighter",
+    "type": "Small Tanker",
+    "name": "Kyoei Maru #3",
+    "tonnage": 1200
+  },
+  {
+    "entryName": "Small Freighter 71a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Zaosan Maru",
+    "tonnage": 2600
+  },
+  {
+    "entryName": "Small Freighter 72a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Tamon Maru #8",
+    "tonnage": 2700
+  },
+  {
+    "entryName": "Small Freighter 73a",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Maya Maru",
+    "tonnage": 3100
+  },
+  {
+    "entryName": "Small Freighter 74a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Shinyo Maru #8",
+    "tonnage": 2000
+  },
+  {
+    "entryName": "Small Freighter 75a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Kunitama Maru",
+    "tonnage": 3100
+  },
+  {
+    "entryName": "Small Freighter 76a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Shunsen Maru",
+    "tonnage": 1000
+  },
+  {
+    "entryName": "Small Freighter 77a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Kanko Maru",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Small Freighter 78a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Taijun Maru",
+    "tonnage": 2800
+  },
+  {
+    "entryName": "Small Freighter 79a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Shinpen Maru",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Small Freighter 80a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Taishi Maru",
+    "tonnage": 2800
+  },
+  {
+    "entryName": "Small Freighter 81a",
+    "entryType": "Freighter",
+    "type": "Small Tanker",
+    "name": "Nanshin Maru #22",
+    "tonnage": 800
+  },
+  {
+    "entryName": "Small Freighter 82a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Taisoku Maru",
+    "tonnage": 2500
+  },
+  {
+    "entryName": "Small Freighter 83a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Busho Maru",
+    "tonnage": 2600
+  },
+  {
+    "entryName": "Small Freighter 84a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Hokuto Maru",
+    "tonnage": 2200
+  },
+  {
+    "entryName": "Small Freighter 85a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Daiki Maru",
+    "tonnage": 2200
+  },
+  {
+    "entryName": "Small Freighter 86a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Hakusan Maru",
+    "tonnage": 2200
+  },
+  {
+    "entryName": "Small Freighter 87a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Shinki Maru",
+    "tonnage": 2200
+  },
+  {
+    "entryName": "Small Freighter 88a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Byakuran Maru",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Small Freighter 89a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Mikage Maru",
+    "tonnage": 2800
+  },
+  {
+    "entryName": "Small Freighter 90a",
+    "entryType": "Freighter",
+    "type": "Small Tanker",
+    "name": "Kyoei Maru #2",
+    "tonnage": 1200
+  },
+  {
+    "entryName": "Small Freighter 91a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Hakuyo Maru",
+    "tonnage": 1400
+  },
+  {
+    "entryName": "Small Freighter 92a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Fujikawa Maru",
+    "tonnage": 2800
+  },
+  {
+    "entryName": "Small Freighter 93a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Kitakata Maru",
+    "tonnage": 2400
+  },
+  {
+    "entryName": "Small Freighter 94a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Hachimanzan Maru",
+    "tonnage": 2500
+  },
+  {
+    "entryName": "Small Freighter 95a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Oyama Maru",
+    "tonnage": 3800
+  },
+  {
+    "entryName": "Small Freighter 96a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Hakutetsu Maru #13",
+    "tonnage": 1300
+  },
+  {
+    "entryName": "Small Freighter 97a",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Shikisan Maru",
+    "tonnage": 4700
+  },
+  {
+    "entryName": "Small Freighter 98a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Kochi Maru",
+    "tonnage": 2900
+  },
+  {
+    "entryName": "Small Freighter 99a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Kahoku Maru",
+    "tonnage": 3400
+  },
+  {
+    "entryName": "Small Freighter 100a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Ryuzan Maru",
+    "tonnage": 4700
+  },
+  {
+    "entryName": "Small Freighter 01b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Hakuun Maru #2",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Small Freighter 02b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Hassho Maru",
+    "tonnage": 500
+  },
+  {
+    "entryName": "Small Freighter 03b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Song Giang Maru",
+    "tonnage": 1100
+  },
+  {
+    "entryName": "Small Freighter 04b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Jusan Maru",
+    "tonnage": 2100
+  },
+  {
+    "entryName": "Small Freighter 05b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Yoshida Maru",
+    "tonnage": 2900
+  },
+  {
+    "entryName": "Small Freighter 06b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Minryo Maru",
+    "tonnage": 2200
+  },
+  {
+    "entryName": "Small Freighter 07b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Taishin Maru",
+    "tonnage": 1700
+  },
+  {
+    "entryName": "Small Freighter 08b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Hokuan Maru",
+    "tonnage": 3700
+  },
+  {
+    "entryName": "Small Freighter 09b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Koto Maru",
+    "tonnage": 3600
+  },
+  {
+    "entryName": "Small Freighter 10b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Koho Maru",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Small Freighter 11b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Nipponkai Maru",
+    "tonnage": 2700
+  },
+  {
+    "entryName": "Small Freighter 12b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Hyuga Maru",
+    "tonnage": 1000
+  },
+  {
+    "entryName": "Small Freighter 13b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Sappora Maru #12",
+    "tonnage": 2900
+  },
+  {
+    "entryName": "Small Freighter 14b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Amaho Maru",
+    "tonnage": 2800
+  },
+  {
+    "entryName": "Small Freighter 15b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Kasuga Maru",
+    "tonnage": 1400
+  },
+  {
+    "entryName": "Small Freighter 16b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Canton Maru",
+    "tonnage": 2800
+  },
+  {
+    "entryName": "Small Freighter 17b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Taijin Maru",
+    "tonnage": 1900
+  },
+  {
+    "entryName": "Small Freighter 18b",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Taito Maru",
+    "tonnage": 4500
+  },
+  {
+    "entryName": "Small Freighter 19b",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Osaka Maru",
+    "tonnage": 3700
+  },
+  {
+    "entryName": "Small Freighter 20b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Taga Maru",
+    "tonnage": 2200
+  },
+  {
+    "entryName": "Small Freighter 21b",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Meisei Maru",
+    "tonnage": 1900
+  },
+  {
+    "entryName": "Small Freighter 22b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Chichibu Maru",
+    "tonnage": 1500
+  },
+  {
+    "entryName": "Small Freighter 23b",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Meikai Maru",
+    "tonnage": 3200
+  },
+  {
+    "entryName": "Small Freighter 24b",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Indus Maru",
+    "tonnage": 4400
+  },
+  {
+    "entryName": "Small Freighter 25b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Taian Maru",
+    "tonnage": 3700
+  },
+  {
+    "entryName": "Small Freighter 26b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Nichiun Maru",
+    "tonnage": 2700
+  },
+  {
+    "entryName": "Small Freighter 27b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Suruga Maru",
+    "tonnage": 1000
+  },
+  {
+    "entryName": "Small Freighter 28b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Tsuneshima",
+    "tonnage": 2900
+  },
+  {
+    "entryName": "Small Freighter 29b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Tairiku Maru",
+    "tonnage": 2300
+  },
+  {
+    "entryName": "Small Freighter 30b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Ishikari Maru",
+    "tonnage": 3300
+  },
+  {
+    "entryName": "Small Freighter 31b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Konan Maru",
+    "tonnage": 2600
+  },
+  {
+    "entryName": "Small Freighter 32b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Taikei Maru",
+    "tonnage": 4700
+  },
+  {
+    "entryName": "Small Freighter 33b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Toshin Maru",
+    "tonnage": 1900
+  },
+  {
+    "entryName": "Small Freighter 34b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Ceylon Maru",
+    "tonnage": 4900
+  },
+  {
+    "entryName": "Small Freighter 35b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Shanghai Maru",
+    "tonnage": 4100
+  },
+  {
+    "entryName": "Small Freighter 36b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Kinjosan Maru",
+    "tonnage": 3300
+  },
+  {
+    "entryName": "Small Freighter 37b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Palao Maru",
+    "tonnage": 4500
+  },
+  {
+    "entryName": "Small Freighter 38b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Setsuyo Maru",
+    "tonnage": 4100
+  },
+  {
+    "entryName": "Small Freighter 39b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Takusei Maru",
+    "tonnage": 3500
+  },
+  {
+    "entryName": "Small Freighter 40b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Kinposan Maru",
+    "tonnage": 3300
+  },
+  {
+    "entryName": "Small Freighter 41b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Shoho Maru",
+    "tonnage": 1900
+  },
+  {
+    "entryName": "Small Freighter 42b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Kiri Maru #8",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Small Freighter 43b",
+    "entryType": "Freighter",
+    "type": "Small Tanker",
+    "name": "Kotai Maru",
+    "tonnage": 1000
+  },
+  {
+    "entryName": "Small Freighter 44b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Tone Maru",
+    "tonnage": 4100
+  },
+  {
+    "entryName": "Small Freighter 45b",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Bandoeng Maru",
+    "tonnage": 4000
+  },
+  {
+    "entryName": "Small Freighter 46b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Kumanoyama Maru",
+    "tonnage": 2900
+  },
+  {
+    "entryName": "Small Freighter 47b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Senyo Maru",
+    "tonnage": 2900
+  },
+  {
+    "entryName": "Small Freighter 48b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Iwashiro Maru",
+    "tonnage": 3600
+  },
+  {
+    "entryName": "Small Freighter 49b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Katori Maru",
+    "tonnage": 1900
+  },
+  {
+    "entryName": "Small Freighter 50b",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Seikai Maru",
+    "tonnage": 3100
+  },
+  {
+    "entryName": "Small Freighter 51b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Teikyu Maru",
+    "tonnage": 2300
+  },
+  {
+    "entryName": "Small Freighter 52b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Chita Maru",
+    "tonnage": 2300
+  },
+  {
+    "entryName": "Small Freighter 53b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Tenyu Maru",
+    "tonnage": 3700
+  },
+  {
+    "entryName": "Small Freighter 54b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Suzuya Maru",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Small Freighter 55b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Pliyama Maru",
+    "tonnage": 2800
+  },
+  {
+    "entryName": "Small Freighter 56b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Miyakawa Maru #2",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Small Freighter 57b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Noshiro Maru",
+    "tonnage": 2300
+  },
+  {
+    "entryName": "Small Freighter 58b",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Tama Maru",
+    "tonnage": 3100
+  },
+  {
+    "entryName": "Small Freighter 59b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Dowa Maru",
+    "tonnage": 1900
+  },
+  {
+    "entryName": "Small Freighter 60b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Naniwa Maru",
+    "tonnage": 4900
+  },
+  {
+    "entryName": "Small Freighter 61b",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Taian Maru",
+    "tonnage": 3200
+  },
+  {
+    "entryName": "Small Freighter 62b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Shisen Maru",
+    "tonnage": 2200
+  },
+  {
+    "entryName": "Small Freighter 63b",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Uga Maru",
+    "tonnage": 4400
+  },
+  {
+    "entryName": "Small Freighter 64b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Komei Maru",
+    "tonnage": 2900
+  },
+  {
+    "entryName": "Small Freighter 65b",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Hiyoshi Maru",
+    "tonnage": 4000
+  },
+  {
+    "entryName": "Small Freighter 66b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Taiko Maru",
+    "tonnage": 1900
+  },
+  {
+    "entryName": "Small Freighter 67b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Seizan Maru #2",
+    "tonnage": 1900
+  },
+  {
+    "entryName": "Small Freighter 68b",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Kinryo Maru",
+    "tonnage": 4400
+  },
+  {
+    "entryName": "Small Freighter 69b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Taiun Maru #1",
+    "tonnage": 2200
+  },
+  {
+    "entryName": "Small Freighter 70b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Konri Maru",
+    "tonnage": 3100
+  },
+  {
+    "entryName": "Small Freighter 71b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Teishun Maru",
+    "tonnage": 2300
+  },
+  {
+    "entryName": "Small Freighter 72b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Tekkai Maru",
+    "tonnage": 1900
+  },
+  {
+    "entryName": "Small Freighter 73b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Toyo Maru",
+    "tonnage": 1900
+  },
+  {
+    "entryName": "Small Freighter 74b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Gyokuzan Maru",
+    "tonnage": 2000
+  },
+  {
+    "entryName": "Small Freighter 75b",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Shinkoku Maru",
+    "tonnage": 4000
+  },
+  {
+    "entryName": "Small Freighter 76b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Shogen Maru",
+    "tonnage": 3400
+  },
+  {
+    "entryName": "Small Freighter 77b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Ehime Maru",
+    "tonnage": 4700
+  },
+  {
+    "entryName": "Small Freighter 78b",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Taichu Maru",
+    "tonnage": 3200
+  },
+  {
+    "entryName": "Small Freighter 79b",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Genbu Maru",
+    "tonnage": 1900
+  },
+  {
+    "entryName": "Small Freighter 80b",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Ugo Maru",
+    "tonnage": 3700
+  },
+  {
+    "entryName": "Small Freighter 81b",
+    "entryType": "Freighter",
+    "type": "Small Tanker",
+    "name": "Kinrei Maru",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Small Freighter 82b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Koyo Maru",
+    "tonnage": 3000
+  },
+  {
+    "entryName": "Small Freighter 83b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Kowa Maru",
+    "tonnage": 4500
+  },
+  {
+    "entryName": "Small Freighter 84b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Udo Maru",
+    "tonnage": 3900
+  },
+  {
+    "entryName": "Small Freighter 85b",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Hakozaki Maru",
+    "tonnage": 3900
+  },
+  {
+    "entryName": "Small Freighter 86b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Hokuyo Maru",
+    "tonnage": 1600
+  },
+  {
+    "entryName": "Small Freighter 87b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Iwaki Maru",
+    "tonnage": 3100
+  },
+  {
+    "entryName": "Small Freighter 88b",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Hiburi Maru",
+    "tonnage": 4400
+  },
+  {
+    "entryName": "Small Freighter 89b",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Takegawa Maru",
+    "tonnage": 2600
+  },
+  {
+    "entryName": "Small Freighter 90b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Tenshin Maru",
+    "tonnage": 4200
+  },
+  {
+    "entryName": "Small Freighter 91b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Taiyo Maru",
+    "tonnage": 4200
+  },
+  {
+    "entryName": "Small Freighter 92b",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Toyo Maru",
+    "tonnage": 4200
+  },
+  {
+    "entryName": "Small Freighter 93b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Tsurushima Maru",
+    "tonnage": 4600
+  },
+  {
+    "entryName": "Small Freighter 94b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Matsukawa Maru",
+    "tonnage": 3800
+  },
+  {
+    "entryName": "Small Freighter 95b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Keizan Maru",
+    "tonnage": 2100
+  },
+  {
+    "entryName": "Small Freighter 96b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Sanka Maru",
+    "tonnage": 2500
+  },
+  {
+    "entryName": "Small Freighter 97b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Dokan Maru",
+    "tonnage": 2300
+  },
+  {
+    "entryName": "Small Freighter 98b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Yomei Maru",
+    "tonnage": 2900
+  },
+  {
+    "entryName": "Small Freighter 99b",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Seikyo Maru",
+    "tonnage": 2600
+  },
+  {
+    "entryName": "Small Freighter 100b",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Hino Maru #3",
+    "tonnage": 4400
+  },
+  {
+    "entryName": "Small Freighter 01c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Sana Maru",
+    "tonnage": 3400
+  },
+  {
+    "entryName": "Small Freighter 02c",
+    "entryType": "Freighter",
+    "type": "Small Tanker",
+    "name": "Fushimi Maru #3",
+    "tonnage": 4300
+  },
+  {
+    "entryName": "Small Freighter 03c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Ikutagawa Maru",
+    "tonnage": 2200
+  },
+  {
+    "entryName": "Small Freighter 04c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Yaei Maru",
+    "tonnage": 1900
+  },
+  {
+    "entryName": "Small Freighter 05c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Shibazono Maru",
+    "tonnage": 1800
+  },
+  {
+    "entryName": "Small Freighter 06c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Tatsumomo Maru",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Small Freighter 07c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Taichu Maru",
+    "tonnage": 1900
+  },
+  {
+    "entryName": "Small Freighter 08c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Bizen Maru",
+    "tonnage": 4700
+  },
+  {
+    "entryName": "Small Freighter 09c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Kyodo Maru #36",
+    "tonnage": 1500
+  },
+  {
+    "entryName": "Small Freighter 10c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Taki Maru",
+    "tonnage": 1200
+  },
+  {
+    "entryName": "Small Freighter 11c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Meiwa Maru",
+    "tonnage": 2900
+  },
+  {
+    "entryName": "Small Freighter 12c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Bifuku Maru",
+    "tonnage": 2600
+  },
+  {
+    "entryName": "Small Freighter 13c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Hokusho Maru",
+    "tonnage": 4200
+  },
+  {
+    "entryName": "Small Freighter 14c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Himeno Maru",
+    "tonnage": 800
+  },
+  {
+    "entryName": "Small Freighter 15c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Tamon Maru #6",
+    "tonnage": 5000
+  },
+  {
+    "entryName": "Small Freighter 16c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Tosei Maru",
+    "tonnage": 2400
+  },
+  {
+    "entryName": "Small Freighter 17c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Kenun Maru",
+    "tonnage": 4600
+  },
+  {
+    "entryName": "Small Freighter 18c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Yoshinogawa Maru",
+    "tonnage": 1400
+  },
+  {
+    "entryName": "Small Freighter 19c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Hino Maru #1",
+    "tonnage": 2700
+  },
+  {
+    "entryName": "Small Freighter 20c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Shinyo Maru",
+    "tonnage": 2500
+  },
+  {
+    "entryName": "Small Freighter 21c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Eifuku Maru",
+    "tonnage": 3500
+  },
+  {
+    "entryName": "Small Freighter 22c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Manko Maru",
+    "tonnage": 4500
+  },
+  {
+    "entryName": "Small Freighter 23c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Okinoyama Maru",
+    "tonnage": 1000
+  },
+  {
+    "entryName": "Small Freighter 24c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Hizen Maru",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Small Freighter 25c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Shoko Maru",
+    "tonnage": 1900
+  },
+  {
+    "entryName": "Small Freighter 26c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Hisashima Maru",
+    "tonnage": 2700
+  },
+  {
+    "entryName": "Small Freighter 27c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Showa Maru",
+    "tonnage": 2200
+  },
+  {
+    "entryName": "Small Freighter 28c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Tonei Maru",
+    "tonnage": 4900
+  },
+  {
+    "entryName": "Small Freighter 29c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Kinkasan Maru",
+    "tonnage": 5000
+  },
+  {
+    "entryName": "Small Freighter 30c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Konei Maru",
+    "tonnage": 2300
+  },
+  {
+    "entryName": "Small Freighter 31c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Kayo Maru",
+    "tonnage": 4400
+  },
+  {
+    "entryName": "Small Freighter 32c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Tateyama Maru",
+    "tonnage": 2000
+  },
+  {
+    "entryName": "Small Freighter 33c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Fukuei Maru",
+    "tonnage": 1100
+  },
+  {
+    "entryName": "Small Freighter 34c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Shinkyo Maru",
+    "tonnage": 2700
+  },
+  {
+    "entryName": "Small Freighter 35c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Ploko Maru",
+    "tonnage": 1500
+  },
+  {
+    "entryName": "Small Freighter 36c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Kotoku Maru",
+    "tonnage": 1900
+  },
+  {
+    "entryName": "Small Freighter 37c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Shoju Maru",
+    "tonnage": 2000
+  },
+  {
+    "entryName": "Small Freighter 38c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Toho Maru",
+    "tonnage": 4700
+  },
+  {
+    "entryName": "Small Freighter 39c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Kashimasan Maru",
+    "tonnage": 2800
+  },
+  {
+    "entryName": "Small Freighter 40c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Eizan Maru",
+    "tonnage": 4700
+  },
+  {
+    "entryName": "Small Freighter 41c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Unkai Maru #5",
+    "tonnage": 3300
+  },
+  {
+    "entryName": "Small Freighter 42c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Unyo Maru #3",
+    "tonnage": 3000
+  },
+  {
+    "entryName": "Small Freighter 43c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Nijtaka Maru",
+    "tonnage": 2500
+  },
+  {
+    "entryName": "Small Freighter 44c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Seitai Maru",
+    "tonnage": 3400
+  },
+  {
+    "entryName": "Small Freighter 45c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Ryokai Maru",
+    "tonnage": 4700
+  },
+  {
+    "entryName": "Small Freighter 46c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Toyo Maru #5",
+    "tonnage": 2200
+  },
+  {
+    "entryName": "Small Freighter 47c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Toyo Maru #8",
+    "tonnage": 2200
+  },
+  {
+    "entryName": "Small Freighter 48c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Tainan Maru",
+    "tonnage": 2000
+  },
+  {
+    "entryName": "Small Freighter 49c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Fukkai Maru",
+    "tonnage": 3800
+  },
+  {
+    "entryName": "Small Freighter 50c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Nanyo Maru",
+    "tonnage": 3600
+  },
+  {
+    "entryName": "Small Freighter 51c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Shirane Maru",
+    "tonnage": 2800
+  },
+  {
+    "entryName": "Small Freighter 52c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Anbo Maru",
+    "tonnage": 4500
+  },
+  {
+    "entryName": "Small Freighter 53c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Chikuzen Maru",
+    "tonnage": 2400
+  },
+  {
+    "entryName": "Small Freighter 54c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Kotohirasan Maru",
+    "tonnage": 2200
+  },
+  {
+    "entryName": "Small Freighter 55c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Unkai Maru #1",
+    "tonnage": 2200
+  },
+  {
+    "entryName": "Small Freighter 56c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Fukushu Maru",
+    "tonnage": 1500
+  },
+  {
+    "entryName": "Small Freighter 57c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Taifuku Maru",
+    "tonnage": 3500
+  },
+  {
+    "entryName": "Small Freighter 58c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Tagonoura Maru",
+    "tonnage": 3500
+  },
+  {
+    "entryName": "Small Freighter 59c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Plakuyo Maru",
+    "tonnage": 1300
+  },
+  {
+    "entryName": "Small Freighter 60c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Tosei Maru",
+    "tonnage": 2800
+  },
+  {
+    "entryName": "Small Freighter 61c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Taiko Maru",
+    "tonnage": 3000
+  },
+  {
+    "entryName": "Small Freighter 62c",
+    "entryType": "Freighter",
+    "type": "Small Tanker",
+    "name": "Tokyo Maru",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Small Freighter 63c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Mayachi Maru",
+    "tonnage": 2200
+  },
+  {
+    "entryName": "Small Freighter 64c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Renzan Maru",
+    "tonnage": 5000
+  },
+  {
+    "entryName": "Small Freighter 65c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Koa Maru",
+    "tonnage": 2000
+  },
+  {
+    "entryName": "Small Freighter 66c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Mikage Maru #20",
+    "tonnage": 2700
+  },
+  {
+    "entryName": "Small Freighter 67c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Shinryu Maru",
+    "tonnage": 3200
+  },
+  {
+    "entryName": "Small Freighter 68c",
+    "entryType": "Freighter",
+    "type": "Small Tanker",
+    "name": "Chiyoda Maru",
+    "tonnage": 4700
+  },
+  {
+    "entryName": "Small Freighter 69c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Manshu Maru",
+    "tonnage": 3100
+  },
+  {
+    "entryName": "Small Freighter 70c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Keijo Maru",
+    "tonnage": 1000
+  },
+  {
+    "entryName": "Small Freighter 71c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Kogane Maru",
+    "tonnage": 3100
+  },
+  {
+    "entryName": "Small Freighter 72c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Kenkoku Maru",
+    "tonnage": 3100
+  },
+  {
+    "entryName": "Small Freighter 73c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Fukko Maru",
+    "tonnage": 3800
+  },
+  {
+    "entryName": "Small Freighter 74c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Yamatsuru Maru",
+    "tonnage": 3700
+  },
+  {
+    "entryName": "Small Freighter 75c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Ryusei Maru",
+    "tonnage": 4800
+  },
+  {
+    "entryName": "Small Freighter 76c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Nichinan Maru",
+    "tonnage": 2800
+  },
+  {
+    "entryName": "Small Freighter 77c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Koan Maru",
+    "tonnage": 3200
+  },
+  {
+    "entryName": "Small Freighter 78c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Shiroganesan Maru",
+    "tonnage": 4700
+  },
+  {
+    "entryName": "Small Freighter 79c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Shiranesan Maru",
+    "tonnage": 4700
+  },
+  {
+    "entryName": "Small Freighter 80c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Faikai Maru",
+    "tonnage": 3800
+  },
+  {
+    "entryName": "Small Freighter 81c",
+    "entryType": "Freighter",
+    "type": "Small Tanker",
+    "name": "Unkai Maru #5",
+    "tonnage": 2800
+  },
+  {
+    "entryName": "Small Freighter 82c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Toryu Maru",
+    "tonnage": 2000
+  },
+  {
+    "entryName": "Small Freighter 83c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Koshu Maru",
+    "tonnage": 2600
+  },
+  {
+    "entryName": "Small Freighter 84c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Toko Maru",
+    "tonnage": 4200
+  },
+  {
+    "entryName": "Small Freighter 85c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Shinyu Maru",
+    "tonnage": 4600
+  },
+  {
+    "entryName": "Small Freighter 86c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Yamagata Maru",
+    "tonnage": 3800
+  },
+  {
+    "entryName": "Small Freighter 87c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Aso Maru",
+    "tonnage": 3000
+  },
+  {
+    "entryName": "Small Freighter 88c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Yoshida Maru #3",
+    "tonnage": 4600
+  },
+  {
+    "entryName": "Small Freighter 89c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Seinan Maru",
+    "tonnage": 1300
+  },
+  {
+    "entryName": "Small Freighter 90c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Shinryu Maru",
+    "tonnage": 4900
+  },
+  {
+    "entryName": "Small Freighter 91c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Keizan Maru",
+    "tonnage": 2900
+  },
+  {
+    "entryName": "Small Freighter 92c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Tenzan Maru",
+    "tonnage": 2800
+  },
+  {
+    "entryName": "Small Freighter 93c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Shinju Maru",
+    "tonnage": 3600
+  },
+  {
+    "entryName": "Small Freighter 94c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Iburi Maru",
+    "tonnage": 3300
+  },
+  {
+    "entryName": "Small Freighter 95c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Totai Maru",
+    "tonnage": 3300
+  },
+  {
+    "entryName": "Small Freighter 96c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Toan Maru",
+    "tonnage": 2100
+  },
+  {
+    "entryName": "Small Freighter 97c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Ganges Maru",
+    "tonnage": 4400
+  },
+  {
+    "entryName": "Small Freighter 98c",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Wakanoura Maru",
+    "tonnage": 2400
+  },
+  {
+    "entryName": "Small Freighter 99c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Akashisan Maru",
+    "tonnage": 4500
+  },
+  {
+    "entryName": "Small Freighter 100c",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Kokuyo Maru",
+    "tonnage": 4700
+  },
+  {
+    "entryName": "Large Freighter 01a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Jokuja Maru",
+    "tonnage": 6400
+  },
+  {
+    "entryName": "Large Freighter 02a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Azuchisan Maru",
+    "tonnage": 6900
+  },
+  {
+    "entryName": "Large Freighter 03a",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Asama Maru",
+    "tonnage": 17000
+  },
+  {
+    "entryName": "Large Freighter 04a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Santos Maru",
+    "tonnage": 7300
+  },
+  {
+    "entryName": "Large Freighter 05c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Taiman Maru #1",
+    "tonnage": 6900
+  },
+  {
+    "entryName": "Large Freighter 06a",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Nikki Maru",
+    "tonnage": 5900
+  },
+  {
+    "entryName": "Large Freighter 07a",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Akiura Maru",
+    "tonnage": 6800
+  },
+  {
+    "entryName": "Large Freighter 08a",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Hakozaki Maru",
+    "tonnage": 10400
+  },
+  {
+    "entryName": "Large Freighter 09a",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Azusa Maru",
+    "tonnage": 11400
+  },
+  {
+    "entryName": "Large Freighter 10a",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Anyo Maru",
+    "tonnage": 9300
+  },
+  {
+    "entryName": "Large Freighter 11a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Taikyo Maru",
+    "tonnage": 5200
+  },
+  {
+    "entryName": "Large Freighter 12a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Okuni Maru",
+    "tonnage": 5600
+  },
+  {
+    "entryName": "Large Freighter 13a",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Takashima Maru",
+    "tonnage": 5600
+  },
+  {
+    "entryName": "Large Freighter 14a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Kinrei Maru",
+    "tonnage": 5900
+  },
+  {
+    "entryName": "Large Freighter 15a",
+    "entryType": "Freighter",
+    "type": "Armed",
+    "name": "Gokoku Maru",
+    "tonnage": 10400
+  },
+  {
+    "entryName": "Large Freighter 16a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Shinyo Maru",
+    "tonnage": 5900
+  },
+  {
+    "entryName": "Large Freighter 17a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Yamamiya Maru",
+    "tonnage": 6400
+  },
+  {
+    "entryName": "Large Freighter 18a",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Ryoei Maru",
+    "tonnage": 10000
+  },
+  {
+    "entryName": "Large Freighter 19a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Hidaka Maru",
+    "tonnage": 5500
+  },
+  {
+    "entryName": "Large Freighter 20a",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Palembang Maru",
+    "tonnage": 5200
+  },
+  {
+    "entryName": "Large Freighter 21a",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Nippo Maru",
+    "tonnage": 10500
+  },
+  {
+    "entryName": "Large Freighter 22a",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Nichiei Maru",
+    "tonnage": 10000
+  },
+  {
+    "entryName": "Large Freighter 23a",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Amato Maru",
+    "tonnage": 10200
+  },
+  {
+    "entryName": "Large Freighter 24a",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Kyokuei Maru",
+    "tonnage": 10600
+  },
+  {
+    "entryName": "Large Freighter 25a",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Ichiyu Maru",
+    "tonnage": 5100
+  },
+  {
+    "entryName": "Large Freighter 26a",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Hakko Maru",
+    "tonnage": 6000
+  },
+  {
+    "entryName": "Large Freighter 27a",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Ominesan Maru",
+    "tonnage": 10500
+  },
+  {
+    "entryName": "Large Freighter 28a",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Hayasui Maru",
+    "tonnage": 6500
+  },
+  {
+    "entryName": "Large Freighter 29a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Asosan Maru",
+    "tonnage": 8800
+  },
+  {
+    "entryName": "Large Freighter 30a",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Arabia Maru",
+    "tonnage": 9500
+  },
+  {
+    "entryName": "Large Freighter 31a",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Hakushika Maru",
+    "tonnage": 8200
+  },
+  {
+    "entryName": "Large Freighter 32a",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Honan Maru",
+    "tonnage": 5500
+  },
+  {
+    "entryName": "Large Freighter 33a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Enki Maru",
+    "tonnage": 7000
+  },
+  {
+    "entryName": "Large Freighter 34a",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Kashima Maru",
+    "tonnage": 9900
+  },
+  {
+    "entryName": "Large Freighter 35a",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Teibi Maru",
+    "tonnage": 10100
+  },
+  {
+    "entryName": "Large Freighter 36a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Oshikayama Maru",
+    "tonnage": 6900
+  },
+  {
+    "entryName": "Large Freighter 37a",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Kokuyo Maru",
+    "tonnage": 10000
+  },
+  {
+    "entryName": "Large Freighter 38a",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Konzan Maru",
+    "tonnage": 5500
+  },
+  {
+    "entryName": "Large Freighter 39a",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Kirishima Maru",
+    "tonnage": 8100
+  },
+  {
+    "entryName": "Large Freighter 40a",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Ogurasan Maru",
+    "tonnage": 5100
+  },
+  {
+    "entryName": "Large Freighter 41a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Tainan Maru",
+    "tonnage": 5400
+  },
+  {
+    "entryName": "Large Freighter 42a",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Sydney Maru",
+    "tonnage": 5400
+  },
+  {
+    "entryName": "Large Freighter 43a",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Tonan Maru",
+    "tonnage": 9900
+  },
+  {
+    "entryName": "Large Freighter 44a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Shinkyo Maru",
+    "tonnage": 5100
+  },
+  {
+    "entryName": "Large Freighter 45a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Bengal Maru",
+    "tonnage": 5400
+  },
+  {
+    "entryName": "Large Freighter 46a",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Tsushima Maru",
+    "tonnage": 6800
+  },
+  {
+    "entryName": "Large Freighter 47a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Yuki Maru",
+    "tonnage": 5700
+  },
+  {
+    "entryName": "Large Freighter 48a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Sanyo Maru",
+    "tonnage": 8400
+  },
+  {
+    "entryName": "Large Freighter 49a",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Kyokuho Maru",
+    "tonnage": 10100
+  },
+  {
+    "entryName": "Large Freighter 50a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Yamamizu Maru #2",
+    "tonnage": 5200
+  },
+  {
+    "entryName": "Large Freighter 51a",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Zuiyo Maru",
+    "tonnage": 7400
+  },
+  {
+    "entryName": "Large Freighter 52a",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Tsurumi Maru",
+    "tonnage": 6500
+  },
+  {
+    "entryName": "Large Freighter 53a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Taishu Maru",
+    "tonnage": 6900
+  },
+  {
+    "entryName": "Large Freighter 54a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Nisshu Maru",
+    "tonnage": 7800
+  },
+  {
+    "entryName": "Large Freighter 55a",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Ogura Maru #3",
+    "tonnage": 7400
+  },
+  {
+    "entryName": "Large Freighter 56a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Shohei Maru",
+    "tonnage": 7300
+  },
+  {
+    "entryName": "Large Freighter 57a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Tatsushiro Maru",
+    "tonnage": 6900
+  },
+  {
+    "entryName": "Large Freighter 58a",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Kyokko Maru",
+    "tonnage": 6800
+  },
+  {
+    "entryName": "Large Freighter 59a",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Nisshin Maru",
+    "tonnage": 16800
+  },
+  {
+    "entryName": "Large Freighter 60a",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Aki Maru",
+    "tonnage": 11400
+  },
+  {
+    "entryName": "Large Freighter 61a",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Hakubasan Maru",
+    "tonnage": 6700
+  },
+  {
+    "entryName": "Large Freighter 62a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Sansho Maru",
+    "tonnage": 6900
+  },
+  {
+    "entryName": "Large Freighter 63a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Nittetsu Maru",
+    "tonnage": 6000
+  },
+  {
+    "entryName": "Large Freighter 64a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Eikyo Maru",
+    "tonnage": 6900
+  },
+  {
+    "entryName": "Large Freighter 65a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Shonan Maru",
+    "tonnage": 5300
+  },
+  {
+    "entryName": "Large Freighter 66a",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Hague Maru",
+    "tonnage": 5600
+  },
+  {
+    "entryName": "Large Freighter 67a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Ryunan Maru",
+    "tonnage": 5100
+  },
+  {
+    "entryName": "Large Freighter 68a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Nisshun Maru",
+    "tonnage": 6400
+  },
+  {
+    "entryName": "Large Freighter 69a",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Myoko Maru",
+    "tonnage": 5100
+  },
+  {
+    "entryName": "Large Freighter 70a",
+    "entryType": "Freighter",
+    "type": "Armed",
+    "name": "Hie Maru",
+    "tonnage": 11600
+  },
+  {
+    "entryName": "Large Freighter 71a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Taisho Maru",
+    "tonnage": 6900
+  },
+  {
+    "entryName": "Large Freighter 72a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Taihaku Maru",
+    "tonnage": 6900
+  },
+  {
+    "entryName": "Large Freighter 73a",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Teison Maru",
+    "tonnage": 7000
+  },
+  {
+    "entryName": "Large Freighter 74a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Yamafuji Maru",
+    "tonnage": 5400
+  },
+  {
+    "entryName": "Large Freighter 75a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Africa Maru",
+    "tonnage": 9500
+  },
+  {
+    "entryName": "Large Freighter 76a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Genoa Maru",
+    "tonnage": 6800
+  },
+  {
+    "entryName": "Large Freighter 77a",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Kaisho Maru",
+    "tonnage": 6100
+  },
+  {
+    "entryName": "Large Freighter 78a",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Isshin Maru",
+    "tonnage": 10000
+  },
+  {
+    "entryName": "Large Freighter 79a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Teisen Maru",
+    "tonnage": 5100
+  },
+  {
+    "entryName": "Large Freighter 80a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Nippo Maru",
+    "tonnage": 6100
+  },
+  {
+    "entryName": "Large Freighter 81a",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Otoriyama Maru",
+    "tonnage": 5300
+  },
+  {
+    "entryName": "Large Freighter 82a",
+    "entryType": "Freighter",
+    "type": "Armed",
+    "name": "Saigon Maru",
+    "tonnage": 5400
+  },
+  {
+    "entryName": "Large Freighter 83a",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Ural Maru",
+    "tonnage": 6400
+  },
+  {
+    "entryName": "Large Freighter 84a",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Hakko Maru",
+    "tonnage": 10000
+  },
+  {
+    "entryName": "Large Freighter 85a",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Omurosan Maru",
+    "tonnage": 9200
+  },
+  {
+    "entryName": "Large Freighter 86a",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Otowasan Maru",
+    "tonnage": 9200
+  },
+  {
+    "entryName": "Large Freighter 87a",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Arita Maru",
+    "tonnage": 10200
+  },
+  {
+    "entryName": "Large Freighter 88a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Hakusan Maru",
+    "tonnage": 10400
+  },
+  {
+    "entryName": "Large Freighter 89a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Nanman Maru",
+    "tonnage": 6600
+  },
+  {
+    "entryName": "Large Freighter 90a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Ginyo Maru",
+    "tonnage": 8600
+  },
+  {
+    "entryName": "Large Freighter 91a",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Jokuja Maru",
+    "tonnage": 10200
+  },
+  {
+    "entryName": "Large Freighter 92a",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Anzan Maru",
+    "tonnage": 5500
+  },
+  {
+    "entryName": "Large Freighter 93a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Koyu Maru",
+    "tonnage": 5300
+  },
+  {
+    "entryName": "Large Freighter 94a",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Columbia Maru",
+    "tonnage": 5600
+  },
+  {
+    "entryName": "Large Freighter 95a",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Daigen Maru #3",
+    "tonnage": 5300
+  },
+  {
+    "entryName": "Large Freighter 96a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Yodogawa Maru",
+    "tonnage": 6400
+  },
+  {
+    "entryName": "Large Freighter 97a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "England Maru",
+    "tonnage": 5800
+  },
+  {
+    "entryName": "Large Freighter 98a",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Kozui Maru",
+    "tonnage": 7100
+  },
+  {
+    "entryName": "Large Freighter 99a",
+    "entryType": "Freighter",
+    "type": "Armed",
+    "name": "Awata Maru",
+    "tonnage": 7400
+  },
+  {
+    "entryName": "Large Freighter 100a",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Gyokurei Maru",
+    "tonnage": 5600
+  },
+  {
+    "entryName": "Large Freighter 01b",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Nampo Maru",
+    "tonnage": 10000
+  },
+  {
+    "entryName": "Large Freighter 02b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Ryujin Maru",
+    "tonnage": 6200
+  },
+  {
+    "entryName": "Large Freighter 03b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Meizan Maru",
+    "tonnage": 5500
+  },
+  {
+    "entryName": "Large Freighter 04b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Brasil Maru",
+    "tonnage": 12800
+  },
+  {
+    "entryName": "Large Freighter 05b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Kinkai Maru",
+    "tonnage": 5900
+  },
+  {
+    "entryName": "Large Freighter 06b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Hakonesan Maru",
+    "tonnage": 6700
+  },
+  {
+    "entryName": "Large Freighter 07b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Hiteru Maru",
+    "tonnage": 5900
+  },
+  {
+    "entryName": "Large Freighter 08b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Lisbon Maru",
+    "tonnage": 7100
+  },
+  {
+    "entryName": "Large Freighter 09b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Taiyo Maru",
+    "tonnage": 14500
+  },
+  {
+    "entryName": "Large Freighter 10b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Eifuku Maru",
+    "tonnage": 5900
+  },
+  {
+    "entryName": "Large Freighter 11b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Chifuku Maru",
+    "tonnage": 5900
+  },
+  {
+    "entryName": "Large Freighter 12b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Miyadono Maru",
+    "tonnage": 5200
+  },
+  {
+    "entryName": "Large Freighter 13b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Kaimei Maru",
+    "tonnage": 5300
+  },
+  {
+    "entryName": "Large Freighter 14b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Kashu Maru",
+    "tonnage": 5500
+  },
+  {
+    "entryName": "Large Freighter 15b",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Kenyo Maru",
+    "tonnage": 10000
+  },
+  {
+    "entryName": "Large Freighter 16b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Jinzan Maru",
+    "tonnage": 5200
+  },
+  {
+    "entryName": "Large Freighter 17b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Mantai Maru",
+    "tonnage": 5900
+  },
+  {
+    "entryName": "Large Freighter 18b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Teiryu Maru",
+    "tonnage": 6600
+  },
+  {
+    "entryName": "Large Freighter 19b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Taigyo Maru",
+    "tonnage": 6900
+  },
+  {
+    "entryName": "Large Freighter 20b",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Eiyo Maru",
+    "tonnage": 8700
+  },
+  {
+    "entryName": "Large Freighter 21b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Choko Maru",
+    "tonnage": 6800
+  },
+  {
+    "entryName": "Large Freighter 22b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Meigen Maru",
+    "tonnage": 5400
+  },
+  {
+    "entryName": "Large Freighter 23b",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Toho Maru",
+    "tonnage": 10000
+  },
+  {
+    "entryName": "Large Freighter 24b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Kamakura Maru",
+    "tonnage": 17500
+  },
+  {
+    "entryName": "Large Freighter 25b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Sumatra Maru",
+    "tonnage": 5900
+  },
+  {
+    "entryName": "Large Freighter 26b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Nekka Maru",
+    "tonnage": 6800
+  },
+  {
+    "entryName": "Large Freighter 27b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Shinei Maru",
+    "tonnage": 5100
+  },
+  {
+    "entryName": "Large Freighter 28b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Pacific Maru",
+    "tonnage": 5900
+  },
+  {
+    "entryName": "Large Freighter 29b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Koyo Maru",
+    "tonnage": 6400
+  },
+  {
+    "entryName": "Large Freighter 30b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Tokiwa Maru",
+    "tonnage": 7000
+  },
+  {
+    "entryName": "Large Freighter 31b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Shunten Maru",
+    "tonnage": 5600
+  },
+  {
+    "entryName": "Large Freighter 32b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Taian Maru",
+    "tonnage": 5700
+  },
+  {
+    "entryName": "Large Freighter 33b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Dainichi Maru",
+    "tonnage": 5800
+  },
+  {
+    "entryName": "Large Freighter 34b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Tofuku Maru",
+    "tonnage": 5900
+  },
+  {
+    "entryName": "Large Freighter 35b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Tenshinzan Maru",
+    "tonnage": 6900
+  },
+  {
+    "entryName": "Large Freighter 36b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Aden Maru",
+    "tonnage": 5800
+  },
+  {
+    "entryName": "Large Freighter 37b",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Tatekawa Maru",
+    "tonnage": 10100
+  },
+  {
+    "entryName": "Large Freighter 38b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Taimei Maru",
+    "tonnage": 6900
+  },
+  {
+    "entryName": "Large Freighter 39b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Norfolk Maru",
+    "tonnage": 6600
+  },
+  {
+    "entryName": "Large Freighter 40b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Venice Maru",
+    "tonnage": 6600
+  },
+  {
+    "entryName": "Large Freighter 41b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Arima Maru",
+    "tonnage": 7400
+  },
+  {
+    "entryName": "Large Freighter 42b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Saipan Maru",
+    "tonnage": 5500
+  },
+  {
+    "entryName": "Large Freighter 43b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Nigitsu Maru",
+    "tonnage": 9500
+  },
+  {
+    "entryName": "Large Freighter 44b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Tacoma Maru",
+    "tonnage": 5800
+  },
+  {
+    "entryName": "Large Freighter 45b",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Yamamizu Maru",
+    "tonnage": 5200
+  },
+  {
+    "entryName": "Large Freighter 46b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Kinshu Maru",
+    "tonnage": 5600
+  },
+  {
+    "entryName": "Large Freighter 47b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Hibi Maru",
+    "tonnage": 5900
+  },
+  {
+    "entryName": "Large Freighter 48b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Genzan Maru",
+    "tonnage": 5700
+  },
+  {
+    "entryName": "Large Freighter 49b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Nichiyu Maru",
+    "tonnage": 6800
+  },
+  {
+    "entryName": "Large Freighter 50b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Taibun Maru",
+    "tonnage": 6600
+  },
+  {
+    "entryName": "Large Freighter 51b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Kokusei Maru",
+    "tonnage": 5400
+  },
+  {
+    "entryName": "Large Freighter 52b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Pligane Maru",
+    "tonnage": 5300
+  },
+  {
+    "entryName": "Large Freighter 53b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Hiyori Maru",
+    "tonnage": 5300
+  },
+  {
+    "entryName": "Large Freighter 54b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Oyo Maru",
+    "tonnage": 5500
+  },
+  {
+    "entryName": "Large Freighter 55b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Tottori Maru",
+    "tonnage": 6000
+  },
+  {
+    "entryName": "Large Freighter 56b",
+    "entryType": "Freighter",
+    "type": "Armed",
+    "name": "Sagara Maru",
+    "tonnage": 7200
+  },
+  {
+    "entryName": "Large Freighter 57b",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Daishin Maru",
+    "tonnage": 5900
+  },
+  {
+    "entryName": "Large Freighter 58b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Hokko Maru",
+    "tonnage": 5400
+  },
+  {
+    "entryName": "Large Freighter 59b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Nikko Maru",
+    "tonnage": 5900
+  },
+  {
+    "entryName": "Large Freighter 60b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Matsue Maru",
+    "tonnage": 7100
+  },
+  {
+    "entryName": "Large Freighter 61b",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Manei Maru",
+    "tonnage": 5200
+  },
+  {
+    "entryName": "Large Freighter 62b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Aracsan Maru",
+    "tonnage": 6900
+  },
+  {
+    "entryName": "Large Freighter 63b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Daizen Maru",
+    "tonnage": 5400
+  },
+  {
+    "entryName": "Large Freighter 64b",
+    "entryType": "Freighter",
+    "type": "Armed",
+    "name": "Nagoya Maru",
+    "tonnage": 6100
+  },
+  {
+    "entryName": "Large Freighter 65b",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Nissho Maru",
+    "tonnage": 10500
+  },
+  {
+    "entryName": "Large Freighter 66b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Shozan Maru",
+    "tonnage": 5900
+  },
+  {
+    "entryName": "Large Freighter 67b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Nikkyu Maru",
+    "tonnage": 6500
+  },
+  {
+    "entryName": "Large Freighter 68b",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Kokuei Maru",
+    "tonnage": 5200
+  },
+  {
+    "entryName": "Large Freighter 69b",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Nanei Maru",
+    "tonnage": 5000
+  },
+  {
+    "entryName": "Large Freighter 70b",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Nichirin Maru",
+    "tonnage": 5200
+  },
+  {
+    "entryName": "Large Freighter 71b",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Ichiyo Maru",
+    "tonnage": 5100
+  },
+  {
+    "entryName": "Large Freighter 72b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Yoshida Maru #1",
+    "tonnage": 5400
+  },
+  {
+    "entryName": "Large Freighter 73b",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "San Pedro Maru",
+    "tonnage": 7300
+  },
+  {
+    "entryName": "Large Freighter 74b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Mexico Maru",
+    "tonnage": 5800
+  },
+  {
+    "entryName": "Large Freighter 75b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Nichiei Maru",
+    "tonnage": 5400
+  },
+  {
+    "entryName": "Large Freighter 76b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Yuzan Maru #2",
+    "tonnage": 6900
+  },
+  {
+    "entryName": "Large Freighter 77b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Teihoku Maru",
+    "tonnage": 5800
+  },
+  {
+    "entryName": "Large Freighter 78b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Choyo Maru",
+    "tonnage": 5400
+  },
+  {
+    "entryName": "Large Freighter 79b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Takachiho Maru",
+    "tonnage": 8200
+  },
+  {
+    "entryName": "Large Freighter 80b",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Ryuei Maru",
+    "tonnage": 5100
+  },
+  {
+    "entryName": "Large Freighter 81b",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Bokuei Maru",
+    "tonnage": 5100
+  },
+  {
+    "entryName": "Large Freighter 82b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Toyokuni Maru",
+    "tonnage": 5800
+  },
+  {
+    "entryName": "Large Freighter 83b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Nichirei Maru",
+    "tonnage": 5400
+  },
+  {
+    "entryName": "Large Freighter 84b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Hokuroku Maru",
+    "tonnage": 8400
+  },
+  {
+    "entryName": "Large Freighter 85b",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Tenshin Maru",
+    "tonnage": 5100
+  },
+  {
+    "entryName": "Large Freighter 86b",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Hokki Maru",
+    "tonnage": 5600
+  },
+  {
+    "entryName": "Large Freighter 87b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Ejiri Maru",
+    "tonnage": 7000
+  },
+  {
+    "entryName": "Large Freighter 88b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Manila Maru",
+    "tonnage": 9500
+  },
+  {
+    "entryName": "Large Freighter 89b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Durban Maru",
+    "tonnage": 7200
+  },
+  {
+    "entryName": "Large Freighter 90b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "America Maru",
+    "tonnage": 6100
+  },
+  {
+    "entryName": "Large Freighter 91b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Ataka Maru",
+    "tonnage": 5200
+  },
+  {
+    "entryName": "Large Freighter 92b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Mito Maru",
+    "tonnage": 7100
+  },
+  {
+    "entryName": "Large Freighter 93b",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Kachidoki Maru",
+    "tonnage": 10500
+  },
+  {
+    "entryName": "Large Freighter 94b",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Zuiho Maru",
+    "tonnage": 5100
+  },
+  {
+    "entryName": "Large Freighter 95b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Engen Maru",
+    "tonnage": 7000
+  },
+  {
+    "entryName": "Large Freighter 96b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Taiyoku Maru",
+    "tonnage": 5200
+  },
+  {
+    "entryName": "Large Freighter 97b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Shoryu Maru",
+    "tonnage": 6500
+  },
+  {
+    "entryName": "Large Freighter 98b",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Koei Maru",
+    "tonnage": 10200
+  },
+  {
+    "entryName": "Large Freighter 99b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Manju Maru",
+    "tonnage": 5900
+  },
+  {
+    "entryName": "Large Freighter 100b",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Yamagiku Maru",
+    "tonnage": 5200
+  },
+  {
+    "entryName": "Large Freighter 01c",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Yuho Maru",
+    "tonnage": 5200
+  },
+  {
+    "entryName": "Large Freighter 02c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Rashin Maru",
+    "tonnage": 5500
+  },
+  {
+    "entryName": "Large Freighter 03c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Aisakasan Maru",
+    "tonnage": 6900
+  },
+  {
+    "entryName": "Large Freighter 04c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Atlantic Maru",
+    "tonnage": 5900
+  },
+  {
+    "entryName": "Large Freighter 05c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Tokushima Maru",
+    "tonnage": 6000
+  },
+  {
+    "entryName": "Large Freighter 06c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Mayasan Maru",
+    "tonnage": 9400
+  },
+  {
+    "entryName": "Large Freighter 07c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Fukuju Maru",
+    "tonnage": 5300
+  },
+  {
+    "entryName": "Large Freighter 08c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Clyde Maru",
+    "tonnage": 5500
+  },
+  {
+    "entryName": "Large Freighter 09c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Havre Maru",
+    "tonnage": 5700
+  },
+  {
+    "entryName": "Large Freighter 10c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Shonan Maru",
+    "tonnage": 5400
+  },
+  {
+    "entryName": "Large Freighter 11c",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Tonan Maru #2",
+    "tonnage": 19300
+  },
+  {
+    "entryName": "Large Freighter 12c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Nichiran Maru",
+    "tonnage": 6500
+  },
+  {
+    "entryName": "Large Freighter 13c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Seattle Maru",
+    "tonnage": 5800
+  },
+  {
+    "entryName": "Large Freighter 14c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Tatsutake Maru",
+    "tonnage": 7100
+  },
+  {
+    "entryName": "Large Freighter 15c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Kinai Maru",
+    "tonnage": 8400
+  },
+  {
+    "entryName": "Large Freighter 16c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Kimishima Maru",
+    "tonnage": 5200
+  },
+  {
+    "entryName": "Large Freighter 17c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Mogamigawa Maru",
+    "tonnage": 7500
+  },
+  {
+    "entryName": "Large Freighter 18c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Maebashi Maru",
+    "tonnage": 7000
+  },
+  {
+    "entryName": "Large Freighter 19c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Soyo Maru",
+    "tonnage": 6100
+  },
+  {
+    "entryName": "Large Freighter 20c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Malta Maru",
+    "tonnage": 5500
+  },
+  {
+    "entryName": "Large Freighter 21c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Horei Maru",
+    "tonnage": 5600
+  },
+  {
+    "entryName": "Large Freighter 22c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Teian Maru",
+    "tonnage": 5400
+  },
+  {
+    "entryName": "Large Freighter 23c",
+    "entryType": "Freighter",
+    "type": "Armed",
+    "name": "Bangkok Maru",
+    "tonnage": 5400
+  },
+  {
+    "entryName": "Large Freighter 24c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Tsuyama Maru",
+    "tonnage": 7000
+  },
+  {
+    "entryName": "Large Freighter 25c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Hamburg Maru",
+    "tonnage": 5300
+  },
+  {
+    "entryName": "Large Freighter 26c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Atlas Maru",
+    "tonnage": 7300
+  },
+  {
+    "entryName": "Large Freighter 27c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Atsuta Maru",
+    "tonnage": 8000
+  },
+  {
+    "entryName": "Large Freighter 28c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Thames Maru",
+    "tonnage": 5900
+  },
+  {
+    "entryName": "Large Freighter 29c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Ryuyo Maru",
+    "tonnage": 6700
+  },
+  {
+    "entryName": "Large Freighter 30c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Teiko Maru",
+    "tonnage": 15100
+  },
+  {
+    "entryName": "Large Freighter 31c",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Teikon Maru",
+    "tonnage": 5100
+  },
+  {
+    "entryName": "Large Freighter 32c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Toyooka Maru",
+    "tonnage": 7100
+  },
+  {
+    "entryName": "Large Freighter 33c",
+    "entryType": "Freighter",
+    "type": "Armed",
+    "name": "Akitsu Maru",
+    "tonnage": 9200
+  },
+  {
+    "entryName": "Large Freighter 34c",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Kiyo Maru",
+    "tonnage": 7300
+  },
+  {
+    "entryName": "Large Freighter 35c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Tango Maru",
+    "tonnage": 6200
+  },
+  {
+    "entryName": "Large Freighter 36c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Nittai Maru",
+    "tonnage": 6500
+  },
+  {
+    "entryName": "Large Freighter 37c",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Teiyo Maru",
+    "tonnage": 9800
+  },
+  {
+    "entryName": "Large Freighter 38c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Teia Maru",
+    "tonnage": 17500
+  },
+  {
+    "entryName": "Large Freighter 39c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Onoe Maru",
+    "tonnage": 6700
+  },
+  {
+    "entryName": "Large Freighter 40c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Hokko Maru",
+    "tonnage": 5300
+  },
+  {
+    "entryName": "Large Freighter 41c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Yuri Maru",
+    "tonnage": 6800
+  },
+  {
+    "entryName": "Large Freighter 42c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Heiwa Maru",
+    "tonnage": 5600
+  },
+  {
+    "entryName": "Large Freighter 43c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Tenpei Maru",
+    "tonnage": 6100
+  },
+  {
+    "entryName": "Large Freighter 44c",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Kyoko Maru",
+    "tonnage": 5800
+  },
+  {
+    "entryName": "Large Freighter 45c",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Janbi Maru",
+    "tonnage": 5200
+  },
+  {
+    "entryName": "Large Freighter 46c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Zuisho Maru",
+    "tonnage": 5300
+  },
+  {
+    "entryName": "Large Freighter 47c",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Nansei Maru",
+    "tonnage": 5900
+  },
+  {
+    "entryName": "Large Freighter 48c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Taketoyo Maru",
+    "tonnage": 7000
+  },
+  {
+    "entryName": "Large Freighter 49c",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Asanagi Maru",
+    "tonnage": 5100
+  },
+  {
+    "entryName": "Large Freighter 50c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Nichinan Maru #2",
+    "tonnage": 5200
+  },
+  {
+    "entryName": "Large Freighter 51c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Batopaha Maru",
+    "tonnage": 6000
+  },
+  {
+    "entryName": "Large Freighter 52c",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Ogura Maru #2",
+    "tonnage": 7300
+  },
+  {
+    "entryName": "Large Freighter 53c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Mizuho Maru",
+    "tonnage": 8500
+  },
+  {
+    "entryName": "Large Freighter 54c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Fukurei Maru",
+    "tonnage": 6000
+  },
+  {
+    "entryName": "Large Freighter 55c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Jinbu Maru",
+    "tonnage": 5200
+  },
+  {
+    "entryName": "Large Freighter 56c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Banshu Maru #7",
+    "tonnage": 5400
+  },
+  {
+    "entryName": "Large Freighter 57c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Hayo Maru",
+    "tonnage": 5400
+  },
+  {
+    "entryName": "Large Freighter 58c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Meiyo Maru",
+    "tonnage": 5600
+  },
+  {
+    "entryName": "Large Freighter 59c",
+    "entryType": "Freighter",
+    "type": "Armed",
+    "name": "Kamogawa Maru",
+    "tonnage": 6400
+  },
+  {
+    "entryName": "Large Freighter 60c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Uyo Maru",
+    "tonnage": 6400
+  },
+  {
+    "entryName": "Large Freighter 61c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Oregon Maru",
+    "tonnage": 5900
+  },
+  {
+    "entryName": "Large Freighter 62c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Konan Maru",
+    "tonnage": 5200
+  },
+  {
+    "entryName": "Large Freighter 63c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Nichiro Maru",
+    "tonnage": 6500
+  },
+  {
+    "entryName": "Large Freighter 64c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Uchide Maru",
+    "tonnage": 5300
+  },
+  {
+    "entryName": "Large Freighter 65c",
+    "entryType": "Freighter",
+    "type": "Armed",
+    "name": "Kanto Maru",
+    "tonnage": 8600
+  },
+  {
+    "entryName": "Large Freighter 66c",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Akatsuki Maru",
+    "tonnage": 10200
+  },
+  {
+    "entryName": "Large Freighter 67c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Shoko Maru",
+    "tonnage": 5400
+  },
+  {
+    "entryName": "Large Freighter 68c",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Tachibana Maru",
+    "tonnage": 6500
+  },
+  {
+    "entryName": "Large Freighter 69c",
+    "entryType": "Freighter",
+    "type": "Armed",
+    "name": "Kimikawa Maru",
+    "tonnage": 6900
+  },
+  {
+    "entryName": "Large Freighter 70c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Kansai Maru",
+    "tonnage": 8600
+  },
+  {
+    "entryName": "Large Freighter 71c",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Nippon Maru",
+    "tonnage": 10000
+  },
+  {
+    "entryName": "Large Freighter 72c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Yuzan Maru",
+    "tonnage": 6400
+  },
+  {
+    "entryName": "Large Freighter 73c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Kokuryu Maru",
+    "tonnage": 6100
+  },
+  {
+    "entryName": "Large Freighter 74c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Akigawa Maru",
+    "tonnage": 6900
+  },
+  {
+    "entryName": "Large Freighter 75c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Hawaii Maru",
+    "tonnage": 9500
+  },
+  {
+    "entryName": "Large Freighter 76c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Taijo Maru",
+    "tonnage": 6900
+  },
+  {
+    "entryName": "Large Freighter 77c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Toyo Maru",
+    "tonnage": 6900
+  },
+  {
+    "entryName": "Large Freighter 78c",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Tarakan Maru",
+    "tonnage": 5100
+  },
+  {
+    "entryName": "Large Freighter 79c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Tamagawa Maru",
+    "tonnage": 6400
+  },
+  {
+    "entryName": "Large Freighter 80c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Hiyama Maru",
+    "tonnage": 6200
+  },
+  {
+    "entryName": "Large Freighter 81c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Hakodate Maru",
+    "tonnage": 5300
+  },
+  {
+    "entryName": "Large Freighter 82c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Taiten Maru",
+    "tonnage": 6400
+  },
+  {
+    "entryName": "Large Freighter 83c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Chihaya Maru",
+    "tonnage": 7100
+  },
+  {
+    "entryName": "Large Freighter 84c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Ume Maru",
+    "tonnage": 5900
+  },
+  {
+    "entryName": "Large Freighter 85c",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "San Ramon Maru",
+    "tonnage": 7300
+  },
+  {
+    "entryName": "Large Freighter 86c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Lima Maru",
+    "tonnage": 7000
+  },
+  {
+    "entryName": "Large Freighter 87c",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Medan Maru",
+    "tonnage": 5100
+  },
+  {
+    "entryName": "Large Freighter 88c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Boston Maru",
+    "tonnage": 5500
+  },
+  {
+    "entryName": "Large Freighter 89c",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "San Clemente Maru",
+    "tonnage": 7400
+  },
+  {
+    "entryName": "Large Freighter 90",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Hakuyo Maru",
+    "tonnage": 5700
+  },
+  {
+    "entryName": "Large Freighter 91c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Nankai Maru",
+    "tonnage": 8400
+  },
+  {
+    "entryName": "Large Freighter 92c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Rakuyo Maru",
+    "tonnage": 9400
+  },
+  {
+    "entryName": "Large Freighter 93c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Shiraha Maru",
+    "tonnage": 5700
+  },
+  {
+    "entryName": "Large Freighter 94c",
+    "entryType": "Freighter",
+    "type": "Large Tanker",
+    "name": "Toa Maru",
+    "tonnage": 10100
+  },
+  {
+    "entryName": "Large Freighter 95c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Sagami Maru",
+    "tonnage": 7200
+  },
+  {
+    "entryName": "Large Freighter 96c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Shoto Maru",
+    "tonnage": 5300
+  },
+  {
+    "entryName": "Large Freighter 97c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Asuka Maru",
+    "tonnage": 7500
+  },
+  {
+    "entryName": "Large Freighter 98c",
+    "entryType": "Freighter",
+    "type": "Large Freighter",
+    "name": "Getsuyo Maru",
+    "tonnage": 6400
+  },
+  {
+    "entryName": "Large Freighter 99c",
+    "entryType": "Freighter",
+    "type": "Special",
+    "name": "Kashino",
+    "tonnage": 10400
+  },
+  {
+    "entryName": "Large Freighter 100c",
+    "entryType": "Freighter",
+    "type": "Large Passenger",
+    "name": "Tatuta Maru",
+    "tonnage": 17000
+  }
+]
