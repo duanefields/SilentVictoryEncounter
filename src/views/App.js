@@ -12,12 +12,12 @@ export default class App extends Component {
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <Link className="navbar-brand" to="/">Silent Victory Encounter Aid</Link>
+          <Link className="navbar-brand" to="/">Silent Victory</Link>
 
           <div id="navbarSupportedContent" className="collapse navbar-collapse">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <NavLink to="/patrol">Patrol</NavLink>
+                <NavLink to="/patrol"> Encounter Aid</NavLink>
               </li>
               <li className="nav-item">
                 <NavLink to="/about">About</NavLink>

@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { App, Patrol, About } from './components';
-import './styles/index.styl';
+import { App, PatrolView, AboutView } from './views';
 import { Router, Route, IndexRedirect, hashHistory } from 'react-router'
+import './styles/index.styl';
 
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={App}>
       <IndexRedirect to="/patrol"/>
-      <Route path="/patrol" component={Patrol}/>
-      <Route path="/about" component={About}/>
+      <Route path="/patrol" component={PatrolView}/>
+      <Route path="/about" component={AboutView}/>
     </Route>
   </Router>,
   document.getElementById('root')

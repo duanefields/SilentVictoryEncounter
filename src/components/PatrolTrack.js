@@ -9,7 +9,7 @@ export default class PatrolTrack extends Component {
 
     return (
       <div>
-        <h1>Patrol Track</h1>
+        <h2>Patrol Track</h2>
       </div>
     );
   }

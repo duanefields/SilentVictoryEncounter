@@ -6,7 +6,7 @@ import { AppStore } from '../stores';
 import { NewPatrol, PatrolSummary } from '../components'
 
 @observer
-export default class Patrol extends Component {
+export default class PatrolView extends Component {
   appStore = new AppStore();
 
   render() {
