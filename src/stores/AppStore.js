@@ -4,8 +4,8 @@ import { Patrol } from '../models'
 export default class AppStore {
   @observable patrol = null;
 
-  @action createPatrol() {
+  @action createPatrol(props) {
     console.log("Creating new patrol");
-    this.patrol = new Patrol({ shipName: "Tang", startDate: "01-01-1942" });
+    this.patrol = new Patrol(props);
   }
 }

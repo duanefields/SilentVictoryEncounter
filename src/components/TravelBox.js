@@ -8,9 +8,9 @@ export default class TravelBox extends Component {
     const patrol = appStore.patrol;
 
     return (
-      <div>
-        TravelBox
-      </div>
+      <button className="btn btn-secondary">
+        {this.props.box.name}
+      </button>
     );
   }
 }

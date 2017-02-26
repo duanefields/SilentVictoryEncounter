@@ -10,6 +10,9 @@ export default class NewPatrol extends Component {
     return (
       <div>
         <h2>New Patrol</h2>
+        <form>
+          <input type="text" />
+        </form>
         <button onClick={appStore.createPatrol.bind(appStore)}>
           Start Patrol
         </button>
