@@ -1,0 +1,639 @@
+[
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 02",
+    "entryType": "Escort",
+    "type": "Destroyer",
+    "name": "Momi",
+    "tonnage": 1000
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 03",
+    "entryType": "Escort",
+    "type": "Destroyer Escort",
+    "name": "Kuri",
+    "tonnage": 800
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 06",
+    "entryType": "Escort",
+    "type": "Destroyer Escort",
+    "name": "Watatake",
+    "tonnage": 800
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 07",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "Etorufu",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 08",
+    "entryType": "Escort",
+    "type": "Destroyer",
+    "name": "Akikaze",
+    "tonnage": 1300
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 10",
+    "entryType": "Escort",
+    "type": "Minelayer",
+    "name": "Sokutun",
+    "tonnage": 700
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 11",
+    "entryType": "Escort",
+    "type": "Gunboat",
+    "name": "Ataka",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 12",
+    "entryType": "Escort",
+    "type": "Minesweeper",
+    "name": "13-GO",
+    "tonnage": 500
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 13",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "Ukura",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 14",
+    "entryType": "Escort",
+    "type": "Subchaser",
+    "name": "No. 51",
+    "tonnage": 200
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 15",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "Mikura",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 16",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "28-GO",
+    "tonnage": 400
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 17",
+    "entryType": "Escort",
+    "type": "Destroyer",
+    "name": "Mutsuki",
+    "tonnage": 1300
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 19",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "Etorufu",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 21",
+    "entryType": "Escort",
+    "type": "Destroyer",
+    "name": "Momi",
+    "tonnage": 1000
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 22",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "28-GO",
+    "tonnage": 400
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 23",
+    "entryType": "Escort",
+    "type": "Gunboat",
+    "name": "Otori",
+    "tonnage": 800
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 24",
+    "entryType": "Escort",
+    "type": "Minelayer",
+    "name": "Sokutun",
+    "tonnage": 700
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 25",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "Ukura",
+    "tonnage": 400
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 26",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "28-GO",
+    "tonnage": 400
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 27",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "Mikura",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 28",
+    "entryType": "Escort",
+    "type": "Destroyer",
+    "name": "Akikaze",
+    "tonnage": 1300
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 29",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "104-GO",
+    "tonnage": 800
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 30",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "Etorufu",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 31",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "13-GO",
+    "tonnage": 500
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 32",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "28-GO",
+    "tonnage": 400
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 33",
+    "entryType": "Escort",
+    "type": "Destroyer",
+    "name": "Mutsuki",
+    "tonnage": 1300
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 34",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "Ukura",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 35",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "53-GO",
+    "tonnage": 200
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 36",
+    "entryType": "Escort",
+    "type": "Minelayer",
+    "name": "Sokutun",
+    "tonnage": 700
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 37",
+    "entryType": "Escort",
+    "type": "Minelayer",
+    "name": "Kokome",
+    "tonnage": 500
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 38",
+    "entryType": "Escort",
+    "type": "Destroyer",
+    "name": "Momi",
+    "tonnage": 1000
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 39",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "28-GO",
+    "tonnage": 400
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 40",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "Ukura",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 41",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "102-GO",
+    "tonnage": 1300
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 42",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "Mikura",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 43",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "Etorufu",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 44",
+    "entryType": "Escort",
+    "type": "Torpedo Boat",
+    "name": "Tidori",
+    "tonnage": 500
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 45",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "28-GO",
+    "tonnage": 400
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 46",
+    "entryType": "Escort",
+    "type": "Destroyer",
+    "name": "Akikaze",
+    "tonnage": 1300
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 48",
+    "entryType": "Escort",
+    "type": "Minelayer",
+    "name": "Sokutun",
+    "tonnage": 700
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 49",
+    "entryType": "Escort",
+    "type": "Destroyer",
+    "name": "Kamikaze",
+    "tonnage": 1200
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 50",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "28-GO",
+    "tonnage": 400
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 51",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "Etorufu",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 52",
+    "entryType": "Escort",
+    "type": "Destroyer",
+    "name": "Mutsuki",
+    "tonnage": 1300
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 53",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "Ukura",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 54",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "109-GO",
+    "tonnage": 600
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 55",
+    "entryType": "Escort",
+    "type": "Destroyer",
+    "name": "Kamikaze",
+    "tonnage": 1200
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 56",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "28-GO",
+    "tonnage": 400
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 57",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "Mikura",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 58",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "106-GO",
+    "tonnage": 1300
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 59",
+    "entryType": "Escort",
+    "type": "Destroyer",
+    "name": "Momi",
+    "tonnage": 1000
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 60",
+    "entryType": "Escort",
+    "type": "Minelayer",
+    "name": "Sokutun",
+    "tonnage": 700
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 61",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "28-GO",
+    "tonnage": 400
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 62",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "Etorufu",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 64",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "Ukura",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 65",
+    "entryType": "Escort",
+    "type": "Minelayer",
+    "name": "Natsushima",
+    "tonnage": 500
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 66",
+    "entryType": "Escort",
+    "type": "Destroyer",
+    "name": "Akikaze",
+    "tonnage": 1300
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 67",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "28-GO",
+    "tonnage": 400
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 68",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "101-GO",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 69",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "Ukura",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 70",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "13-GO",
+    "tonnage": 500
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 71",
+    "entryType": "Escort",
+    "type": "Gunboat",
+    "name": "Otori",
+    "tonnage": 800
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 72",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "28-GO",
+    "tonnage": 400
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 73",
+    "entryType": "Escort",
+    "type": "Destroyer",
+    "name": "Momi",
+    "tonnage": 1000
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 75",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "Etorufu",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 76",
+    "entryType": "Escort",
+    "type": "Minelayer",
+    "name": "Sokutun",
+    "tonnage": 700
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 77",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "28-GO",
+    "tonnage": 400
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 78",
+    "entryType": "Escort",
+    "type": "Gunboat",
+    "name": "Hasidate",
+    "tonnage": 1000
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 79",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "Mikura",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 80",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "1-GO",
+    "tonnage": 300
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 81",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "Etorufu",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 82",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "28-GO",
+    "tonnage": 400
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 83",
+    "entryType": "Escort",
+    "type": "Destroyer",
+    "name": "Mutsuki",
+    "tonnage": 1300
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 84",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "Ukura",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 85",
+    "entryType": "Escort",
+    "type": "Subchaser",
+    "name": "No. 1",
+    "tonnage": 300
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 86",
+    "entryType": "Escort",
+    "type": "Gunboat",
+    "name": "Otori",
+    "tonnage": 800
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 87",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "28-GO",
+    "tonnage": 400
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 88",
+    "entryType": "Escort",
+    "type": "Destroyer Escort",
+    "name": "Watatake",
+    "tonnage": 800
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 89",
+    "entryType": "Escort",
+    "type": "Destroyer",
+    "name": "Momi",
+    "tonnage": 1000
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 90",
+    "entryType": "Escort",
+    "type": "Minelayer",
+    "name": "Sokutun",
+    "tonnage": 700
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 91",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "Mikura",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 92",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "28-GO",
+    "tonnage": 400
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 93",
+    "entryType": "Escort",
+    "type": "Destroyer",
+    "name": "Akikaze",
+    "tonnage": 1300
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 94",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "13-GO",
+    "tonnage": 500
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 94",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "Ukura",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 96",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "103-GO",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 97",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "28-GO",
+    "tonnage": 400
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 98",
+    "entryType": "Escort",
+    "type": "Destroyer",
+    "name": "Kamikaze",
+    "tonnage": 1200
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 99",
+    "entryType": "Escort",
+    "type": "Escort",
+    "name": "Etorufu",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Late War Merchant Ship/Convoy Escort 00",
+    "entryType": "Escort",
+    "type": "Subchaser",
+    "name": "No. 4",
+    "tonnage": 300
+  }
+]

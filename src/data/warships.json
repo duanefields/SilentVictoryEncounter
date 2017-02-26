@@ -2,7 +2,7 @@
   {
     "entryName": "Warship Target 01",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Isoname",
     "tonnage": 2000
   },
@@ -30,7 +30,7 @@
   {
     "entryName": "Warship Target 05",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Yamakaze",
     "tonnage": 1400
   },
@@ -58,21 +58,21 @@
   {
     "entryName": "Warship Target 09",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Okikaze",
     "tonnage": 1200
   },
   {
     "entryName": "Warship Target 10",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Shirakumo",
     "tonnage": 2100
   },
   {
     "entryName": "Warship Target 11",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Sazaname",
     "tonnage": 2100
   },
@@ -93,14 +93,14 @@
   {
     "entryName": "Warship Target 14",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Suzukaze",
     "tonnage": 1400
   },
   {
     "entryName": "Warship Target 15",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Umikaze",
     "tonnage": 1400
   },
@@ -114,14 +114,14 @@
   {
     "entryName": "Warship Target 17",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Ikazuchi",
     "tonnage": 2000
   },
   {
     "entryName": "Warship Target 18",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Minekaze",
     "tonnage": 1300
   },
@@ -135,14 +135,14 @@
   {
     "entryName": "Warship Target 20",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Yunagi",
     "tonnage": 1200
   },
   {
     "entryName": "Warship Target 21",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Akigumo",
     "tonnage": 1400
   },
@@ -156,21 +156,21 @@
   {
     "entryName": "Warship Target 23",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Kazegumo",
     "tonnage": 1400
   },
   {
     "entryName": "Warship Target 24",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Minatsuki",
     "tonnage": 1300
   },
   {
     "entryName": "Warship Target 25",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Tanikaze",
     "tonnage": 2000
   },
@@ -205,7 +205,7 @@
   {
     "entryName": "Warship Target 30",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Shimotsuki",
     "tonnage": 2000
   },
@@ -219,14 +219,14 @@
   {
     "entryName": "Warship Target 32",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Shikinami",
     "tonnage": 2000
   },
   {
     "entryName": "Warship Target 33",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Suzutsuki",
     "tonnage": 2000
   },
@@ -240,7 +240,7 @@
   {
     "entryName": "Warship Target 35",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Akitsuki",
     "tonnage": 2000
   },
@@ -254,7 +254,7 @@
   {
     "entryName": "Warship Target 37",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Urakaze",
     "tonnage": 1200
   },
@@ -282,14 +282,14 @@
   {
     "entryName": "Warship Target 41",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Kishinami",
     "tonnage": 2100
   },
   {
     "entryName": "Warship Target 42",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Iwanami",
     "tonnage": 0
   },
@@ -310,7 +310,7 @@
   {
     "entryName": "Warship Target 45",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Kuretake",
     "tonnage": 1000
   },
@@ -338,14 +338,14 @@
   {
     "entryName": "Warship Target 49",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Akikaze",
     "tonnage": 1200
   },
   {
     "entryName": "Warship Target 50",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Natugumo",
     "tonnage": 2000
   },
@@ -366,56 +366,56 @@
   {
     "entryName": "Warship Target 53",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Hubuki",
     "tonnage": 2100
   },
   {
     "entryName": "Warship Target 54",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Akebono",
     "tonnage": 2100
   },
   {
     "entryName": "Warship Target 55",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Yukaze",
     "tonnage": 1200
   },
   {
     "entryName": "Warship Target 56",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Sagiri",
     "tonnage": 2100
   },
   {
     "entryName": "Warship Target 57",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Kagero",
     "tonnage": 2000
   },
   {
     "entryName": "Warship Target 58",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Hokaze",
     "tonnage": 1400
   },
   {
     "entryName": "Warship Target 59",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Oshio",
     "tonnage": 1900
   },
   {
     "entryName": "Warship Target 60",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Sazanami",
     "tonnage": 2000
   },
@@ -429,7 +429,7 @@
   {
     "entryName": "Warship Target 62",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Shigure",
     "tonnage": 1600
   },
@@ -443,7 +443,7 @@
   {
     "entryName": "Warship Target 64",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Inazuma",
     "tonnage": 2000
   },
@@ -478,14 +478,14 @@
   {
     "entryName": "Warship Target 69",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Numakaze",
     "tonnage": 1300
   },
   {
     "entryName": "Warship Target 70",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Arare",
     "tonnage": 1900
   },
@@ -513,7 +513,7 @@
   {
     "entryName": "Warship Target 74",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Asakaze",
     "tonnage": 1300
   },
@@ -527,7 +527,7 @@
   {
     "entryName": "Warship Target 76",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Hayanami",
     "tonnage": 2100
   },
@@ -562,14 +562,14 @@
   {
     "entryName": "Warship Target 81",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Tamanami",
     "tonnage": 2100
   },
   {
     "entryName": "Warship Target 82",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Nokaze",
     "tonnage": 1300
   },
@@ -583,7 +583,7 @@
   {
     "entryName": "Warship Target 84",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Asanagi",
     "tonnage": 1300
   },
@@ -597,7 +597,7 @@
   {
     "entryName": "Warship Target 86",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Natsushio",
     "tonnage": 1900
   },
@@ -639,7 +639,7 @@
   {
     "entryName": "Warship Target 92",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Usugumo",
     "tonnage": 2000
   },
@@ -681,7 +681,7 @@
   {
     "entryName": "Warship Target 98",
     "entryType": "Warship",
-    "type": "Destoryer",
+    "type": "Destroyer",
     "name": "Nenohi",
     "tonnage": 1600
   },

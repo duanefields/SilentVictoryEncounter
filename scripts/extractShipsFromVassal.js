@@ -4,29 +4,11 @@ var path = require('path');
 var _ = require('lodash');
 var xpath = require('xpath');
 var dom = require('xmldom').DOMParser;
+var expandType = require("./expandType")
 
 var filePath = path.join(__dirname, "../assets/vassal.xml");
 var xml = fs.readFileSync(filePath, {encoding: 'utf-8'});
 var doc = new dom().parseFromString(xml);
-
-var expandType = function (type) {
-  switch(type) {
-    case "BB": return "Battleship";
-    case "CV": return "Aircraft Carrier";
-    case "CVS": return "Antisubmarine Aircraft Carrier";
-    case "SS": return "Submarine";
-    case "CVE": return "Escort Carrier";
-    case "CA": return "Cruiser";
-    case "CL": return "Light Cruiser";
-    case "DD": return "Destoryer";
-    case "FF": return "Frigate";
-    case "ML": return "Minelayer";
-    case "AS": return "Repair Ship";
-    default:
-      console.log("Warning: Unknown Type", type);
-      return type;
-  }
-}
 
 var cardSlots = xpath.select("//VASSAL.build.widget.CardSlot", doc);
 var contacts = [];
