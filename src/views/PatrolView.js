@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { inject, observer } from 'mobx-react';
+import { observer } from 'mobx-react';
 import { If } from '../lib'
 import { Provider } from 'mobx-react';
 import { AppStore } from '../stores';

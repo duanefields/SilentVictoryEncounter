@@ -1,4 +1,4 @@
-import { observable, computed, action, autorun } from 'mobx';
+import { observable, action } from 'mobx';
 import { Patrol } from '../models'
 
 export default class AppStore {

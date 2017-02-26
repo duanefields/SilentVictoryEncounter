@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { inject, observer } from 'mobx-react';
-import { PatrolTrack } from '../components'
+import { PatrolHeader, PatrolTrack } from '../components'
 
 @inject("appStore") @observer
 export default class Patrol extends Component {
@@ -11,8 +11,7 @@ export default class Patrol extends Component {
 
     return (
       <div className="text-center">
-        <h2>{ patrol.shipName }</h2>
-        <div>Start Date: { patrol.startDate }</div>
+        <PatrolHeader/>
         <PatrolTrack/>
       </div>
     );
