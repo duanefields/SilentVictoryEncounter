@@ -7,6 +7,8 @@
     "custom-react-scripts": "0.0.23"
   },
   "dependencies": {
+    "classnames": "2.2.5",
+    "lodash": "4.17.4",
     "mobx": "^3.1.0",
     "mobx-react": "^4.1.0",
     "mobx-react-router": "^3.1.2",

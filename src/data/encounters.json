@@ -1,0 +1,4 @@
+{
+  "Transit": [ "Aircraft", "-", "-", "-", "-", "-", "-", "-", "-", "-", "Ship" ],
+  "China Sea": [ "Aircraft", "Two Ships+Escort", "Ship", "SJ", "-", "-", "Two Ships+Escort", "Ship", "-", "Convoy", "Minefield"]
+}

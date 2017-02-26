@@ -1,18 +1,13 @@
 import React from 'react';
 import { inject, observer } from 'mobx-react';
-import { TravelBox } from '../components'
 
 export default inject("appStore")(observer(({appStore}) => {
   const patrol = appStore.patrol;
-  let travelBoxes = patrol.assignment.travelBoxes.map((box, index) =>
-    <TravelBox box={box} key={index} />
-  );
+  const encounter = patrol.currentEncounter;
 
   return (
     <div className="text-center">
-      <div className="btn-group">
-        {travelBoxes}
-      </div>
+      {encounter}
     </div>
   );
 }))

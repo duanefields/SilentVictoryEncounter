@@ -6,4 +6,8 @@ export default class TravelBox {
   constructor(name) {
     this.name = name;
   }
+
+  @computed get isShallow() {
+    this.name === "China Sea";
+  }
 }

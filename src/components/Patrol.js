@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { inject, observer } from 'mobx-react';
-import { PatrolHeader, PatrolTrack } from '../components'
+import { PatrolHeader, PatrolTrack, Encounter } from '../components'
 
 @inject("appStore") @observer
 export default class Patrol extends Component {
@@ -13,6 +13,7 @@ export default class Patrol extends Component {
       <div className="text-center">
         <PatrolHeader/>
         <PatrolTrack/>
+        <Encounter/>
       </div>
     );
   }
