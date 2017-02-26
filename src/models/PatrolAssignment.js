@@ -3,6 +3,7 @@ import { TravelBox } from "../models"
 import patrolAssignments from "../data/patrolAssignments.json"
 
 export default class PatrolAssignment {
+  // these don't change, do they need to be observable?
   @observable name = null;
   @observable travelBoxes = null;
 
@@ -15,7 +16,9 @@ export default class PatrolAssignment {
   constructor(name) {
     const assignment = patrolAssignments[name];
     this.name = name;
-    this.travelBoxes = assignment.travelBoxes.map((name) => new TravelBox(name));
+    this.travelBoxes = assignment.travelBoxes.map((box) => {
+      return new TravelBox(box);
+    });
   }
 
 }

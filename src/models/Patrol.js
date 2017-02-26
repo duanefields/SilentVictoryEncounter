@@ -19,8 +19,8 @@ export default class Patrol {
 
   @action
   newEncounter = () => {
-    console.log("Creating encounter for patrol:", this);
-    this.encounters.push(`Encounter #${this.encounters.length  + 1} (${this.currentTravelBox.name})`);
+    const encounterType = this.currentTravelBox.rollEncounterType();
+    this.encounters.push(`Encounter #${this.encounters.length  + 1} ${encounterType} (${this.currentTravelBox.name})`);
   }
 
   @computed

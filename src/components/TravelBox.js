@@ -1,6 +1,7 @@
 import React from 'react';
 import { inject, observer } from 'mobx-react';
 import classNames from 'classnames';
+import { If } from '../lib'
 
 export default inject("appStore")(observer(({appStore, box}) => {
   const patrol = appStore.patrol;
@@ -9,7 +10,21 @@ export default inject("appStore")(observer(({appStore, box}) => {
 
   return (
     <button className={buttonClassNames} onClick={() => patrol.moveToTravelBox(box)}>
-      {box.name}
+      {box.displayName}
+
+      <If cond={box.isMissionBox}>
+        <span>
+          <br/>
+          (Mission)
+        </span>
+      </If>
+
+      <If cond={box.times > 1}>
+        <span>
+          <br/>
+          × {box.times}
+        </span>
+      </If>
     </button>
   );
 }))
