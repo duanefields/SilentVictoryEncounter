@@ -4,7 +4,9 @@
   "homepage": "http://silentvictory.fastwombat.com",
   "private": true,
   "devDependencies": {
-    "custom-react-scripts": "0.0.23"
+    "custom-react-scripts": "0.0.23",
+    "xmldom": "0.1.27",
+    "xpath": "0.0.23"
   },
   "dependencies": {
     "classnames": "2.2.5",
