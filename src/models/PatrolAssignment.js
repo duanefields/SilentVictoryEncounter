@@ -1,13 +1,15 @@
 import { observable, computed, action, autorun, extendObservable } from 'mobx';
 import { TravelBox } from "../models"
+import patrolAssignments from "../data/patrolAssignments.json"
 
 export default class PatrolAssignment {
   @observable name = null;
   @observable travelBoxes = null;
 
-  constructor(store) {
-    this.store = store;
-    extendObservable(this, store);
+  constructor(name) {
+    const assignment = patrolAssignments[name];
+    this.name = name;
+    this.travelBoxes = assignment.travelBoxes.map((name) => new TravelBox(name));
   }
 
   static CreateAssignmentForDate (date) {
@@ -15,9 +17,7 @@ export default class PatrolAssignment {
   }
 
   static ChinaSea () {
-    let name = "China Sea";
-    let travelBoxes = [ new TravelBox("Transit"), new TravelBox("Transit"), new TravelBox("China Sea") ];
-    return new PatrolAssignment({ name, travelBoxes});
+    return new PatrolAssignment("China Sea");
   }
 
 }
