@@ -12,7 +12,7 @@ export default class Encounter {
   }
 
   rollEscortQuality = (year) => {
-    const roll = random.dice(6);
+    const roll = random.roll1D6();
     if (year === 1941 || year === 1942) {
       switch(roll) {
         case 1: return "Green";

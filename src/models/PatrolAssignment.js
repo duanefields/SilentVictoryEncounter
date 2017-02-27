@@ -16,8 +16,7 @@ export default class PatrolAssignment {
       dateRange = `Early ${startDate.getFullYear()}`;
     else
       dateRange = `Late ${startDate.getFullYear()}`;
-    const roll = _.sum(random.dice(6, 2)) - 2; // 2d6, adjusted for offset
-    var name = patrolAssignments[base][dateRange][roll];
+    var name = random.pick2D6(patrolAssignments[base][dateRange]);
     var mission = null;
     const matches = name.match(/^(.*)\s-\s([A-Z])$/)
     if (matches) {
@@ -26,7 +25,7 @@ export default class PatrolAssignment {
     } else {
       mission = null;
     }
-    console.log(`Picking assignment for ${dateRange}: roll ${roll+2} = ${name}, ${mission}`);
+    console.log(`Picking assignment for ${dateRange} = ${name}, ${mission}`);
     return new PatrolAssignment(name, mission);
   }
 

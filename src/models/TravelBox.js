@@ -26,7 +26,6 @@ export default class TravelBox {
   }
 
   rollEncounterType = () => {
-    const roll = _.sum(random.dice(6, 2)) - 2; // 2d6, adjusted for offset
-    return this.encounterTypes[roll];
+    return random.pick2D6(this.encounterTypes);
   }
 }
