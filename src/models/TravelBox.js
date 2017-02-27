@@ -1,6 +1,7 @@
-import { observable, computed, autorun } from 'mobx';
+import { computed } from 'mobx';
 import encounters from "../data/encounters.json";
 import random from "../lib/random";
+import _ from "lodash";
 
 export default class TravelBox {
   name = null;
@@ -25,6 +26,7 @@ export default class TravelBox {
   }
 
   rollEncounterType = () => {
-    return random.pick(this.encounterTypes);
+    const roll = _.sum(random.dice(6, 2)) - 2; // 2d6, adjusted for offset
+    return this.encounterTypes[roll];
   }
 }

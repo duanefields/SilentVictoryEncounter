@@ -11,6 +11,9 @@
       "isMissionBox": true
     },
     {
+      "name": "China Sea"
+    },
+    {
       "name": "China Sea",
       "times": 2
     },
@@ -19,6 +22,252 @@
     },
     {
       "name": "China Sea"
+    },
+    {
+      "name": "Transit"
+    },
+    {
+      "name": "Transit"
+    }
+  ],
+  "Midway": [
+    {
+      "name": "Transit"
+    },
+    {
+      "name": "Transit"
+    },
+    {
+      "name": "Midway"
+    },
+    {
+      "name": "Midway"
+    },
+    {
+      "name": "Midway",
+      "times": 2
+    },
+    {
+      "name": "Midway"
+    },
+    {
+      "name": "Midway"
+    },
+    {
+      "name": "Transit"
+    },
+    {
+      "name": "Transit"
+    }
+  ],
+  "Philippines": [
+    {
+      "name": "Transit"
+    },
+    {
+      "name": "Transit"
+    },
+    {
+      "name": "Philippines",
+      "isMissionBox": true
+    },
+    {
+      "name": "Philippines"
+    },
+    {
+      "name": "Philippines",
+      "times": 2
+    },
+    {
+      "name": "Philippines"
+    },
+    {
+      "name": "Philippines"
+    },
+    {
+      "name": "Transit"
+    },
+    {
+      "name": "Transit"
+    }
+  ],
+  "Solomons": [
+    {
+      "name": "Transit"
+    },
+    {
+      "name": "Transit"
+    },
+    {
+      "name": "Solomons"
+    },
+    {
+      "name": "Solomons"
+    },
+    {
+      "name": "Solomons",
+      "times": 2
+    },
+    {
+      "name": "Solomons"
+    },
+    {
+      "name": "Solomons"
+    },
+    {
+      "name": "Transit"
+    },
+    {
+      "name": "Transit"
+    }
+  ],
+  "Marianas": [
+    {
+      "name": "Transit"
+    },
+    {
+      "name": "Transit"
+    },
+    {
+      "name": "Marianas",
+      "isMissionBox": true
+    },
+    {
+      "name": "Marianas"
+    },
+    {
+      "name": "Marianas",
+      "times": 2
+    },
+    {
+      "name": "Marianas"
+    },
+    {
+      "name": "Marianas"
+    },
+    {
+      "name": "Transit"
+    },
+    {
+      "name": "Transit"
+    }
+  ],
+  "Empire": [
+    {
+      "name": "Transit"
+    },
+    {
+      "name": "Transit"
+    },
+    {
+      "name": "Empire",
+      "isMissionBox": true
+    },
+    {
+      "name": "Empire"
+    },
+    {
+      "name": "Empire",
+      "times": 2
+    },
+    {
+      "name": "Empire"
+    },
+    {
+      "name": "Empire"
+    },
+    {
+      "name": "Transit"
+    },
+    {
+      "name": "Transit"
+    }
+  ],
+  "Marshalls": [
+    {
+      "name": "Transit"
+    },
+    {
+      "name": "Transit"
+    },
+    {
+      "name": "Marshalls",
+      "isMissionBox": true
+    },
+    {
+      "name": "Marshalls"
+    },
+    {
+      "name": "Marshalls",
+      "times": 2
+    },
+    {
+      "name": "Marshalls"
+    },
+    {
+      "name": "Marshalls"
+    },
+    {
+      "name": "Transit"
+    },
+    {
+      "name": "Transit"
+    }
+  ],
+  "Java Sea": [
+    {
+      "name": "Transit"
+    },
+    {
+      "name": "Transit"
+    },
+    {
+      "name": "Java Sea",
+      "isMissionBox": true
+    },
+    {
+      "name": "Java Sea"
+    },
+    {
+      "name": "Java Sea",
+      "times": 2
+    },
+    {
+      "name": "Java Sea"
+    },
+    {
+      "name": "Java Sea"
+    },
+    {
+      "name": "Transit"
+    },
+    {
+      "name": "Transit"
+    }
+  ],
+  "Indochina": [
+    {
+      "name": "Transit"
+    },
+    {
+      "name": "Transit"
+    },
+    {
+      "name": "Indochina",
+      "isMissionBox": true
+    },
+    {
+      "name": "Indochina"
+    },
+    {
+      "name": "Indochina",
+      "times": 2
+    },
+    {
+      "name": "Indochina"
+    },
+    {
+      "name": "Indochina"
     },
     {
       "name": "Transit"
