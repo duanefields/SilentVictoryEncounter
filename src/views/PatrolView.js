@@ -12,7 +12,7 @@ export default class PatrolView extends Component {
   constructor(props) {
     super(props);
     // default data for testing
-    this.appStore.createPatrol({ shipName: "Tang", base: "Australia", startDate: "01-01-1942" });
+    this.appStore.createPatrol({ shipName: "Tang", base: "Australia", startMonth:4, startYear:1942 });
   }
 
   render() {
