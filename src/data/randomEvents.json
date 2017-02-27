@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Man Overboard!",
+    "text": ": Huge wave hits your bridge, and an officer is lost at sea who is on Watch duty when the mishap occurs. Roll additional 1d6: 1 = Captain (game ends), 2 = Exec, 3 = Chief Engineer, 4-6 = 3rd Officer. Place a KIA marker on the corresponding crew space on your Submarine Display Mat. If the affected crewman is already SW or KIA, ignore this event."
+  },
+  {
+    "title": "Run Aground!",
+    "text": "The boat runs aground on an uncharted reef while passing by an island. Take 3x Hull damage; if this would sink the boat, it is scuttled instead. Roll for rescue in that case."
+  },
+  {
+    "title": "Ultra Intercept",
+    "text": "An Ultra intercept identifies an important target for you. Roll a Capital Ship encounter for this travel box."
+  },
+  {
+    "title": "Superior Torpedoes",
+    "text": "Your boat has been loaded with a superior batch of torpedoes. Dud rolls are modified by a +1 for the rest of the patrol. Place the “Superior Torpedoes” marker on your Submarine Display Mat (Random Event Box)."
+  },
+  {
+    "title": "Appendicitis",
+    "text": "A crewman needs emergency surgery. Roll 1d6: 1-3 = Successful, and Pharmacist’s Mate becomes Expert (if not already), 4-5 = Patient survives, 6 = Patient dies, Remove Pharmacist’s Mate expert marker (if present)."
+  },
+  {
+    "title": "Lucky Rabbit’s Foot",
+    "text": "Not so lucky for the rabbit perhaps, this is slang for “good luck.” The player may re-roll any one die or dice roll. The rabbit’s foot luck can carry forward to the 7 next patrol, and more than one may be accumulated. The decision to re-roll must be made immediately and before any other die rolls are made, which expends the Rabbit’s Foot. Place the “Lucky Rabbit’s Foot” marker on your Submarine Display Mat (Random Event Box)."
+  },
+  {
+    "title": "Rebased",
+    "text": "You have been ordered to rebase. At the end of this patrol, place the other basing marker at the top of the Submarine Display Mat (if currently based at Australia, you have been ordered to rebase to Pearl Harbor, or vice versa)."
+  },
+  {
+    "title": "Pooped",
+    "text": "Your boat has been swept by a large wave, with tons of seawater pouring down the hatch and almost sinking the boat. SD and SJ systems are now damaged; roll to repair. Roll for 1 x crew injury."
+  },
+  {
+    "title": "POW Ship Sunk",
+    "text": "You sink the Kachidoki Maru, 10,500 tons (successful patrol). Record the tonnage, take 73 survivors aboard, and head immediately to base. Treat as “no encounter” if you are out of torpedoes or have already sunk it."
+  },
+  {
+    "title": "Crew Illness",
+    "text": "Most of the boat’s crew is sick from food poisoning or bad water. All “to hit” die rolls are made at +1 for the remainder of the patrol. This includes torpedo, deck gun and AA."
+  },
+  {
+    "title": "Trial by Courts-Martial",
+    "text": "Your boat accidentally sinks a restricted hospital ship (although warnings given by submarine command were unclear). Return immediately to base. You receive a Letter of Reprimand and the patrol counts as “failed” regardless of ship sinkings or Special Mission completion, if any. (Any patrol tonnage still counts for your career.) If out of torpedoes (or cannot fire them) treat as no encounter."
+  },
+]
