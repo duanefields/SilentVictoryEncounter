@@ -147,6 +147,13 @@
     "tonnage": 1900
   },
   {
+    "entryName": "Small Freighter 22a",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Kenan Maru",
+    "tonnage": 3100
+  },
+  {
     "entryName": "Small Freighter 23a",
     "entryType": "Freighter",
     "type": "Small Freighter",
@@ -446,6 +453,34 @@
     "type": "Small Freighter",
     "name": "Tsukikawa Maru",
     "tonnage": 4500
+  },
+  {
+    "entryName": "Small Freighter 66a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Chowa Maru",
+    "tonnage": 2700
+  },
+  {
+    "entryName": "Small Freighter 67a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Daito Maru #3",
+    "tonnage": 900
+  },
+  {
+    "entryName": "Small Freighter 68a",
+    "entryType": "Freighter",
+    "type": "Small Passenger",
+    "name": "Shinyo Maru #3",
+    "tonnage": 1900
+  },
+  {
+    "entryName": "Small Freighter 69a",
+    "entryType": "Freighter",
+    "type": "Small Freighter",
+    "name": "Akiura Maru",
+    "tonnage": 900
   },
   {
     "entryName": "Small Freighter 70a",
