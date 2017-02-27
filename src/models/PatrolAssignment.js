@@ -1,11 +1,11 @@
 import { observable } from 'mobx';
 import { TravelBox } from "../models"
-import patrolAssignments from "../data/patrolAssignments.json"
+import patrols from "../data/patrols.json"
 
 export default class PatrolAssignment {
-  // these don't change, do they need to be observable?
-  @observable name = null;
-  @observable travelBoxes = null;
+  name = null;
+  type = null;
+  travelBoxes = null;
 
   static CreateAssignment (base, date) {
     // return patrol assignment based on year, and base
@@ -13,10 +13,10 @@ export default class PatrolAssignment {
       return new PatrolAssignment("China Sea");
   }
 
-  constructor(name) {
-    const assignment = patrolAssignments[name];
+  constructor(name, type=null) {
     this.name = name;
-    this.travelBoxes = assignment.travelBoxes.map((box) => {
+    this.type = null;
+    this.travelBoxes = patrols[name].map((box) => {
       return new TravelBox(box);
     });
   }

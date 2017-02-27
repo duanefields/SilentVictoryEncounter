@@ -1,0 +1,30 @@
+{
+  "China Sea": [
+    {
+      "name": "Transit"
+    },
+    {
+      "name": "Transit"
+    },
+    {
+      "name": "China Sea",
+      "isMissionBox": true
+    },
+    {
+      "name": "China Sea",
+      "times": 2
+    },
+    {
+      "name": "China Sea"
+    },
+    {
+      "name": "China Sea"
+    },
+    {
+      "name": "Transit"
+    },
+    {
+      "name": "Transit"
+    }
+  ]
+}

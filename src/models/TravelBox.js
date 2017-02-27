@@ -3,10 +3,9 @@ import encounters from "../data/encounters.json";
 import random from "../lib/random";
 
 export default class TravelBox {
-  // these don't change, do they need to be observable? const?
-  @observable name = null;
-  @observable displayName = null;
-  @observable isMissionBox = null;
+  name = null;
+  displayName = null;
+  isMissionBox = null;
 
   constructor(box) {
     this.name = box.name;
