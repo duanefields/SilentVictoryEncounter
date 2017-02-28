@@ -9,7 +9,9 @@ export default inject("appStore")(observer(({appStore, contact}) => {
   return (
     <div>
       {contact.type} ({contact.entryType}): {contact.name}, {contact.tonnage} tons
-      ({contact.quality})
+      <If cond={contact.entryType === "Escort"}>
+        <span>({contact.quality} Crew)</span>
+      </If>
     </div>
   );
 }))

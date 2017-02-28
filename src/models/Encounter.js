@@ -5,9 +5,10 @@ import Encounters from "../data/encounters.json";
 import { Contact } from "../models"
 
 export default class Encounter {
-  @observable time = null;
-  @observable encounterType = null;
-  @observable contacts;
+  time = null;
+  encounterType = null;
+  contacts;
+  weather;
 
   static CreateEncounter (travelBox) {
     const encounterTypes = Encounters[travelBox.name];

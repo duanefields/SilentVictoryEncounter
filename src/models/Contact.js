@@ -43,14 +43,16 @@ export default class Contact {
   static RandomWarship() { return Contact.RandomShip(Warships); }
 
   // todo: late war vs early war
-  static RandomCapitalEscort() { return Contact.RandomShip(CapitalEscortsEarlyWar); }
-  static RandomMerchantEscort() { return Contact.RandomShip(MerchantEscortsEarlyWar); }
+  static RandomCapitalEscort() { return Contact.RandomShip(CapitalEscortsEarlyWar, true); }
+  static RandomMerchantEscort() { return Contact.RandomShip(MerchantEscortsEarlyWar, true); }
 
   // todo: as each one is returned, it needs to be removed from the list to avoid dupes
-  static RandomShip(array) {
+  static RandomShip(array, escort=false) {
     let contact = random.pick(array);
-    // todo: incorporate year
-    contact.quality = Contact.rollEscortQuality(1943);
+    if (escort) {
+      // todo: incorporate year
+      contact.quality = Contact.rollEscortQuality(1943);
+    }
     return new Contact(contact);
   }
 
