@@ -18,6 +18,7 @@ export default class PatrolAssignment {
       dateRange = `Late ${startDate.getFullYear()}`;
     var name = random.pick2D6(patrolAssignments[base][dateRange]);
     var mission = null;
+    // look for mission identifiers on the assignment, eg. China Sea - M
     const matches = name.match(/^(.*)\s-\s([A-Z])$/)
     if (matches) {
       name = matches[1];
