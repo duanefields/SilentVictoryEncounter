@@ -14,6 +14,15 @@ export default inject("appStore")(observer(({appStore}) => {
 
   return (
     <div className="text-center">
+      <div>
+        Todo: Time and Date
+      </div>
+      <div>
+        Weather: {encounter.weather}
+        <If cond={encounter.surprised}>
+          <div>You were suprised in the fog!</div>
+        </If>
+      </div>
       <If cond={encounter.isNaval}>
         <div>
           {contacts}

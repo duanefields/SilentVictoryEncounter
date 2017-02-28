@@ -9,6 +9,7 @@ export default class Encounter {
   encounterType = null;
   contacts;
   weather;
+  surprised;
 
   static CreateEncounter (travelBox) {
     const encounterTypes = Encounters[travelBox.name];
@@ -28,8 +29,23 @@ export default class Encounter {
     return new Encounter({encounterType, contacts});
   }
 
+  static rollWeather () {
+    const roll = random.roll1D6();
+    switch(roll) {
+      case 1:
+      case 2:
+      case 3: return "Clear";
+      case 4:
+      case 5: return "Rain/Snow"; // no long range attacks
+      case 6: return "Fog/Mist";  // only short range attacks, possible surprise
+    }
+  }
+
   constructor(store={}) {
     extendObservable(this, store);
+    this.weather = Encounter.rollWeather();
+    // if in fog/mist, 50% of being surprised, and the escorts attack first
+    this.surprised = this.weather === "Fog/Mist" && random.bool();
     console.log("Created encounter", this.description);
 
     // ships
