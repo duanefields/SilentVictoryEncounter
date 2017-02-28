@@ -1,55 +1,46 @@
-import { observable, computed, autorun } from 'mobx';
+import { observable, computed, extendObservable } from 'mobx';
 import { inject, observer } from 'mobx-react';
 import random from "../lib/random";
+import Encounters from "../data/encounters.json";
+import { Contact } from "../models"
 
-@inject("appStore") @observer
 export default class Encounter {
-  static CreateEncounter () {
-  }
+  @observable time = null;
+  @observable encounterType = null;
+  @observable contacts;
 
-  constructor(store) {
-    this.store = store;
-  }
+  static CreateEncounter (travelBox) {
+    const encounterTypes = Encounters[travelBox.name];
+    var encounterType = random.pick2D6(encounterTypes);
 
-  rollEscortQuality = (year) => {
-    const roll = random.roll1D6();
-    if (year === 1941 || year === 1942) {
-      switch(roll) {
-        case 1: return "Green";
-        case 2:
-        case 3:
-        case 4:
-        case 5: return "Trained";
-        case 6: return "Veteran";
-        default: return "Trained";
+    // if SJ rolled, roll again (once)
+    if (encounterType === "SJ") {
+      // todo: note this re-roll in the log, as "detected on radar"
+      encounterType = random.pick2D6(encounterTypes);
+      if (encounterType === "SJ") {
+        encounterType = "-";
       }
-    } else if (year === 1943 || year === 1944) {
-      switch(roll) {
-        case 1: return "Green";
-        case 2:
-        case 3:
-        case 4:
-          return "Trained";
-        case 5: return "Veteran";
-        case 6: return "Elite";
-        default: return "Trained";
-      }
-    } else if (year === 1945) {
-      switch(roll) {
-        case 1:
-        case 2:
-          return "Green";
-        case 3:
-        case 4:
-          return "Trained";
-        case 5: return "Veteran";
-        case 6: return "Elite";
-        default: return "Trained";
-      }
-    } else {
-      console.log("rollEscortQuality: Unexpected year", year);
-      return "Trained"
     }
+
+    const contacts = Contact.CreateContacts(encounterType);
+    return new Encounter({encounterType, contacts});
   }
+
+  constructor(store={}) {
+    extendObservable(this, store);
+    console.log("Created encounter", this.description);
+
+    // ships
+    // time of day
+    // weather
+    // ships
+    // escort quality
+    // roll again for SJ (if not disabled)
+  }
+
+  @computed get description () {
+    return `Encounter: ${this.encounterType} (${JSON.stringify(this.contacts)})`;
+  }
+
 
 }
