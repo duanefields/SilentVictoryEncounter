@@ -5,7 +5,7 @@ import assert from 'assert';
 const random = new Random();
 
 // roll a single 6-sided dice
-random.roll1D6 = () => random.dice(6);
+random.roll1D6 = () => random.die(6);
 
 // roll 2 6-sided dice an add them together
 random.roll2D6 = () => _.sum(random.dice(6, 2));

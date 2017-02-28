@@ -44,9 +44,9 @@ export default class Encounter {
   }
 
   @computed get isNaval () {
-    return this.encounterType != "Aircraft" &&
-           this.encounterType != "Minefield" &&
-           this.encounterType != "-";
+    return this.encounterType !== "Aircraft" &&
+           this.encounterType !== "Minefield" &&
+           this.encounterType !== "-";
   }
 
 

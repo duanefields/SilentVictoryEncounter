@@ -15,6 +15,6 @@ export default class TravelBox {
   }
 
   @computed get isShallow() {
-    this.name === "China Sea";
+    return this.name === "China Sea";
   }
 }

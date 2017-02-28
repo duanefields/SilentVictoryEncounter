@@ -16,6 +16,7 @@ export default class Contact {
   @observable tonnage = null;
   @observable entryType = null;
   @observable type = null;
+  @observable quality = null;
 
   static CreateContacts (encounterType) {
     switch(encounterType) {
@@ -24,7 +25,7 @@ export default class Contact {
       case "Ship":
         return [Contact.RandomFreighter()];
       case "Warship":
-        return ["Warship"];
+        return [Contact.RandomWarship()];
       case "Capital Ship":
         return [Contact.RandomCapitalShip(), Contact.RandomCapitalEscort()];
       case "Ship+Escort":
@@ -37,22 +38,28 @@ export default class Contact {
     }
   }
 
-  // todo: as each one is returned, it needs to be removed from the list to avoid dupes
-  // todo: assign escort quality
-  static RandomFreighter() { return new Contact(random.pick(Freighters)); }
-  static RandomCapitalShip() { return new Contact(random.pick(CapitalShips)); }
-  static RandomWarship() { return new Contact(random.pick(Warships)); }
+  static RandomFreighter() { return Contact.RandomShip(Freighters); }
+  static RandomCapitalShip() { return Contact.RandomShip(CapitalShips); }
+  static RandomWarship() { return Contact.RandomShip(Warships); }
 
   // todo: late war vs early war
-  static RandomCapitalEscort() { return new Contact(random.pick(CapitalEscortsEarlyWar)); }
-  static RandomMerchantEscort() { return new Contact(random.pick(MerchantEscortsEarlyWar)); }
+  static RandomCapitalEscort() { return Contact.RandomShip(CapitalEscortsEarlyWar); }
+  static RandomMerchantEscort() { return Contact.RandomShip(MerchantEscortsEarlyWar); }
+
+  // todo: as each one is returned, it needs to be removed from the list to avoid dupes
+  static RandomShip(array) {
+    let contact = random.pick(array);
+    // todo: incorporate year
+    contact.quality = Contact.rollEscortQuality(1943);
+    return new Contact(contact);
+  }
 
   constructor(store={}) {
     extendObservable(this, store);
   }
 
   @computed get description () {
-    `${this.type}: ${this.name} - ${this.tonnage} tons`;
+    return `${this.type}: ${this.name} - ${this.tonnage} tons`;
   }
 
   static rollEscortQuality (year) {
