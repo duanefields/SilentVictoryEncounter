@@ -24,7 +24,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "configure": "aws s3 mb s3://silentvictory.fastwombat.com && aws s3 website s3://silentvictory.fastwombat.com/ --index-document index.html --error-document error.html",
+    "configure": "aws s3api create-bucket --bucket silentvictory.fastwombat.com && aws s3 website s3://silentvictory.fastwombat.com --index-document index.html --error-document error.html && aws s3api put-bucket-policy --bucket silentvictory.fastwombat.com --policy file://etc/bucketPolicy.json",
     "predeploy-client": "npm run build",
     "deploy": "npm run deploy-client",
     "deploy-client": "aws s3 sync build/ s3://silentvictory.fastwombat.com"
