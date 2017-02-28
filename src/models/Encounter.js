@@ -17,6 +17,7 @@ export default class Encounter {
     if (encounterType === "SJ") {
       // todo: note this re-roll in the log, as "detected on radar"
       encounterType = random.pick2D6(encounterTypes);
+      // if it happens again, treat as no encounter
       if (encounterType === "SJ") {
         encounterType = "-";
       }
@@ -40,6 +41,12 @@ export default class Encounter {
 
   @computed get description () {
     return `Encounter: ${this.encounterType} (${JSON.stringify(this.contacts)})`;
+  }
+
+  @computed get isNaval () {
+    return this.encounterType != "Aircraft" &&
+           this.encounterType != "Minefield" &&
+           this.encounterType != "-";
   }
 
 

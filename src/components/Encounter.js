@@ -14,14 +14,19 @@ export default inject("appStore")(observer(({appStore}) => {
 
   return (
     <div className="text-center">
-      <span>{encounter.encounterType}</span>
-      <If cond={encounter.contacts.length > 0}>
+      <If cond={encounter.isNaval}>
         <div>
           {contacts}
         </div>
       </If>
-      <If cond={encounter.contacts.length === 0}>
+      <If cond={encounter.encounterType === "-"}>
         <span>No Contacts</span>
+      </If>
+      <If cond={encounter.encounterType === "Aircraft"}>
+        <span>Aircraft</span>
+      </If>
+      <If cond={encounter.encounterType === "Minefield"}>
+        <span>Minefield</span>
       </If>
     </div>
   );

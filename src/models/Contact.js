@@ -23,8 +23,6 @@ export default class Contact {
         return [];
       case "Ship":
         return [Contact.RandomFreighter()];
-      case "Aircraft":
-        return ["Aircraft"];
       case "Warship":
         return ["Warship"];
       case "Capital Ship":
@@ -35,14 +33,12 @@ export default class Contact {
         return [Contact.RandomFreighter(), Contact.RandomFreighter(), Contact.RandomMerchantEscort()];
       case "Convoy":
         return [Contact.RandomFreighter(), Contact.RandomFreighter(), Contact.RandomFreighter(), Contact.RandomMerchantEscort()];
-      case "Minefield":
-        return ["Minefield"];
-      default: throw `Unexpected encounter type ${encounterType}`;
+      default: return [];
     }
-    return ["Contact1", "Contact2"];
   }
 
   // todo: as each one is returned, it needs to be removed from the list to avoid dupes
+  // todo: assign escort quality
   static RandomFreighter() { return new Contact(random.pick(Freighters)); }
   static RandomCapitalShip() { return new Contact(random.pick(CapitalShips)); }
   static RandomWarship() { return new Contact(random.pick(Warships)); }
