@@ -3,13 +3,15 @@ import { inject, observer } from 'mobx-react';
 import random from "../lib/random";
 import Encounters from "../data/encounters.json";
 import { Contact } from "../models"
+import moment from "moment";
 
 export default class Encounter {
-  time = null;
+  date = null;
+  encounterMoment = null;
   encounterType = null;
-  contacts;
-  weather;
-  surprised;
+  contacts = null;
+  weather = null;
+  surprised = null;
 
   static CreateEncounter (travelBox) {
     const encounterTypes = Encounters[travelBox.name];
@@ -43,21 +45,29 @@ export default class Encounter {
 
   constructor(store={}) {
     extendObservable(this, store);
+
     this.weather = Encounter.rollWeather();
     // if in fog/mist, 50% of being surprised, and the escorts attack first
     this.surprised = this.weather === "Fog/Mist" && random.bool();
+
+    // todo inherit date from patrol, which adds 3-4 days every transit box
+    // or maybe move this to patrol and pass it in
+    this.encounterMoment = moment().hours(random.integer(0, 23)).minutes(random.integer(0, 59));
+
     console.log("Created encounter", this.description);
 
-    // ships
-    // time of day
-    // weather
-    // ships
-    // escort quality
-    // roll again for SJ (if not disabled)
-  }
+    }
 
   @computed get description () {
     return `Encounter: ${this.encounterType} (${JSON.stringify(this.contacts)})`;
+  }
+
+  @computed get isNight () {
+    return this.encounterMoment.hour() >= 18 || this.encounterMoment.hour() <= 6;
+  }
+
+  @computed get time () {
+    return this.encounterMoment.format("HH:mm");
   }
 
   @computed get isNaval () {

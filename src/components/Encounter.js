@@ -15,7 +15,13 @@ export default inject("appStore")(observer(({appStore}) => {
   return (
     <div className="text-center">
       <div>
-        Todo: Time and Date
+        {encounter.time}
+        <If cond={encounter.isNight}>
+          <span>(Night)</span>
+        </If>
+        <If cond={!encounter.isNight}>
+          <span>(Day)</span>
+        </If>
       </div>
       <div>
         Weather: {encounter.weather}
