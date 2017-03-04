@@ -74,6 +74,7 @@ export default class Contact {
         case 4:
         case 5: return "Trained";
         case 6: return "Veteran";
+        default: return "Trained";
       }
     } else if (year === 1943 || year === 1944) {
       switch(roll) {
@@ -84,6 +85,7 @@ export default class Contact {
           return "Trained";
         case 5: return "Veteran";
         case 6: return "Elite";
+        default: return "Trained";
       }
     } else if (year === 1945) {
       switch(roll) {
@@ -95,6 +97,7 @@ export default class Contact {
           return "Trained";
         case 5: return "Veteran";
         case 6: return "Elite";
+        default: return "Trained";
       }
     } else {
       console.log("rollEscortQuality: Unexpected year", year);
