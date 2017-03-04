@@ -30,7 +30,7 @@ export default inject("appStore")(observer(({appStore}) => {
         </If>
       </div>
       <If cond={encounter.isNaval}>
-        <div>
+        <div className="row justify-content-center">
           {contacts}
         </div>
       </If>
