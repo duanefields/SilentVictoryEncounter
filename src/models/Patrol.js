@@ -14,10 +14,14 @@ export default class Patrol {
   @observable currentTravelBox = null;
   @observable currentEncounter = null;
 
+  static GetPatrolDefaults () {
+    return observable({ shipName: "Tang", base: "Australia", startMonth:"11", startYear:"1941" });
+  }
+
   constructor(store={}) {
     this.store = store;
     extendObservable(this, store);
-    this.startDate = new Date(this.startYear, this.startMonth-1, 1);
+    this.startDate = new Date(this.startYear, this.startMonth, 1);
 
     // calculate end date
     if (this.startMonth === 11) {
@@ -25,7 +29,10 @@ export default class Patrol {
     } else {
       this.endDate = new Date(this.startYear, this.startMonth, 1)
     }
+  }
 
+  @action
+  beginPatrol = () => {
     // determine assignment
     this.assignment = PatrolAssignment.CreateAssignment(this.base, this.startDate);
     this.moveToNextTravelBox();

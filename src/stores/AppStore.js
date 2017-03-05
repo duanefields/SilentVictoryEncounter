@@ -2,7 +2,8 @@ import { observable, action } from 'mobx';
 import { Patrol } from '../models'
 
 export default class AppStore {
-  @observable patrol = null;
+  // load these from local storage or set sane defaults
+  @observable patrol;
 
   @action
   createPatrol(props) {

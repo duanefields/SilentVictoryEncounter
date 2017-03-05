@@ -105,6 +105,7 @@
       "China Sea"
     ]
   },
+
   "Pearl Harbor": {
     "Late 1941": [
       "Empire",
@@ -160,18 +161,20 @@
     ],
     "Late 1943": [
       "Marshalls - R",
+      "Marshalls - W",
       "Marshalls - R",
       "Empire",
-      "Mershells",
+      "Marshalls",
       "China Sea",
       "Empire",
       "Marianas",
-      "Mershells -L",
-      "Philippines -T",
+      "Marshalls - L",
+      "Philippines - T",
       "Empire - W"
     ],
     "Early 1944": [
       "Philippines - W",
+      "Empire",
       "Marianas - L",
       "Marshalls",
       "Marshalls",
@@ -184,6 +187,7 @@
     ],
     "Late 1944": [
       "China Sea - M",
+      "Empire",
       "Philippines - L",
       "Empire",
       "Philippines",
@@ -195,7 +199,7 @@
       "China Sea - M"
     ],
     "Early 1945": [
-      "China Sea",
+      "Empire",
       "Empire - W",
       "Empire",
       "Empire - L",
