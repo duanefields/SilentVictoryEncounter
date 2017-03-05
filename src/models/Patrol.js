@@ -12,6 +12,7 @@ export default class Patrol {
   @observable base = null;
   @observable encounters = [];
   @observable currentTravelBox = null;
+  @observable currentEncounter = null;
 
   constructor(store={}) {
     this.store = store;
@@ -27,23 +28,50 @@ export default class Patrol {
 
     // determine assignment
     this.assignment = PatrolAssignment.CreateAssignment(this.base, this.startDate);
+    this.moveToNextTravelBox();
   }
 
   @action
   newEncounter = () => {
     const encounter = Encounter.CreateEncounter(this.currentTravelBox);
-    this.encounters.push(encounter);
-  }
-
-  @computed
-  get currentEncounter() {
-    return _.last(this.encounters);
+    this.currentEncounter = encounter;
   }
 
   @action
   moveToTravelBox = (travelBox) => {
+    if (this.currentEncounter != null) {
+      this.encounters.push(this.currentEncounter);
+    }
+    this.currentEncounter = null;
     this.currentTravelBox = travelBox;
-    this.newEncounter();
+  }
+
+  @action
+  moveToNextTravelBox = () => {
+    if (this.currentTravelBox == null) {
+      return this.moveToTravelBox(_.first(this.assignment.travelBoxes));
+    }
+    let index = this.assignment.travelBoxes.indexOf(this.currentTravelBox);
+    index++;
+    if (index >= this.assignment.travelBoxes.length) {
+      // do nothing, at the end
+      return;
+    }
+    this.moveToTravelBox(this.assignment.travelBoxes[index]);
+  }
+
+  @action
+  moveToPreviousTravelBox = () => {
+    if (this.currentTravelBox == null) {
+      return this.moveToTravelBox(_.first(this.assignment.travelBoxes));
+    }
+    let index = this.assignment.travelBoxes.indexOf(this.currentTravelBox);
+    index--;
+    if (index < 0) {
+      // do nothing, at the beginning
+      return;
+    }
+    this.moveToTravelBox(this.assignment.travelBoxes[index]);
   }
 
 }
