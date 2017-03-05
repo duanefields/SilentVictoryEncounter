@@ -19,7 +19,7 @@ export default class Patrol extends Component {
         <PatrolHeader/>
         <PatrolTrack/>
 
-        <div className="btn-group">
+        <div className="btn-group p-3">
           <button className="btn btn-secondary" onClick={patrol.moveToPreviousTravelBox} style={buttonStyle}>
             Previous
           </button>
