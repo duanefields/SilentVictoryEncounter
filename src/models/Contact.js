@@ -18,7 +18,7 @@ export default class Contact {
   @observable type = null;
   @observable quality = null;
 
-  static CreateContacts (encounterType) {
+  static CreateContacts (encounterType, startDate) {
     switch(encounterType) {
       case "-":
         return [];
@@ -27,13 +27,13 @@ export default class Contact {
       case "Warship":
         return [Contact.RandomWarship()];
       case "Capital Ship":
-        return [Contact.RandomCapitalShip(), Contact.RandomCapitalEscort()];
+        return [Contact.RandomCapitalShip(), Contact.RandomCapitalEscort(startDate)];
       case "Ship+Escort":
-        return [Contact.RandomFreighter(), Contact.RandomMerchantEscort()];
+        return [Contact.RandomFreighter(), Contact.RandomMerchantEscort(startDate)];
       case "Two Ships+Escort":
-        return [Contact.RandomFreighter(), Contact.RandomFreighter(), Contact.RandomMerchantEscort()];
+        return [Contact.RandomFreighter(), Contact.RandomFreighter(), Contact.RandomMerchantEscort(startDate)];
       case "Convoy":
-        return [Contact.RandomFreighter(), Contact.RandomFreighter(), Contact.RandomFreighter(), Contact.RandomMerchantEscort()];
+        return [Contact.RandomFreighter(), Contact.RandomFreighter(), Contact.RandomFreighter(), Contact.RandomMerchantEscort(startDate)];
       default: return [];
     }
   }
@@ -43,15 +43,15 @@ export default class Contact {
   static RandomWarship() { return Contact.RandomShip(Warships); }
 
   // todo: late war vs early war
-  static RandomCapitalEscort() { return Contact.RandomShip(CapitalEscortsEarlyWar, true); }
-  static RandomMerchantEscort() { return Contact.RandomShip(MerchantEscortsEarlyWar, true); }
+  static RandomCapitalEscort(startDate) { return Contact.RandomShip(CapitalEscortsEarlyWar, true, startDate); }
+  static RandomMerchantEscort(startDate) { return Contact.RandomShip(MerchantEscortsEarlyWar, true, startDate); }
 
   // todo: as each one is returned, it needs to be removed from the list to avoid dupes
-  static RandomShip(array, escort=false) {
+  static RandomShip(array, escort=false, startDate=null) {
     let contact = random.pick(array);
     if (escort) {
       // todo: incorporate year
-      contact.quality = Contact.rollEscortQuality(1943);
+      contact.quality = Contact.rollEscortQuality(startDate.getFullYear());
     }
     return new Contact(contact);
   }
@@ -65,6 +65,7 @@ export default class Contact {
   }
 
   static rollEscortQuality (year) {
+    console.log(`Determining escort for ${year}`);
     const roll = random.roll1D6();
     if (year === 1941 || year === 1942) {
       switch(roll) {

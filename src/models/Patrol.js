@@ -40,7 +40,7 @@ export default class Patrol {
 
   @action
   newEncounter = () => {
-    const encounter = Encounter.CreateEncounter(this.currentTravelBox);
+    const encounter = Encounter.CreateEncounter(this.currentTravelBox, this.startDate);
     this.currentEncounter = encounter;
   }
 

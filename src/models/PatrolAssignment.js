@@ -53,7 +53,11 @@ export default class PatrolAssignment {
       case 'L': return "Lifeguard";
       case 'R': return "Recon";
       case 'W': return "Wolfpack";
-      default: return this.mission;
+      default:
+        if (this.mission != null) {
+          console.log("Unexpected mission type", this.mission);
+        }
+        return this.mission;
     }
   }
 }

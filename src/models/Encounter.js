@@ -13,7 +13,7 @@ export default class Encounter {
   weather = null;
   surprised = null;
 
-  static CreateEncounter (travelBox) {
+  static CreateEncounter (travelBox, startDate) {
     const encounterTypes = Encounters[travelBox.name];
     var encounterType = random.pick2D6(encounterTypes);
 
@@ -27,7 +27,7 @@ export default class Encounter {
       }
     }
 
-    const contacts = Contact.CreateContacts(encounterType);
+    const contacts = Contact.CreateContacts(encounterType, startDate);
     return new Encounter({encounterType, contacts});
   }
 
@@ -48,7 +48,7 @@ export default class Encounter {
 
     this.weather = Encounter.rollWeather();
     // if in fog/mist, 50% of being surprised, and the escorts attack first
-    this.surprised = this.weather === "Fog/Mist" && random.bool();
+    this.surprised = this.encounterType !== '-' && this.weather === "Fog/Mist" && random.bool();
 
     // todo inherit date from patrol, which adds 3-4 days every transit box
     // or maybe move this to patrol and pass it in
