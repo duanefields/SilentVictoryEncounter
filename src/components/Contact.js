@@ -10,9 +10,11 @@ export default inject("appStore")(observer(({appStore, contact}) => {
   return (
     <div className="card col-md-2" style={style}>
       <div className="card-block">
-        {contact.type} ({contact.entryType}): {contact.name}, {contact.tonnage} tons
+        <div>{contact.type} ({contact.entryType})</div>
+        <div>{contact.name}</div>
+        <div>{contact.tonnage} tons</div>
         <If cond={contact.entryType === "Escort"}>
-          <span>({contact.quality} Crew)</span>
+          <div>({contact.quality} Crew)</div>
         </If>
       </div>
     </div>
