@@ -4,6 +4,7 @@ import random from "../lib/random";
 import CapitalShips from "../data/capitalships.json";
 import Warships from "../data/warships.json";
 import Freighters from "../data/freighters.json";
+import Aircraft from "../data/aircraft.json";
 
 import CapitalEscortsEarlyWar from "../data/capitalEscorts-earlyWar.json";
 import CapitalEscortsLateWar from "../data/capitalEscorts-lateWar.json";
@@ -33,26 +34,33 @@ export default class Contact {
       case "Two Ships+Escort":
         return [Contact.RandomFreighter(), Contact.RandomFreighter(), Contact.RandomMerchantEscort(startDate)];
       case "Convoy":
-        return [Contact.RandomFreighter(), Contact.RandomFreighter(), Contact.RandomFreighter(), Contact.RandomMerchantEscort(startDate)];
+        return [Contact.RandomFreighter(), Contact.RandomFreighter(), Contact.RandomFreighter(), Contact.RandomMerchantEscort()];
+      case "Aircraft":
+        return [Contact.RandomAircraft(startDate)];
       default: return [];
     }
   }
+
+  static RandomAircraft(startDate) {
+    let contact = random.pick(Aircraft);
+    contact.entryType = "Aircraft";
+    contact.quality = Contact.rollEscortQuality(startDate.getFullYear());
+    return new Contact(contact);
+  };
 
   static RandomFreighter() { return Contact.RandomShip(Freighters); }
   static RandomCapitalShip() { return Contact.RandomShip(CapitalShips); }
   static RandomWarship() { return Contact.RandomShip(Warships); }
 
   // todo: late war vs early war
-  static RandomCapitalEscort(startDate) { return Contact.RandomShip(CapitalEscortsEarlyWar, true, startDate); }
-  static RandomMerchantEscort(startDate) { return Contact.RandomShip(MerchantEscortsEarlyWar, true, startDate); }
+  static RandomCapitalEscort(startDate) { return Contact.RandomShip(CapitalEscortsEarlyWar, startDate, true); }
+  static RandomMerchantEscort(startDate) { return Contact.RandomShip(MerchantEscortsEarlyWar, startDate, true); }
 
   // todo: as each one is returned, it needs to be removed from the list to avoid dupes
-  static RandomShip(array, escort=false, startDate=null) {
+  static RandomShip(array, startDate=null, escort=false) {
     let contact = random.pick(array);
-    if (escort) {
-      // todo: incorporate year
+    if (escort)
       contact.quality = Contact.rollEscortQuality(startDate.getFullYear());
-    }
     return new Contact(contact);
   }
 

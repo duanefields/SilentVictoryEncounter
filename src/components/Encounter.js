@@ -1,25 +1,25 @@
 import React from 'react';
 import { inject, observer } from 'mobx-react';
 import { If } from '../lib'
-import { Contact, Modifiers } from '../components'
+import { Aircraft, NavalContact, Modifiers } from '../components'
 
 export default inject("appStore")(observer(({appStore}) => {
   const patrol = appStore.patrol;
   const encounter = patrol != null ? patrol.currentEncounter : null;
 
   let escortContacts = encounter.contacts.map((contact) => {
-      if (contact.entryType !== 'Escort')
-        return null;
+      if (contact.entryType === 'Escort')
+        return <NavalContact contact={contact} key={contact.entryName} />
       else
-        return <Contact contact={contact} key={contact.entryName} />
+        return null;
     }
   );
 
   let otherContacts = encounter.contacts.map((contact) => {
-      if (contact.entryType === 'Escort')
+      if (contact.entryType === 'Escort' || contact.entryType === 'Aircraft')
         return null;
       else
-        return <Contact contact={contact} key={contact.entryName} />
+        return <NavalContact contact={contact} key={contact.entryName} />
     }
   );
 
@@ -61,7 +61,9 @@ export default inject("appStore")(observer(({appStore}) => {
           </If>
 
           <If cond={encounter.encounterType === "Aircraft"}>
-            <span>Aircraft</span>
+            <div className="row justify-content-center">
+              <Aircraft contact={encounter.contacts[0]}/>
+            </div>
           </If>
 
           <If cond={encounter.encounterType === "Minefield"}>

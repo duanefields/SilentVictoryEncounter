@@ -1,0 +1,22 @@
+[
+  {
+    "type": "Fighter",
+    "name": "Mitsubishi A5M",
+    "codeName": "Claude"
+  },
+  {
+    "type": "Fighter",
+    "name": "Mitsubishi A6",
+    "codeName": "Zeke"
+  },
+  {
+    "type": "Fighter",
+    "name": "Kawanishi N1K-J",
+    "codeName": "George"
+  },
+  {
+    "type": "Fighter",
+    "name": "Mitsubishi J2M",
+    "codeName": "Jack"
+  }
+]
