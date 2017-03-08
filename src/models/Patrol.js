@@ -1,6 +1,7 @@
 import { observable, computed, action, extendObservable } from 'mobx';
 import { PatrolAssignment, Encounter } from "../models";
-import _ from 'lodash'
+import _ from 'lodash';
+import moment from 'moment';
 
 export default class Patrol {
   @observable startMonth = null;
@@ -22,13 +23,7 @@ export default class Patrol {
     this.store = store;
     extendObservable(this, store);
     this.startDate = new Date(this.startYear, this.startMonth, 1);
-
-    // calculate end date
-    if (this.startMonth === 11) {
-      this.endDate = new Date(this.startYear+1, 0, 1)
-    } else {
-      this.endDate = new Date(this.startYear, this.startMonth, 1)
-    }
+    this.endDate = moment(this.startDate).add(1, 'month').toDate();
   }
 
   @action
