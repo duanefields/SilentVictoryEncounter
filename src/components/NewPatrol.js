@@ -25,30 +25,37 @@ export default class NewPatrol extends Component {
         <h2>New Patrol</h2>
 
         <form onSubmit={this.onSubmit}>
-          <InputField name="shipName" value={patrol.shipName} onChange={this.updateProperty}/>
+          <InputField name="shipName" label="Ship Name" value={patrol.shipName} onChange={this.updateProperty}/>
 
-          <SelectBox name="base" value={patrol.base} onChange={this.updateProperty}>
+          <SelectBox name="base" label="Home Port" value={patrol.base} onChange={this.updateProperty}>
             <option value="Pearl Harbor">Pearl Harbor</option>
             <option value="Australia">Australia</option>
             <option value="Philippines">Philippines</option>
           </SelectBox>
 
-          <SelectBox name="startMonth" value={patrol.startMonth} onChange={this.updateProperty}>
-            <option value="0">January</option>
-            <option value="1">February</option>
-            <option value="2">March</option>
-            <option value="3">April</option>
-            <option value="4">May</option>
-            <option value="5">June</option>
-            <option value="6">July</option>
-            <option value="7">August</option>
-            <option value="8">September</option>
-            <option value="9">October</option>
-            <option value="10">November</option>
-            <option value="11">December</option>
-          </SelectBox>
+          { patrol.startYear != 1941 &&
+            <SelectBox name="startMonth" label="Month" value={patrol.startMonth} onChange={this.updateProperty}>
+              <option value="0">January</option>
+              <option value="1">February</option>
+              <option value="2">March</option>
+              <option value="3">April</option>
+              <option value="4">May</option>
+              <option value="5">June</option>
+              <option value="6">July</option>
+              <option value="7">August</option>
+              <option value="8">September</option>
+              <option value="9">October</option>
+              <option value="10">November</option>
+              <option value="11">December</option>
+            </SelectBox>
+          }
+          { patrol.startYear == 1941 &&
+            <SelectBox name="startMonth" label="Month" value={patrol.startMonth} onChange={this.updateProperty}>
+              <option value="11">December</option>
+            </SelectBox>
+          }
 
-          <SelectBox name="startYear" value={patrol.startYear} onChange={this.updateProperty}>
+          <SelectBox name="startYear" label="Year" value={patrol.startYear} onChange={this.updateProperty}>
             <option>1941</option>
             <option>1942</option>
             <option>1943</option>
