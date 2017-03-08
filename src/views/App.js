@@ -15,11 +15,13 @@ export default class App extends Component {
           <Link className="navbar-brand" to="/">Silent Victory</Link>
 
           <div id="navbarSupportedContent" className="collapse navbar-collapse">
-            <ul className="navbar-nav">
+            <ul className="navbar-nav mr-auto">
               <li className="nav-item">
                 <NavLink to="/patrol"> Encounter Aid</NavLink>
               </li>
-              <li className="nav-item">
+            </ul>
+            <ul className="navbar-nav">
+              <li className="nav-item text">
                 <NavLink to="/about">About</NavLink>
               </li>
             </ul>
