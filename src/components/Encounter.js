@@ -26,6 +26,10 @@ export default inject("appStore")(observer(({appStore}) => {
   return (
     <div className="text-center">
       <div>
+        { encounter.encounterType }
+      </div>
+
+      <div>
         {encounter.time}
         <If cond={encounter.isNight}>
           <span>(Night)</span>
