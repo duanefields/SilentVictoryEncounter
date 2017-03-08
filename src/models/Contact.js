@@ -11,6 +11,10 @@ import CapitalEscortsLateWar from "../data/capitalEscorts-lateWar.json";
 import MerchantEscortsEarlyWar from "../data/merchantEscorts-earlyWar.json";
 import MerchantEscortsLateWar from "../data/merchantEscorts-lateWar.json";
 
+import merchantImage from '../images/merchant.png';
+import escortImage from '../images/escort.png';
+import warshipImage from '../images/warship.png'
+
 export default class Contact {
   @observable entryName = null;
   @observable name = null;
@@ -34,7 +38,7 @@ export default class Contact {
       case "Two Ships+Escort":
         return [Contact.RandomFreighter(), Contact.RandomFreighter(), Contact.RandomMerchantEscort(startDate)];
       case "Convoy":
-        return [Contact.RandomFreighter(), Contact.RandomFreighter(), Contact.RandomFreighter(), Contact.RandomMerchantEscort()];
+        return [Contact.RandomFreighter(), Contact.RandomFreighter(), Contact.RandomFreighter(), Contact.RandomMerchantEscort(startDate)];
       case "Aircraft":
         return [Contact.RandomAircraft(startDate)];
       default: return [];
@@ -76,6 +80,15 @@ export default class Contact {
 
   @computed get description () {
     return `${this.type}: ${this.name} - ${this.tonnage} tons`;
+  }
+
+  @computed get image () {
+    switch(this.entryType) {
+      case "Freighter": return merchantImage;
+      case "Escort": return escortImage;
+      case "Warship": return warshipImage;
+      default: return null;
+    }
   }
 
   @computed get damageRequired() {
