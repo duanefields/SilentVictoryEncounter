@@ -15,7 +15,7 @@ export default inject("appStore")(observer(({appStore, contact}) => {
           <img src={contact.image} className="img-fluid"/>
         </If>
         <div>{contact.name}</div>
-        <div>{contact.tonnage} tons</div>
+        <div>{contact.tonnage.toLocaleString()} tons</div>
         <div>{contact.damageRequired} damage</div>
         <If cond={contact.entryType === "Escort"}>
           <div>({contact.quality} Crew)</div>
