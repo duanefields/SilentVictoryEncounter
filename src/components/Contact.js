@@ -13,6 +13,7 @@ export default inject("appStore")(observer(({appStore, contact}) => {
         <div>{contact.type} ({contact.entryType})</div>
         <div>{contact.name}</div>
         <div>{contact.tonnage} tons</div>
+        <div>{contact.damageRequired} damage</div>
         <If cond={contact.entryType === "Escort"}>
           <div>({contact.quality} Crew)</div>
         </If>

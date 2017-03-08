@@ -64,6 +64,18 @@ export default class Contact {
     return `${this.type}: ${this.name} - ${this.tonnage} tons`;
   }
 
+  @computed get damageRequired() {
+    if (this.entryType === 'Capital Ship')
+      return 5;
+    if (this.tonnage <= 1000)
+      return 1;
+    if (this.tonnage <= 5000)
+      return 2;
+    if (this.tonnage <= 9999)
+      return 3;
+    return 4;
+  }
+
   static rollEscortQuality (year) {
     console.log(`Determining escort for ${year}`);
     const roll = random.roll1D6();
