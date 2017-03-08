@@ -18,9 +18,14 @@ export default class PatrolAssignment {
     else
       dateRange = `Late ${startDate.getFullYear()}`;
 
-    var name = random.pick2D6(PatrolAssignments[base][dateRange]);
-    var mission = null;
+    var key = base === 'Philippines' ? 'Australia' : base;
+    var name = random.pick2D6(PatrolAssignments[key][dateRange]);
+    // if starting in the Philipines in 1941 it's an automatic "Philippines - E"
+    if (base === 'Philippines' && startDate.getFullYear() === 1941) {
+      name = "Philippines - E";
+    }
 
+    var mission = null;
     // look for mission identifiers on the assignment, eg. China Sea - M
     const matches = name.match(/^(.*)\s-\s([A-Z])$/)
     if (matches) {
@@ -53,6 +58,7 @@ export default class PatrolAssignment {
       case 'L': return "Lifeguard";
       case 'R': return "Recon";
       case 'W': return "Wolfpack";
+      case 'E': return "Evacation";
       default:
         if (this.mission != null) {
           console.log("Unexpected mission type", this.mission);

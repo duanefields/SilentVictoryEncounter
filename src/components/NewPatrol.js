@@ -30,6 +30,7 @@ export default class NewPatrol extends Component {
           <SelectBox name="base" value={patrol.base} onChange={this.updateProperty}>
             <option value="Pearl Harbor">Pearl Harbor</option>
             <option value="Australia">Australia</option>
+            <option value="Philippines">Philippines</option>
           </SelectBox>
 
           <SelectBox name="startMonth" value={patrol.startMonth} onChange={this.updateProperty}>
