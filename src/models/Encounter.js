@@ -36,10 +36,10 @@ export default class Encounter {
     switch(roll) {
       case 1:
       case 2:
-      case 3: return "Clear";
+      case 3: return { description:"Clear", modifier:null };
       case 4:
-      case 5: return "Rain/Snow"; // no long range attacks
-      case 6: return "Fog/Mist";  // only short range attacks, possible surprise
+      case 5: return { description:"Rain/Snow", modifier:"No long range attacks" };
+      case 6: return { description:"Fog/Mist",  modifier: "Only short range attacks" }; // possible surprise
     }
   }
 

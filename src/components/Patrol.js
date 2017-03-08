@@ -31,6 +31,7 @@ export default class Patrol extends Component {
         <If cond={patrol.currentEncounter}>
           <Encounter/>
         </If>
+
         <If cond={!patrol.currentEncounter}>
           <div className="text-center">
             <button className="btn btn-primary" onClick={patrol.newEncounter}>

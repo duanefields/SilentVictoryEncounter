@@ -1,7 +1,7 @@
 import React from 'react';
 import { inject, observer } from 'mobx-react';
 import { If } from '../lib'
-import { Contact } from '../components'
+import { Contact, Modifiers } from '../components'
 
 export default inject("appStore")(observer(({appStore}) => {
   const patrol = appStore.patrol;
@@ -40,7 +40,7 @@ export default inject("appStore")(observer(({appStore}) => {
       </div>
 
       <div>
-        Weather: {encounter.weather}
+        Weather: {encounter.weather.description}
         <If cond={encounter.surprised}>
           <div>You were suprised in the fog!</div>
         </If>
@@ -68,6 +68,8 @@ export default inject("appStore")(observer(({appStore}) => {
       <If cond={encounter.encounterType === "Minefield"}>
         <span>Minefield</span>
       </If>
+
+      <Modifiers />
     </div>
   );
 }))
