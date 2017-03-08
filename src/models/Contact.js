@@ -52,7 +52,6 @@ export default class Contact {
   static RandomCapitalShip() { return Contact.RandomShip(CapitalShips); }
   static RandomWarship() { return Contact.RandomShip(Warships); }
 
-  // todo: late war vs early war
   static RandomCapitalEscort(startDate) {
     const list = startDate.getFullYear() < 1944 ? CapitalEscortsEarlyWar : CapitalEscortsLateWar;
     return Contact.RandomShip(list, startDate, true);
