@@ -25,35 +25,50 @@ export default inject("appStore")(observer(({appStore}) => {
 
   return (
     <div className="text-center">
-      <div>
-        { encounter.encounterType }
-      </div>
 
-      <div>
-        {encounter.time}
-        <If cond={encounter.isNight}>
-          <span>(Night)</span>
-        </If>
-        <If cond={!encounter.isNight}>
-          <span>(Day)</span>
-        </If>
-      </div>
-
-      <div>
-        Weather: {encounter.weather.description}
-        <If cond={encounter.surprised}>
-          <div>You were suprised in the fog!</div>
-        </If>
-      </div>
-
-      <If cond={encounter.isNaval}>
+      <If cond={encounter.encounterType !== "-"}>
         <div>
-          <div className="row justify-content-center">
-            {escortContacts}
+          <div>
+            { encounter.encounterType }
           </div>
-          <div className="row justify-content-center">
-            {otherContacts}
+
+          <div>
+            {encounter.time}
+            <If cond={encounter.isNight}>
+              <span>(Night)</span>
+            </If>
+            <If cond={!encounter.isNight}>
+              <span>(Day)</span>
+            </If>
           </div>
+
+          <div>
+            Weather: {encounter.weather.description}
+            <If cond={encounter.surprised}>
+              <span>You were suprised in the fog!</span>
+            </If>
+          </div>
+
+          <If cond={encounter.isNaval}>
+            <div>
+              <div className="row justify-content-center">
+                {escortContacts}
+              </div>
+              <div className="row justify-content-center">
+                {otherContacts}
+              </div>
+            </div>
+          </If>
+
+          <If cond={encounter.encounterType === "Aircraft"}>
+            <span>Aircraft</span>
+          </If>
+
+          <If cond={encounter.encounterType === "Minefield"}>
+            <span>Minefield</span>
+          </If>
+
+          <Modifiers />
         </div>
       </If>
 
@@ -61,15 +76,6 @@ export default inject("appStore")(observer(({appStore}) => {
         <span>No Contacts</span>
       </If>
 
-      <If cond={encounter.encounterType === "Aircraft"}>
-        <span>Aircraft</span>
-      </If>
-
-      <If cond={encounter.encounterType === "Minefield"}>
-        <span>Minefield</span>
-      </If>
-
-      <Modifiers />
     </div>
   );
 }))
