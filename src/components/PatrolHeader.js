@@ -1,12 +1,10 @@
 import React from 'react';
 import { inject, observer } from 'mobx-react';
 import { If } from '../lib'
+import moment from 'moment';;
 
 export default inject("appStore")(observer(({appStore}) => {
   const patrol = appStore.patrol;
-  const monthNames = ["January", "February", "March", "April", "May", "June",
-    "July", "August", "September", "October", "November", "December"
-  ];
 
   return (
     <div>
@@ -19,8 +17,8 @@ export default inject("appStore")(observer(({appStore}) => {
       </h3>
 
       <div>
-        { monthNames[patrol.startDate.getMonth()] }, { patrol.startDate.getFullYear() } &mdash;&nbsp;
-        { monthNames[patrol.endDate.getMonth()] }, { patrol.endDate.getFullYear() }
+        { moment(patrol.startDate).format("MMMM, YYYY") } &mdash;&nbsp;
+        { moment(patrol.endDate).format("MMMM, YYYY") }
       </div>
     </div>
   );
