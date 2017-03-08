@@ -53,8 +53,15 @@ export default class Contact {
   static RandomWarship() { return Contact.RandomShip(Warships); }
 
   // todo: late war vs early war
-  static RandomCapitalEscort(startDate) { return Contact.RandomShip(CapitalEscortsEarlyWar, startDate, true); }
-  static RandomMerchantEscort(startDate) { return Contact.RandomShip(MerchantEscortsEarlyWar, startDate, true); }
+  static RandomCapitalEscort(startDate) {
+    const list = startDate.getFullYear() < 1944 ? CapitalEscortsEarlyWar : CapitalEscortsLateWar;
+    return Contact.RandomShip(list, startDate, true);
+  }
+
+  static RandomMerchantEscort(startDate) {
+    const list = startDate.getFullYear() < 1944 ? MerchantEscortsEarlyWar : MerchantEscortsLateWar;
+    return Contact.RandomShip(MerchantEscortsEarlyWar, startDate, true);
+  }
 
   // todo: as each one is returned, it needs to be removed from the list to avoid dupes
   static RandomShip(array, startDate=null, escort=false) {
