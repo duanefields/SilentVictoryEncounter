@@ -40,12 +40,27 @@ export default class Patrol {
   }
 
   @action
-  moveToTravelBox = (travelBox) => {
+  clearCurrentEncounter = () => {
     if (this.currentEncounter != null) {
       this.encounters.push(this.currentEncounter);
     }
     this.currentEncounter = null;
+  }
+
+  @action
+  moveToTravelBox = (travelBox) => {
+    // encounter should be null or "no contacts"
+    this.currentEncounter = null;
     this.currentTravelBox = travelBox;
+    console.log("Now at box", this.currentTravelBox.name);
+  }
+
+  @action
+  abort = (travelBox) => {
+    // move to nearest travel box (forwards are backwards, but for simplicity sake forwards)
+    while (this.currentTravelBox.name !== "Transit") {
+      this.moveToNextTravelBox();
+    }
   }
 
   @action

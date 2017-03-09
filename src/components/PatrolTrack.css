@@ -1,0 +1,9 @@
+.current {
+  font-weight: bold;
+  font-size: 2em;
+  padding: 1em;
+}
+
+.next .previous {
+  font-weight: lighter;
+}
