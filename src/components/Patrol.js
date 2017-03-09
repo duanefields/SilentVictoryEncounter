@@ -37,17 +37,17 @@ export default class Patrol extends Component {
         </If>
 
         <div className="text-center">
-          <button className="btn btn-primary" onClick={patrol.newEncounter}>
+          <button className="btn btn-primary btn-block" onClick={patrol.newEncounter}>
             Search
           </button>
           <br/>
-          <button className="btn btn-secondary" onClick={patrol.moveToPreviousTravelBox}>
+          <button className="btn btn-block" onClick={patrol.moveToPreviousTravelBox}>
             Previous
           </button>
-          <button className="btn btn-secondary" onClick={patrol.moveToNextTravelBox}>
+          <button className="btn btn-block" onClick={patrol.moveToNextTravelBox}>
             Next
           </button>
-          <button className="btn btn-secondary" onClick={patrol.abort}>
+          <button className="btn btn-block btn-danger" onClick={patrol.abort}>
             Abort
           </button>
         </div>
