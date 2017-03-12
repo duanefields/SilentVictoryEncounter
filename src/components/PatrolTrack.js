@@ -11,8 +11,14 @@ export default inject("appStore")(observer(({appStore}) => {
   );
 
   const indexOfCurrentBox = patrol.assignment.travelBoxes.indexOf(patrol.currentTravelBox);
-  const previousBox = indexOfCurrentBox > 0 ? patrol.assignment.travelBoxes[indexOfCurrentBox - 1] : null;
-  const nextBox = indexOfCurrentBox <= patrol.assignment.travelBoxes.length ?  patrol.assignment.travelBoxes[indexOfCurrentBox + 1] : null;
+  let previousBox = indexOfCurrentBox > 0 ? patrol.assignment.travelBoxes[indexOfCurrentBox - 1] : null;
+  let nextBox = indexOfCurrentBox <= patrol.assignment.travelBoxes.length ?  patrol.assignment.travelBoxes[indexOfCurrentBox + 1] : null;
+
+  if (previousBox == null)
+    previousBox = { displayName: patrol.base };
+  if (nextBox == null)
+    nextBox = { displayName: patrol.base };
+
 
   return (
     <div className="text-center">
