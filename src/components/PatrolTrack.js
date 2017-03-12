@@ -20,7 +20,7 @@ export default inject("appStore")(observer(({appStore}) => {
     nextBox = { displayName: patrol.base };
 
   return (
-    <div className="row align-items-center">
+    <div className={css.track + " row align-items-center"}>
       <div className={css.previous + " col"}>
         {previousBox.displayName}
       </div>
