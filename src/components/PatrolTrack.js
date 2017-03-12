@@ -19,19 +19,18 @@ export default inject("appStore")(observer(({appStore}) => {
   if (nextBox == null)
     nextBox = { displayName: patrol.base };
 
-
   return (
-    <div className="text-center">
-      <div>
-        {previousBox &&
-          <span className={css.previous}>{previousBox.displayName}</span>
-        }
+    <div className="row align-items-center">
+      <div className={css.previous + " col"}>
+        {previousBox.displayName}
+      </div>
 
-        <strong className={css.current}>{patrol.currentTravelBox.displayName}</strong>
+      <div className={css.current + " col-6"}>
+        {patrol.currentTravelBox.displayName}
+      </div>
 
-        {nextBox &&
-          <span className={css.next}>{nextBox.displayName}</span>
-        }
+      <div className={css.next + " col"}>
+        {nextBox.displayName}
       </div>
     </div>
   );

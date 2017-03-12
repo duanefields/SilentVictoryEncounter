@@ -2,8 +2,11 @@
   font-weight: bold;
   font-size: 2em;
   padding: 1em;
+  text-align: center;
 }
 
-.next .previous {
+.next, .previous {
   font-weight: lighter;
+  color: #ccc;
+  text-align: center;
 }
