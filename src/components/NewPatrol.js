@@ -35,7 +35,7 @@ export default class NewPatrol extends Component {
 
           <div className="row">
             <div className="col-6">
-            { patrol.startYear != 1941 &&
+            { patrol.startYear !== 1941 &&
               <SelectBox name="startMonth" label="Month" value={patrol.startMonth} onChange={this.updateProperty}>
                 <option value="0">January</option>
                 <option value="1">February</option>
