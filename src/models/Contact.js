@@ -63,7 +63,7 @@ export default class Contact {
 
   static RandomMerchantEscort(startDate) {
     const list = startDate.getFullYear() < 1944 ? MerchantEscortsEarlyWar : MerchantEscortsLateWar;
-    return Contact.RandomShip(MerchantEscortsEarlyWar, startDate, true);
+    return Contact.RandomShip(list, startDate, true);
   }
 
   // todo: as each one is returned, it needs to be removed from the list to avoid dupes
