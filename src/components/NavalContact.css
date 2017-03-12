@@ -1,0 +1,34 @@
+.card {
+}
+
+.image {
+  width: 80%;
+}
+
+.sky {
+  background-color: #ecf0f3;
+  padding: .25em .25em 0 .25em;
+}
+
+.water {
+  background-color: #57a7c4;
+  padding: .25em;
+}
+
+.damage {
+  float: right;
+  padding: 0;
+  text-align: center;
+  color: black;
+  font-size: .8em;
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 50%;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.5em;
+}
