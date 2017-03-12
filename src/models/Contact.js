@@ -87,7 +87,7 @@ export default class Contact {
       case "Freighter": return merchantImage;
       case "Escort": return escortImage;
       case "Warship": return warshipImage;
-      default: return null;
+      default: return escortImage;
     }
   }
 
