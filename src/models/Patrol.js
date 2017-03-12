@@ -2,6 +2,7 @@ import { observable, computed, action, extendObservable } from 'mobx';
 import { PatrolAssignment, Encounter } from "../models";
 import _ from 'lodash';
 import moment from 'moment';
+import Promise from 'bluebird'
 
 export default class Patrol {
   @observable startMonth = null;
@@ -14,6 +15,7 @@ export default class Patrol {
   @observable encounters = [];
   @observable currentTravelBox = null;
   @observable currentEncounter = null;
+  @observable searching = false;
 
   static GetPatrolDefaults () {
     return observable({ shipName: "Tang", base: "Australia", startMonth:"11", startYear:"1941" });
@@ -35,8 +37,13 @@ export default class Patrol {
 
   @action
   newEncounter = () => {
-    const encounter = Encounter.CreateEncounter(this.currentTravelBox, this.startDate);
-    this.currentEncounter = encounter;
+    this.searching = true;
+    this.currentEncounter = null;
+    Promise.delay(1 * 1000).then( () => {
+      const encounter = Encounter.CreateEncounter(this.currentTravelBox, this.startDate);
+      this.searching = false;
+      this.currentEncounter = encounter;
+    });
   }
 
   @action

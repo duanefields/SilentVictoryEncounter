@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { inject, observer } from 'mobx-react';
 import { PatrolHeader, PatrolTrack, Encounter } from '../components'
 import { If } from '../lib'
+import css from './Patrol.css'
 
 @inject("appStore") @observer
 export default class Patrol extends Component {
@@ -29,12 +30,16 @@ export default class Patrol extends Component {
 
         <PatrolTrack/>
 
-        <If cond={encounter}>
-          <span>No Contacts</span>
-        </If>
-        <If cond={! encounter}>
-          <span>&nbsp;</span>
-        </If>
+        <div className={css.contact}>
+          <If cond={encounter}>
+            <span>No Contacts Found</span>
+          </If>
+          <If cond={! encounter}>
+            { patrol.searching &&
+              <span>Searching...</span>
+            }
+          </If>
+        </div>
 
         <div className="text-center row">
           <div className="offset-2 col-8" style={ {height: '5em'} }>
