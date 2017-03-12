@@ -1,16 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { App, PatrolView, AboutView } from './views';
-import { Router, Route, IndexRedirect, hashHistory } from 'react-router'
 import './styles/index.styl';
+import Routes from './routes'
+import { AppStore } from './stores';
+import { Provider } from 'mobx-react';
+
+const root = document.getElementById('root');
+const appStore = new AppStore();
 
 ReactDOM.render(
-  <Router history={hashHistory}>
-    <Route path="/" component={App}>
-      <IndexRedirect to="/patrol"/>
-      <Route path="/patrol" component={PatrolView}/>
-      <Route path="/about" component={AboutView}/>
-    </Route>
-  </Router>,
-  document.getElementById('root')
+  <Provider appStore={appStore}>
+    <Routes/>
+  </Provider>,
+  root
 );
+
+if (module.hot) {
+  module.hot.accept('./routes', () => {
+    const NextApp = require('./routes').default;
+    console.log("Hot rendering");
+    ReactDOM.render(
+      <Provider appStore={appStore}>
+        <NextApp/>
+      </Provider>,
+      root
+    );
+  });
+}
