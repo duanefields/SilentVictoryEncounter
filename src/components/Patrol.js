@@ -36,20 +36,25 @@ export default class Patrol extends Component {
           <span>&nbsp;</span>
         </If>
 
-        <div className="text-center">
-          <button className="btn btn-primary btn-block" onClick={patrol.newEncounter}>
-            Search
-          </button>
-          <br/>
-          <button className="btn btn-block" onClick={patrol.moveToPreviousTravelBox}>
-            Previous
-          </button>
-          <button className="btn btn-block" onClick={patrol.moveToNextTravelBox}>
-            Next
-          </button>
-          <button className="btn btn-block btn-danger" onClick={patrol.abort}>
-            Abort
-          </button>
+        <div className="text-center row">
+          <div className="offset-2 col-8" style={ {height: '5em'} }>
+            <button className="btn btn-secondary btn-block" onClick={patrol.moveToNextTravelBox}>
+              Next Transit Box
+            </button>
+          </div>
+
+          <div className="offset-2 col-8" style={ {height: '5em'} }>
+            <button className="btn btn-primary btn-block" onClick={patrol.newEncounter}>
+              Search
+            </button>
+          </div>
+
+
+          <div className="offset-2 col-8" style={ {height: '5em'} }>
+            <button className="btn btn-danger btn-block" onClick={patrol.abort}>
+              Abort
+            </button>
+          </div>
         </div>
       </div>
     );
