@@ -15,6 +15,8 @@ export default class Encounter {
 
   static CreateEncounter (travelBox, startDate) {
     const encounterTypes = Encounters[travelBox.name];
+    if (encounterTypes.length === 0)
+      throw new Error(`Invalid encounter type ${encounterType} for ${travelBox.name}`);
     var encounterType = random.pick2D6(encounterTypes);
 
     // if SJ rolled, roll again (once)
