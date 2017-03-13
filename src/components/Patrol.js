@@ -76,9 +76,14 @@ export default class Patrol extends Component {
 
         <Encounter/>
 
-        <button className="btn btn-secondary" onClick={patrol.clearCurrentEncounter}>
-          Combat Complete
-        </button>
+        <div className="text-center row">
+          <div className={ css.button + " offset-2 col-8" }>
+            <button className="btn btn-primary btn-block" onClick={patrol.clearCurrentEncounter}>
+              Combat Complete
+            </button>
+          </div>
+        </div>
+
       </div>
     );
   }
