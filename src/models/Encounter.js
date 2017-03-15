@@ -4,6 +4,7 @@ import random from "../lib/random";
 import Encounters from "../data/encounters.json";
 import { Contact } from "../models"
 import moment from "moment";
+import RandomEvents from "../data/randomEvents.json";
 
 export default class Encounter {
   date = null;
@@ -12,12 +13,32 @@ export default class Encounter {
   contacts = null;
   weather = null;
   surprised = null;
+  event = null;
 
-  static CreateEncounter (travelBox, startDate) {
+  static CreateEncounter (patrol) {
+    let travelBox = patrol.currentTravelBox;
+    let startDate = patrol.startDate;
+
     const encounterTypes = Encounters[travelBox.name];
     if (encounterTypes.length === 0)
       throw new Error(`Invalid encounter type ${encounterType} for ${travelBox.name}`);
-    var encounterType = random.pick2D6(encounterTypes);
+
+    // check for random events
+    let encounterType = null;
+    if (!patrol.randomEventHasHappened) {
+      let roll = random.roll2D6();
+      if (roll !== 12) {
+        encounterType = encounterTypes[roll-2];
+      } else {
+        patrol.randomEventHasHappened = true;
+        encounterType = "Random Event";
+        let event = random.pick2D6(RandomEvents);
+        let contacts = [];
+        return new Encounter({encounterType, contacts, event});
+      }
+    } else {
+      encounterType = random.pick2D6(encounterTypes);
+    }
 
     // if SJ rolled, roll again (once)
     if (encounterType === "SJ") {

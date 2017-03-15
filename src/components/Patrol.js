@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { inject, observer } from 'mobx-react';
-import { PatrolHeader, PatrolTrack, Encounter, PatrolComplete } from '../components'
+import { PatrolHeader, PatrolTrack, Encounter, PatrolComplete, RandomEvent } from '../components'
 import { If } from '../lib'
 import css from './Patrol.css'
 
@@ -12,7 +12,9 @@ export default class Patrol extends Component {
     const patrol = appStore.patrol;
     const encounter = patrol.currentEncounter;
 
-    if (encounter && encounter.encounterType !== '-') {
+    if (encounter && encounter.encounterType === 'Random Event') {
+      return this.renderRandomEvent();
+    } else if (encounter && encounter.encounterType !== '-') {
       return this.renderContact();
     } else if (patrol.isComplete) {
       return this.renderEndOfPatrol();
@@ -76,6 +78,11 @@ export default class Patrol extends Component {
     );
   }
 
+  renderRandomEvent() {
+    return (
+      <RandomEvent/>
+    );
+  }
 
   // todo: move to its own component
   renderContact() {
@@ -90,7 +97,7 @@ export default class Patrol extends Component {
         <div className="text-center row">
           <div className={ css.button + " offset-2 col-8" }>
             <button className="btn btn-primary btn-block" onClick={patrol.clearCurrentEncounter}>
-              Combat Complete
+              Continue Patrol
             </button>
           </div>
         </div>

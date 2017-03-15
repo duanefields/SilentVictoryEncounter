@@ -18,6 +18,7 @@ export default class Patrol {
   @observable currentEncounter = null;
   @observable searching = false;
   @observable isComplete = false;
+  randomEventHasHappened = false;
 
   static GetPatrolDefaults () {
     let props = { shipName: "Tang", base: "Pearl Harbor", startMonth:"11", startYear:"1941" }
@@ -48,7 +49,7 @@ export default class Patrol {
     this.searching = true;
     this.currentEncounter = null;
     Promise.delay(1 * 1000).then( () => {
-      const encounter = Encounter.CreateEncounter(this.currentTravelBox, this.startDate);
+      const encounter = Encounter.CreateEncounter(this);
       this.searching = false;
       this.currentEncounter = encounter;
     });
