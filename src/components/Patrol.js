@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { inject, observer } from 'mobx-react';
-import { PatrolHeader, PatrolTrack, Encounter } from '../components'
+import { PatrolHeader, PatrolTrack, Encounter, PatrolComplete } from '../components'
 import { If } from '../lib'
 import css from './Patrol.css'
 
@@ -14,6 +14,8 @@ export default class Patrol extends Component {
 
     if (encounter && encounter.encounterType !== '-') {
       return this.renderContact();
+    } else if (patrol.isComplete) {
+      return this.renderEndOfPatrol();
     } else {
       return this.renderTransitBox();
     }
@@ -44,20 +46,20 @@ export default class Patrol extends Component {
         <div className="text-center row">
           <div className="offset-2 col-8" style={ {height: '5em'} }>
             <button className="btn btn-secondary btn-block" onClick={patrol.moveToNextTravelBox}>
-              Next Transit Box
+              Travel to Next Transit Box
             </button>
           </div>
 
           <div className="offset-2 col-8" style={ {height: '5em'} }>
             <button className="btn btn-primary btn-block" onClick={patrol.newEncounter} disabled={patrol.searching}>
-              Search
+              Roll for Encounter
             </button>
           </div>
 
 
           <div className="offset-2 col-8" style={ {height: '5em'} }>
             <button className="btn btn-danger btn-block" onClick={patrol.abort}>
-              Abort
+              Abort Patrol
             </button>
           </div>
         </div>
@@ -65,14 +67,20 @@ export default class Patrol extends Component {
     );
   }
 
+  renderEndOfPatrol() {
+    return (
+      <PatrolComplete/>
+    );
+  }
+
+
+  // todo: move to its own component
   renderContact() {
     const appStore = this.props.appStore;
     const patrol = appStore.patrol;
 
     return (
       <div className="text-center">
-        <div className="btn-group p-3">
-        </div>
 
         <Encounter/>
 

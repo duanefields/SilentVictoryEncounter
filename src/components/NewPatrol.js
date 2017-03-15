@@ -83,7 +83,9 @@ export default class NewPatrol extends Component {
     console.log("Submitting form");
     event.preventDefault();
     const {appStore, patrol} = this.props;
-    appStore.patrol = new Patrol(mobx.toJS(patrol));
+    let patrolSettings = mobx.toJS(patrol);
+    patrolSettings.store = appStore;
+    appStore.patrol = new Patrol(patrolSettings);
     appStore.patrol.beginPatrol();
   }
 }

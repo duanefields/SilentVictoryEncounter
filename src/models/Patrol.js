@@ -3,6 +3,7 @@ import { PatrolAssignment, Encounter } from "../models";
 import _ from 'lodash';
 import moment from 'moment';
 import Promise from 'bluebird'
+import random from "../lib/random";
 
 export default class Patrol {
   @observable startMonth = null;
@@ -16,9 +17,11 @@ export default class Patrol {
   @observable currentTravelBox = null;
   @observable currentEncounter = null;
   @observable searching = false;
+  @observable isComplete = false;
 
   static GetPatrolDefaults () {
-    return observable({ shipName: "Tang", base: "Australia", startMonth:"11", startYear:"1941" });
+    let props = { shipName: "Tang", base: "Pearl Harbor", startMonth:"11", startYear:"1941" }
+    return observable(props);
   }
 
   constructor(store={}) {
@@ -26,6 +29,11 @@ export default class Patrol {
     extendObservable(this, store);
     this.startDate = new Date(this.startYear, this.startMonth, 1);
     this.endDate = moment(this.startDate).add(1, 'month').toDate();
+  }
+
+  @action
+  newPatrol = () => {
+    this.store.patrol = null;
   }
 
   @action
@@ -63,11 +71,9 @@ export default class Patrol {
   }
 
   @action
-  abort = (travelBox) => {
+  abort = () => {
     // move to nearest travel box (forwards are backwards, but for simplicity sake forwards)
-    while (this.currentTravelBox.name !== "Transit") {
-      this.moveToNextTravelBox();
-    }
+    this.moveToTravelBox(this.assignment.travelBoxes[this.assignment.travelBoxes.length - 2]);
   }
 
   @action
@@ -78,7 +84,8 @@ export default class Patrol {
     let index = this.assignment.travelBoxes.indexOf(this.currentTravelBox);
     index++;
     if (index >= this.assignment.travelBoxes.length) {
-      // do nothing, at the end
+      // do nothing, at the end because we moved beyond the last box
+      this.isComplete = true;
       return;
     }
     this.moveToTravelBox(this.assignment.travelBoxes[index]);
