@@ -14,6 +14,8 @@ import MerchantEscortsLateWar from "../data/merchantEscorts-lateWar.json";
 import merchantImage from '../images/merchant.png';
 import escortImage from '../images/escort.png';
 import warshipImage from '../images/warship.png'
+import submarineImage from '../images/submarine.png'
+import aircraftImage from '../images/aircraft.png'
 
 export default class Contact {
   @observable entryName = null;
@@ -83,11 +85,50 @@ export default class Contact {
   }
 
   @computed get image () {
-    switch(this.entryType) {
-      case "Freighter": return merchantImage;
-      case "Escort": return escortImage;
-      case "Warship": return warshipImage;
-      default: return escortImage;
+    switch(this.type) {
+      // capital ships
+      case "Aircraft Carrier":
+      case "Escort Carrier":
+      case "Battleship":
+        return warshipImage;
+
+      // war ships
+      case "Antisubmarine Aircraft Carrier":
+      case "Cruiser":
+      case "Frigate":
+      case "Light Cruiser":
+      case "Minelayer":   // also can be escrot
+      case "Repair Ship":
+        return warshipImage;
+
+      case "Submarine":
+        return submarineImage;
+
+      // escorts
+      case "Destroyer":   // also can be warship
+      case "Destroyer Escort":
+      case "Escort":
+      case "Gunboat":
+      case "Minesweeper":
+      case "Subchaser":
+      case "Torpedo Boat":
+        return escortImage;
+
+      // merchantes
+      case "Armed":
+      case "Special":
+      case "Small Freighter":
+      case "Small Passenger":
+      case "Small Tanker":
+      case "Large Freighter":
+      case "Large Passenger":
+      case "Large Tanker":
+        return merchantImage
+
+      // aircraft
+      case "Fighter":
+        return aircraftImage;
+
     }
   }
 
