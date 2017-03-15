@@ -41,6 +41,9 @@ export default class Patrol extends Component {
               <span>Searching...</span>
             }
           </If>
+          <If cond={!encounter && !patrol.searching}>
+            <span>Arrived in {patrol.currentTravelBox.displayName}</span>
+          </If>
         </div>
 
         <div className="text-center row">

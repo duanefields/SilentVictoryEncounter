@@ -11,8 +11,6 @@ export default class TravelBox {
     this.displayName = box.displayName ? box.displayName : box.name;
     this.isMissionBox = box.isMissionBox === true;
     this.times = box.times > 0 ? box.times : 1;
-    if (box.times > 1)
-      this.displayName = `${this.displayName} × ${this.times}`
   }
 
   @computed get isShallow() {

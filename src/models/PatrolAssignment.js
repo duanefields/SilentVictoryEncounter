@@ -34,6 +34,7 @@ export default class PatrolAssignment {
     } else {
       mission = null;
     }
+    mission = "Test Mission"
 
     console.log(`Picking assignment for ${base}, ${dateRange} = ${name}, ${mission}`);
     return new PatrolAssignment(name, mission);

@@ -22,15 +22,15 @@ export default inject("appStore")(observer(({appStore}) => {
   return (
     <div className={css.track + " row align-items-center"}>
       <div className={css.previous + " col"}>
-        {previousBox.displayName}
+        <TravelBox box={previousBox}/>
       </div>
 
       <div className={css.current + " col-6"}>
-        {patrol.currentTravelBox.displayName}
+        <TravelBox box={patrol.currentTravelBox}/>
       </div>
 
       <div className={css.next + " col"}>
-        {nextBox.displayName}
+        <TravelBox box={nextBox}/>
       </div>
     </div>
   );

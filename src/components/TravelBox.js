@@ -9,22 +9,20 @@ export default inject("appStore")(observer(({appStore, box, showSelection=false}
   const buttonClassNames = classNames("btn", "btn-secondary", {active: isCurrentLocation && showSelection});
 
   return (
-    <button className={buttonClassNames}>
+    <div>
       {box.displayName}
 
-      <If cond={box.isMissionBox}>
+      <If cond={box.isMissionBox && patrol.assignment.isMission}>
         <span>
-          <br/>
-          (Mission)
+          &nbsp;(Mission)
         </span>
       </If>
 
       <If cond={box.times > 1}>
         <span>
-          <br/>
-          × {box.times}
+          &nbsp;× {box.times}
         </span>
       </If>
-    </button>
+    </div>
   );
 }))
