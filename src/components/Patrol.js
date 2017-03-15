@@ -49,7 +49,7 @@ export default class Patrol extends Component {
           </div>
 
           <div className="offset-2 col-8" style={ {height: '5em'} }>
-            <button className="btn btn-primary btn-block" onClick={patrol.newEncounter}>
+            <button className="btn btn-primary btn-block" onClick={patrol.newEncounter} disabled={patrol.searching}>
               Search
             </button>
           </div>
