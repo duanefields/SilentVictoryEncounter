@@ -51,25 +51,13 @@ export default class Encounter {
     }
 
     const contacts = Contact.CreateContacts(encounterType, startDate);
-    return new Encounter({encounterType, contacts});
-  }
-
-  static rollWeather () {
-    const roll = random.roll1D6();
-    switch(roll) {
-      case 1:
-      case 2:
-      case 3: return { description:"Clear", modifier:null };
-      case 4:
-      case 5: return { description:"Rain/Snow", modifier:"No long range attacks" };
-      case 6: return { description:"Fog/Mist",  modifier: "Only short range attacks" }; // possible surprise
-    }
+    const weather = travelBox.weather;
+    return new Encounter({encounterType, contacts, weather});
   }
 
   constructor(store={}) {
     extendObservable(this, store);
 
-    this.weather = Encounter.rollWeather();
     // if in fog/mist, 50% of being surprised, and the escorts attack first
     this.surprised = this.encounterType !== '-' && this.weather === "Fog/Mist" && random.bool();
 

@@ -26,7 +26,7 @@ export default class Patrol extends Component {
   renderTransitBox() {
     const appStore = this.props.appStore;
     const patrol = appStore.patrol;
-    const encounter = patrol.currentEncounter;
+    const {currentEncounter, currentTravelBox} = patrol;
 
     return (
       <div className="text-center">
@@ -35,16 +35,19 @@ export default class Patrol extends Component {
         <PatrolTrack/>
 
         <div className={css.contact}>
-          <If cond={encounter}>
+          <If cond={currentEncounter}>
             <span>No Contacts Found</span>
           </If>
-          <If cond={! encounter}>
+          <If cond={! currentEncounter}>
             { patrol.searching &&
               <span>Searching...</span>
             }
           </If>
-          <If cond={!encounter && !patrol.searching}>
-            <span>Arrived in {patrol.currentTravelBox.displayName}</span>
+          <If cond={!currentEncounter && !patrol.searching}>
+            <div>
+              <div>Arrived in {currentTravelBox.displayName}</div>
+              <div>Weather: {currentTravelBox.weather.description}</div>
+            </div>
           </If>
         </div>
 
