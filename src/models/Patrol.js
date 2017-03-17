@@ -20,18 +20,28 @@ export default class Patrol {
   @observable isComplete = false;
   @observable SDRadarOperational = true;
   @observable SJRadarFunctional = true;
+  @observable currentDate = null;
   randomEventHasHappened = false;
 
   static GetPatrolDefaults () {
-    let props = { shipName: "Tang", base: "Pearl Harbor", startMonth:"11", startYear:"1941" }
+    let props = { shipName: "Tang", base: "Pearl Harbor", startMonth:11, startYear:1941 }
     return observable(props);
   }
 
   constructor(store={}) {
     this.store = store;
     extendObservable(this, store);
-    this.startDate = new Date(this.startYear, this.startMonth, 1);
-    this.endDate = moment(this.startDate).add(1, 'month').toDate();
+
+    // don't start before Perl Harbor
+    const startDay = this.startYear === 1941 ? 8 : 1;
+    this.startDate = new Date(this.startYear, this.startMonth, startDay);
+    // don't always start on the 1st
+    if (this.startYear !== 1941)
+      this.currentDate = moment(this.currentDate).add(random.integer(0,4), 'day').toDate();
+
+    this.endDate = moment(this.startDate).add(2, 'month').toDate();
+    this.currentDate = moment(this.startDate).toDate();
+    console.log("Patrol Range", this.startDate, this.endDate);
     this.toggleSJRadarOperational = this.toggleSJRadarOperational.bind(this);
     this.toggleSDRadarOperational = this.toggleSDRadarOperational.bind(this);
   }
@@ -76,6 +86,8 @@ export default class Patrol {
     this.searching = true;
     this.currentEncounter = null;
     Promise.delay(1 * 1000).then( () => {
+      // add some time for each encounter
+      this.currentDate = moment(this.currentDate).add(random.integer(0,2), 'day');
       const encounter = Encounter.CreateEncounter(this);
       this.searching = false;
       this.currentEncounter = encounter;
@@ -94,7 +106,18 @@ export default class Patrol {
   moveToTravelBox = (travelBox) => {
     // encounter should be null or "no contacts"
     this.currentEncounter = null;
-    travelBox.rollForWeather(this.currentTravelBox && this.currentTravelBox.weather);
+
+    // generate weather for the new box
+    let currentWeather = this.currentTravelBox && this.currentTravelBox.weather;
+    travelBox.rollForWeather(currentWeather);
+
+    // advance the clock to account for travel in the current box
+    if (this.currentTravelBox != null) {
+      this.currentDate = moment(this.currentDate).add(random.integer(3,4), 'day');
+      console.log("It is now", this.currentDate);
+    }
+
+    // move
     this.currentTravelBox = travelBox;
     console.log("Now at box", this.currentTravelBox.name);
   }

@@ -17,8 +17,7 @@ export default inject("appStore")(observer(({appStore}) => {
       </h3>
 
       <div>
-        { moment(patrol.startDate).format("MMMM, YYYY") } &mdash;&nbsp;
-        { moment(patrol.endDate).format("MMMM, YYYY") }
+        { moment(patrol.currentDate).format("dddd MMMM D, YYYY")}
       </div>
     </div>
   );
