@@ -14,6 +14,10 @@ export default inject("appStore")(observer(({appStore, contact}) => {
         <div>"{contact.codeName}"</div>
         <div>({contact.quality} Crew)</div>
       </div>
+
+      <div>
+        Roll on Aircraft Encounter Chart [A1]
+      </div>
     </div>
   );
 }))
