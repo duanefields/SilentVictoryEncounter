@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { inject, observer } from 'mobx-react';
-import { PatrolHeader, PatrolTrack, Encounter, PatrolComplete, RandomEvent } from '../components'
+import { PatrolHeader, PatrolTrack, Encounter, PatrolComplete, RandomEvent, SubStatus } from '../components'
 import { If } from '../lib'
 import css from './Patrol.css'
 
@@ -55,6 +55,9 @@ export default class Patrol extends Component {
               <If cond={currentTravelBox.weather.type === 'storm'}>
                 <div>{currentTravelBox.weather.modifier}</div>
               </If>
+
+              <SubStatus/>
+
             </div>
           </If>
         </div>

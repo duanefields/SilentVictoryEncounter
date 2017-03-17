@@ -40,8 +40,8 @@ export default class Encounter {
       encounterType = random.pick2D6(encounterTypes);
     }
 
-    // if SJ rolled, roll again (once)
-    if (encounterType === "SJ") {
+    // if SJ rolled, and SJ is active roll again (once)
+    if (encounterType === "SJ" && patrol.SJRadarOperational) {
       // todo: note this re-roll in the log, as "detected on radar"
       encounterType = random.pick2D6(encounterTypes);
       // if it happens again, treat as no encounter

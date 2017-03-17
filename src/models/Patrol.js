@@ -18,6 +18,8 @@ export default class Patrol {
   @observable currentEncounter = null;
   @observable searching = false;
   @observable isComplete = false;
+  @observable SDRadarOperational = true;
+  @observable SJRadarFunctional = true;
   randomEventHasHappened = false;
 
   static GetPatrolDefaults () {
@@ -30,6 +32,31 @@ export default class Patrol {
     extendObservable(this, store);
     this.startDate = new Date(this.startYear, this.startMonth, 1);
     this.endDate = moment(this.startDate).add(1, 'month').toDate();
+    this.toggleSJRadarOperational = this.toggleSJRadarOperational.bind(this);
+    this.toggleSDRadarOperational = this.toggleSDRadarOperational.bind(this);
+  }
+
+  // available July 1942 or later
+  @computed get SJRadarAvailable() {
+    if (this.startYear > 1942)
+      return true;
+    return this.startYear === 1942 && this.startMonth >= 6; // jan is 0
+  }
+
+  @computed get SJRadarOperational() {
+    return this.SJRadarAvailable && this.SJRadarFunctional;
+  }
+
+  @action
+  toggleSDRadarOperational() {
+    this.SDRadarOperational = !this.SDRadarOperational;
+    console.log(`SD Radar is now ${this.SDRadarOperational}`);
+  }
+
+  @action
+  toggleSJRadarOperational() {
+    this.SJRadarFunctional = !this.SJRadarFunctional;
+    console.log(`SJ Radar is now ${this.SJRadarOperational}`);
   }
 
   @action

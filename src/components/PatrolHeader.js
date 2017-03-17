@@ -8,7 +8,7 @@ export default inject("appStore")(observer(({appStore}) => {
 
   return (
     <div>
-      <h2>USS { patrol.shipName }</h2>
+      {/* <h2>USS { patrol.shipName }</h2> */}
       <h3>
         <span>{ patrol.assignment.name}</span>
         <If cond={patrol.assignment.isMission}>
