@@ -40,7 +40,7 @@ export default class Patrol {
       this.currentDate = moment(this.currentDate).add(random.integer(0,4), 'day').toDate();
 
     this.endDate = moment(this.startDate).add(2, 'month').toDate();
-    this.currentDate = moment(this.startDate).toDate();
+    this.currentDate = moment(this.startDate).hour(7).minutes(0).toDate();
     console.log("Patrol Range", this.startDate, this.endDate);
     this.toggleSJRadarOperational = this.toggleSJRadarOperational.bind(this);
     this.toggleSDRadarOperational = this.toggleSDRadarOperational.bind(this);
@@ -88,7 +88,10 @@ export default class Patrol {
     Promise.delay(1 * 1000).then( () => {
       // add some time for each encounter
       let m = moment(this.currentDate);
-      m.add(random.integer(0,2), 'day');
+      m.add(random.integer(1, 2), 'day');
+      // random time, so second contacts are always later
+      // todo - will have to rework this a bit when you start
+      // following or waiting until day, etc to only advance time
       m.hour(random.integer(0, 23)).minutes(random.integer(0, 59));
       this.currentDate = m.toDate();
       const encounter = Encounter.CreateEncounter(this);
