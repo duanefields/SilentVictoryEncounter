@@ -1,11 +1,11 @@
 .track {
   border: solid 1px black;
-  margin: 0.5em;
+  margin: 0.25em;
 }
 .current {
   white-space: nowrap;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.25em;
   padding: 1em;
   text-align: center;
 }
@@ -13,6 +13,7 @@
 .next, .previous {
   white-space: nowrap;
   font-weight: lighter;
+  font-size: 0.85em;
   color: #ccc;
   text-align: center;
 }

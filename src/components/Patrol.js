@@ -48,19 +48,18 @@ export default class Patrol extends Component {
           </If>
         </div>
 
+        <div className="offset-2 col-8" style={ {height: '5em'} }>
+          <button className="btn btn-primary btn-block" onClick={patrol.newEncounter} disabled={patrol.searching}>
+            Roll for Encounter
+          </button>
+        </div>
+
         <div className="text-center row">
           <div className="offset-2 col-8" style={ {height: '5em'} }>
             <button className="btn btn-secondary btn-block" onClick={patrol.moveToNextTravelBox}>
               Travel to Next Transit Box
             </button>
           </div>
-
-          <div className="offset-2 col-8" style={ {height: '5em'} }>
-            <button className="btn btn-primary btn-block" onClick={patrol.newEncounter} disabled={patrol.searching}>
-              Roll for Encounter
-            </button>
-          </div>
-
 
           <div className="offset-2 col-8" style={ {height: '5em'} }>
             <button className="btn btn-danger btn-block" onClick={patrol.abort}>
