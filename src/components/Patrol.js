@@ -46,6 +46,11 @@ export default class Patrol extends Component {
           <If cond={!currentEncounter && !patrol.searching}>
             <div>
               <div>Arrived in {currentTravelBox.displayName}</div>
+
+              <If cond="{currentTravelBox.isShallow}">
+                <div>Shallow Water</div>
+              </If>
+
               <div>Weather: {currentTravelBox.weather.description}</div>
               <If cond={currentTravelBox.weather.type === 'storm'}>
                 <div>{currentTravelBox.weather.modifier}</div>
