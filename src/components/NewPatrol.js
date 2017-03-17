@@ -25,7 +25,12 @@ export default class NewPatrol extends Component {
         <h2>New Patrol</h2>
 
         <form onSubmit={this.onSubmit}>
-          <InputField name="shipName" label="Ship Name" value={patrol.shipName} onChange={this.updateProperty}/>
+          <InputField name="shipName"
+            label="Ship Name"
+            value={patrol.shipName}
+            onChange={this.updateProperty}
+            addOn="USS"
+          />
 
           <SelectBox name="base" label="Home Port" value={patrol.base} onChange={this.updateProperty}>
             <option value="Pearl Harbor">Pearl Harbor</option>

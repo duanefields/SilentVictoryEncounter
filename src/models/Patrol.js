@@ -4,6 +4,7 @@ import _ from 'lodash';
 import moment from 'moment';
 import Promise from 'bluebird'
 import random from "../lib/random";
+import SubNames from "../data/subs.json"
 
 export default class Patrol {
   @observable startMonth = null;
@@ -24,7 +25,8 @@ export default class Patrol {
   randomEventHasHappened = false;
 
   static GetPatrolDefaults () {
-    let props = { shipName: "Tang", base: "Pearl Harbor", startMonth:11, startYear:1941 }
+    let shipName = random.pick(SubNames);
+    let props = { shipName: shipName, base: "Pearl Harbor", startMonth:11, startYear:1941 }
     return observable(props);
   }
 

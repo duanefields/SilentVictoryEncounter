@@ -1,5 +1,6 @@
 import React, {Component, PropTypes} from 'react'
 import {observer} from 'mobx-react'
+import { If } from '../lib';
 
 @observer
 export default class InputField extends Component {
@@ -17,14 +18,19 @@ export default class InputField extends Component {
     return (
       <div className="form-group">
         <label htmlFor={input.id}>{input.label || input.name}</label>
-        <input
-            className="form-control"
-            id={input.id}
-            name={input.name}
-            onChange={this.onChange}
-            type={input.type}
-            value={input.value}/>
-      </div>
+        <div className="input-group">
+          <If cond={input.addOn}>
+              <div className="input-group-addon">{input.addOn}</div>
+          </If>
+          <input
+              className="form-control"
+              id={input.id}
+              name={input.name}
+              onChange={this.onChange}
+              type={input.type}
+              value={input.value}/>
+        </div>
+    </div>
     )
   }
 }
