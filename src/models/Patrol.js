@@ -67,7 +67,7 @@ export default class Patrol {
   moveToTravelBox = (travelBox) => {
     // encounter should be null or "no contacts"
     this.currentEncounter = null;
-    travelBox.rollForWeather();
+    travelBox.rollForWeather(this.currentTravelBox && this.currentTravelBox.weather);
     this.currentTravelBox = travelBox;
     console.log("Now at box", this.currentTravelBox.name);
   }

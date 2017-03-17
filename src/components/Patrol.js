@@ -47,12 +47,15 @@ export default class Patrol extends Component {
             <div>
               <div>Arrived in {currentTravelBox.displayName}</div>
               <div>Weather: {currentTravelBox.weather.description}</div>
+              <If cond={currentTravelBox.weather.type === 'storm'}>
+                <div>{currentTravelBox.weather.modifier}</div>
+              </If>
             </div>
           </If>
         </div>
 
         <div className="offset-2 col-8" style={ {height: '5em'} }>
-          <button className="btn btn-primary btn-block" onClick={patrol.newEncounter} disabled={patrol.searching}>
+          <button className="btn btn-primary btn-block" onClick={patrol.newEncounter} disabled={patrol.searching || currentTravelBox.weather.type === 'storm'}>
             Roll for Encounter
           </button>
         </div>
