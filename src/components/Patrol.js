@@ -47,7 +47,7 @@ export default class Patrol extends Component {
             <div>
               <div>Arrived in {currentTravelBox.displayName}</div>
 
-              <If cond="{currentTravelBox.isShallow}">
+              <If cond={currentTravelBox.isShallow}>
                 <div>Shallow Water</div>
               </If>
 

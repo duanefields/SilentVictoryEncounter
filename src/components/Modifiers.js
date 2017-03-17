@@ -11,7 +11,7 @@ export default inject("appStore")(observer(({appStore}) => {
       <If cond={encounter.weather && encounter.weather.modifier}>
         <span>Weather is { encounter.weather.description }: { encounter.weather.modifier }</span>
       </If>
-      <If cond="{currentTravelBox.isShallow}">
+      <If cond={patrol.currentTravelBox.isShallow}>
         <div>Shallow Water: You may not exceed test depth</div>
       </If>
     </div>
