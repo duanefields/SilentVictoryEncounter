@@ -1,7 +1,8 @@
 import React from 'react';
 import { inject, observer } from 'mobx-react';
-import { If } from '../lib'
-import { Aircraft, NavalContact, Modifiers } from '../components'
+import { If } from '../lib';
+import { Aircraft, NavalContact, Modifiers } from '../components';
+import moment from 'moment';
 
 export default inject("appStore")(observer(({appStore}) => {
   const patrol = appStore.patrol;
@@ -28,17 +29,17 @@ export default inject("appStore")(observer(({appStore}) => {
 
       <If cond={encounter.encounterType !== "-"}>
         <div>
-          <div>
-            { encounter.encounterType }
-          </div>
+          <h2>
+            { moment(patrol.currentDate).format("dddd MMMM D, YYYY")}
+          </h2>
 
           <div>
-            {encounter.time}
-            <If cond={encounter.isNight}>
-              <span>(Night)</span>
+            { moment(patrol.currentDate).format("HH:mm")}
+            <If cond={patrol.isNight}>
+              <span>&nbsp;(Night)</span>
             </If>
-            <If cond={!encounter.isNight}>
-              <span>(Day)</span>
+            <If cond={!patrol.isNight}>
+              <span>&nbsp;(Day)</span>
             </If>
           </div>
 
@@ -47,6 +48,10 @@ export default inject("appStore")(observer(({appStore}) => {
             <If cond={encounter.surprised}>
               <span>You were suprised in the fog!</span>
             </If>
+          </div>
+
+          <div>
+            { encounter.encounterType }
           </div>
 
           <If cond={encounter.isNaval}>

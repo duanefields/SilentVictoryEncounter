@@ -87,11 +87,19 @@ export default class Patrol {
     this.currentEncounter = null;
     Promise.delay(1 * 1000).then( () => {
       // add some time for each encounter
-      this.currentDate = moment(this.currentDate).add(random.integer(0,2), 'day');
+      let m = moment(this.currentDate);
+      m.add(random.integer(0,2), 'day');
+      m.hour(random.integer(0, 23)).minutes(random.integer(0, 59));
+      this.currentDate = m.toDate();
       const encounter = Encounter.CreateEncounter(this);
       this.searching = false;
       this.currentEncounter = encounter;
     });
+  }
+
+  @computed get isNight () {
+    let m = moment(this.currentDate);
+    return m.hour() >= 18 || m.hour() <= 6;
   }
 
   @action
