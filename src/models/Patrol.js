@@ -4,7 +4,8 @@ import _ from 'lodash';
 import moment from 'moment';
 import Promise from 'bluebird'
 import random from "../lib/random";
-import SubNames from "../data/subs.json"
+import SubNames from "../data/subs.json";
+import storage from 'store';
 
 export default class Patrol {
   @observable startMonth = null;
@@ -25,8 +26,13 @@ export default class Patrol {
   randomEventHasHappened = false;
 
   static GetPatrolDefaults () {
-    let shipName = random.pick(SubNames);
-    let props = { shipName: shipName, base: "Pearl Harbor", startMonth:11, startYear:1941 }
+    const defaults = storage.get("defaults") || {};
+    let props = {
+      shipName: defaults.shipName || random.pick(SubNames),
+      base: defaults.base || "Pearl Harbor",
+      startMonth: defaults.startMonth || 11,
+      startYear: defaults.startYear || 1941
+    }
     return observable(props);
   }
 
@@ -46,6 +52,14 @@ export default class Patrol {
     console.log("Patrol Range", this.startDate, this.endDate);
     this.toggleSJRadarOperational = this.toggleSJRadarOperational.bind(this);
     this.toggleSDRadarOperational = this.toggleSDRadarOperational.bind(this);
+
+    // save defaults for next time
+    storage.set("defaults", {
+      shipName: this.shipName,
+      startMonth: this.startMonth,
+      startYear: this.startYear,
+      base: this.base
+    });
   }
 
   // available July 1942 or later
