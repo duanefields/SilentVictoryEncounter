@@ -32,7 +32,7 @@ export default class AboutView extends Component {
         <p>
           It's designed to use along side the game, simplifying and speeding up
           game play while also providing a little more detail to the encounters.
-          It's designed to work on mobile devices and tablets.
+          It's formatted to work on mobile devices and tablets.
         </p>
 
         <p>
