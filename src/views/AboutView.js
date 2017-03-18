@@ -39,7 +39,8 @@ export default class AboutView extends Component {
 
         <p>
           Since the computer is doing all the rolling, it also rolls up all the
-          optional rules, including escort quality, escort names, and weather.
+          optional rules, including escort quality, escort names, and weather. It also
+          generates dates and times as you make your way through the patrol.
         </p>
 
         <h2>
