@@ -12,6 +12,7 @@ export default class Encounter {
   weather = null;
   surprised = null;
   event = null;
+  travelBox = null;
 
   static CreateEncounter (patrol) {
     let travelBox = patrol.currentTravelBox;
@@ -54,7 +55,8 @@ export default class Encounter {
 
     const contacts = Contact.CreateContacts(encounterType, startDate);
     const weather = travelBox.weather;
-    return new Encounter({encounterType, contacts, weather});
+    const date = patrol.currentDate;
+    return new Encounter({encounterType, contacts, weather, date, travelBox});
   }
 
   constructor(store={}) {

@@ -6,6 +6,7 @@ import Promise from 'bluebird'
 import random from "../lib/random";
 import SubNames from "../data/subs.json";
 import storage from 'store';
+import mobx from 'mobx'
 
 export default class Patrol {
   @observable startMonth = null;
@@ -124,7 +125,9 @@ export default class Patrol {
   @action
   clearCurrentEncounter = () => {
     if (this.currentEncounter != null) {
-      this.encounters.push(this.currentEncounter);
+      let encounter = mobx.toJS(this.currentEncounter);
+      console.log(JSON.stringify(encounter));
+      this.encounters.push(encounter);
     }
     this.currentEncounter = null;
   }
