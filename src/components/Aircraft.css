@@ -1,0 +1,21 @@
+.card {
+}
+
+.image {
+  width: 80%;
+}
+
+.sky {
+  background-color: #ecf0f3;
+  padding: .25em .25em 0 .25em;
+}
+
+.water {
+  background-color: #57a7c4;
+  padding: .25em;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.5em;
+}
