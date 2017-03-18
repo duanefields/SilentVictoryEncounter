@@ -11,6 +11,7 @@ export default class PatrolAssignment {
   travelBoxes = null;
 
   static CreateAssignment (base, startDate) {
+    console.log(base, startDate);
     // early or late war?
     var dateRange;
     if (startDate.getMonth() < 6)
@@ -18,7 +19,8 @@ export default class PatrolAssignment {
     else
       dateRange = `Late ${startDate.getFullYear()}`;
 
-    var key = base === 'Philippines' ? 'Australia' : base;
+    var key = base === 'Pearl Harbor' ? 'Pearl Harbor' : 'Australia';
+    console.log("Picking assignments for", key, dateRange);
     var name = random.pick2D6(PatrolAssignments[key][dateRange]);
     // if starting in the Philipines in 1941 it's an automatic "Philippines - E"
     if (base === 'Philippines' && startDate.getFullYear() === 1941) {

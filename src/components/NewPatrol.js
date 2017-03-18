@@ -15,6 +15,12 @@ export default class NewPatrol extends Component {
   updateProperty (key, value) {
     console.log(`Setting ${key} to ${value}`)
     this.props.patrol[key] = value;
+
+    const {patrol} = this.props;
+    if (Number(patrol.startYear) === 1941)
+      patrol.startMonth = 11;
+    if (Number(patrol.startYear) === 1945 && Number(patrol.startMonth) > 5)
+      patrol.startMonth = 5;
   }
 
   render() {
@@ -40,7 +46,7 @@ export default class NewPatrol extends Component {
 
           <div className="row">
             <div className="col-6">
-            { Number(patrol.startYear) !== 1941 &&
+            { Number(patrol.startYear) !== 1941  && Number(patrol.startYear) !== 1945 &&
               <SelectBox name="startMonth" label="Month" value={patrol.startMonth} onChange={this.updateProperty}>
                 <option value="0">January</option>
                 <option value="1">February</option>
@@ -54,6 +60,16 @@ export default class NewPatrol extends Component {
                 <option value="9">October</option>
                 <option value="10">November</option>
                 <option value="11">December</option>
+              </SelectBox>
+            }
+            { Number(patrol.startYear) === 1945 &&
+              <SelectBox name="startMonth" label="Month" value={patrol.startMonth} onChange={this.updateProperty}>
+                <option value="0">January</option>
+                <option value="1">February</option>
+                <option value="2">March</option>
+                <option value="3">April</option>
+                <option value="4">May</option>
+                <option value="5">June</option>
               </SelectBox>
             }
             { Number(patrol.startYear) === 1941 &&

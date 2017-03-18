@@ -28,17 +28,20 @@ export default class Patrol {
 
   static GetPatrolDefaults () {
     const defaults = storage.get("defaults") || {};
+    console.log("Loaded defaults", JSON.stringify(defaults));
     let props = {
       shipName: defaults.shipName || random.pick(SubNames),
       base: defaults.base || "Pearl Harbor",
-      startMonth: defaults.startMonth || 11,
-      startYear: defaults.startYear || 1941
+      startMonth: Number(defaults.startMonth) || 11,
+      startYear: Number(defaults.startYear) || 1941
     }
     return observable(props);
   }
 
   constructor(store={}) {
     this.store = store;
+    this.startMonth = Number(this.startMonth);
+    this.startYear = Number(this.startYear);
     extendObservable(this, store);
 
     // don't start before Perl Harbor
