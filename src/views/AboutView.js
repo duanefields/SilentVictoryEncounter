@@ -62,6 +62,14 @@ export default class AboutView extends Component {
           point you to the source code.
         </p>
 
+        <h2>
+          Changes
+          <ul>
+            <li>Fixed: an issue creating patrols in Pearl Harbor 1945</li>
+            <li>Fixed: don't show start dates past June 1945</li>
+          </ul>
+        </h2>
+
       </div>
     );
   }
