@@ -17,7 +17,7 @@ export default class App extends Component {
           <div id="navbarSupportedContent" className="collapse navbar-collapse">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <NavLink to="/patrol"> Encounter Aid</NavLink>
+                <NavLink to="/patrol"> Patrol</NavLink>
               </li>
             </ul>
             <ul className="navbar-nav">

@@ -126,7 +126,7 @@ export default class Patrol {
   clearCurrentEncounter = () => {
     if (this.currentEncounter != null) {
       let encounter = mobx.toJS(this.currentEncounter);
-      console.log(JSON.stringify(encounter));
+      //console.log(JSON.stringify(encounter));
       this.encounters.push(encounter);
     }
     this.currentEncounter = null;
