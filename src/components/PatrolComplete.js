@@ -17,6 +17,9 @@ export default class PatrolComplete extends Component {
       <div className="text-center">
         <h1>Patrol Complete</h1>
         <h2>Welcome back to {patrol.base}</h2>
+        <div>
+          { moment(patrol.currentDate).format("dddd MMMM D, YYYY")}
+        </div>
 
         <table className="table">
           <thead>
