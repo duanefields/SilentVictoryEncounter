@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import mobx from 'mobx';
 import { inject, observer } from 'mobx-react';
 import moment from 'moment'
+import { If } from '../lib'
 
 @inject("appStore") @observer
 export default class PatrolComplete extends Component {
@@ -10,7 +11,7 @@ export default class PatrolComplete extends Component {
     const appStore = this.props.appStore;
     const patrol = appStore.patrol;
     const encounters = patrol.encounters.map(this.renderEncounter);
-    console.log(JSON.stringify(patrol.encounters.map(mobx.toJS)));
+    //console.log(JSON.stringify(patrol.encounters.map(mobx.toJS)));
 
     return (
       <div className="text-center">
@@ -33,10 +34,8 @@ export default class PatrolComplete extends Component {
           </tbody>
         </table>
 
-        <div style={ {height: '5em'} }>&nbsp;</div>
-
         <div className="text-center row">
-          <div className="offset-2 col-8" style={ {height: '5em'} }>
+          <div className="offset-2 col-8" style={ {height:'5em', marginTop:'1em'} }>
             <button className="btn btn-primary btn-block" onClick={patrol.newPatrol}>
               Begin New Patrol
             </button>
@@ -47,32 +46,38 @@ export default class PatrolComplete extends Component {
   }
 
   renderEncounter(encounter, index) {
-    let contacts = encounter.contacts.map(c => {
+    return encounter.contacts.map((c,index2) => {
+      let key = `${++index}.${++index2}`
       return(
-        <span>{c.type}: {c.name} ({c.tonnage.toLocaleString()} tons), </span>
+        <tr key={key}>
+          <td>{key}</td>
+          <td className="nowrap">
+            {moment(encounter.date).format("D MMM. HH:mm")}
+          </td>
+          <td className="nowrap">
+            {encounter.travelBox.displayName}
+          </td>
+          <td className="nowrap">
+            {encounter.weather.description}
+          </td>
+          <td>
+            {c.type}
+          </td>
+          <td>
+            <If cond={c.tonnage}>
+              <span>
+                {c.name} - {c.tonnage && c.tonnage.toLocaleString()} tons
+              </span>
+            </If>
+            <If cond={c.entryType === 'Aircraft'}>
+              <span>
+                Aircraft - "{c.codeName}"
+              </span>
+            </If>
+          </td>
+        </tr>
       );
     });
-
-    return (
-      <tr key={encounter.date.toString()}>
-        <td>{++index}</td>
-        <td>
-          {moment(encounter.date).format("D MMM. HHmm")}
-        </td>
-        <td>
-          {encounter.travelBox.displayName}
-        </td>
-        <td>
-          {encounter.weather.description}
-        </td>
-        <td>
-          {encounter.encounterType}
-        </td>
-        <td>
-          { contacts }
-        </td>
-      </tr>
-    );
   }
 
 }
