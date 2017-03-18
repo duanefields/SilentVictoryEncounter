@@ -24,9 +24,9 @@ export default class AboutView extends Component {
 
         <p>
           Basically, given your starting base and year, it will generate the
-          patrol assignemnt, and as you move through the transit boxes generate
-          enconters, rolling for the ships and other contacts.
-          It doesn't do combat for you are on your own.
+          patrol assignment, and as you move through the transit boxes generate
+          encounters, rolling for the ships and other contacts.
+          It doesn't do combat for you - you are on your own.
         </p>
 
         <p>
@@ -40,7 +40,7 @@ export default class AboutView extends Component {
           real game. It rolls 1d6, 2d6, and d100 correctly, so everything should work
           correctly. Let me know if I have missed something.
           The "SJ" and "SD" radar boxes should be selected if your radar is functioning
-          normaly. If it's not, uncheck it so that encounters can be correctly generated.
+          normally. If it's not, uncheck it so that encounters can be correctly generated.
         </p>
 
         <p>
