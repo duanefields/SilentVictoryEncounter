@@ -30,6 +30,14 @@ export default class AboutView extends Component {
         </p>
 
         <p>
+          As far as I know, it rolls all the same tables with the same chances as the
+          real game. It rolls 1d6, 2d6, and d100 correctly, so everything should work
+          correctly. Let me know if I have missed something.
+          The "SJ" and "SD" radar boxes should be selected if your radar is functioning
+          normaly. If it's not, uncheck it so that encounters can be correctly generated.
+        </p>
+
+        <p>
           Since the computer is doing all the rolling, it also rolls up all the
           optional rules, including escort quality, escort names, and weather.
         </p>
