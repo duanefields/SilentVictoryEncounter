@@ -35,29 +35,32 @@ export default class Patrol extends Component {
         <PatrolTrack/>
 
         <div className={css.contact}>
-          <If cond={currentEncounter}>
-            <span>No Contacts Found</span>
+          <div>Weather: {currentTravelBox.weather.description}</div>
+          <If cond={currentTravelBox.weather.type === 'storm'}>
+            <div>{currentTravelBox.weather.modifier}</div>
           </If>
-          <If cond={! currentEncounter}>
-            { patrol.searching &&
-              <span>Searching...</span>
-            }
-          </If>
+
+          <SubStatus/>
+
+          <div className={css.searchBox}>
+            <If cond={currentEncounter}>
+              <div>No Contacts Found</div>
+            </If>
+            <If cond={! currentEncounter}>
+              { patrol.searching &&
+                <div>Searching...</div>
+              }
+            </If>
+            <If cond={!currentEncounter && !patrol.searching}>
+              <div>&nbsp;</div>
+            </If>
+          </div>
+
           <If cond={!currentEncounter && !patrol.searching}>
             <div>
-              <div>Arrived in {currentTravelBox.displayName}</div>
-
               <If cond={currentTravelBox.isShallow}>
                 <div>Shallow Water</div>
               </If>
-
-              <div>Weather: {currentTravelBox.weather.description}</div>
-              <If cond={currentTravelBox.weather.type === 'storm'}>
-                <div>{currentTravelBox.weather.modifier}</div>
-              </If>
-
-              <SubStatus/>
-
             </div>
           </If>
         </div>
