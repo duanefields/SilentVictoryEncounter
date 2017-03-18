@@ -20,7 +20,11 @@ export default inject("appStore")(observer(({appStore, contact}) => {
 
         <div className={css.water}>
           <div className={css.damage}>{contact.damageRequired}</div>
-          <div className={css.type}>{contact.type} ({contact.entryType})</div>
+          <div className={css.type}>{contact.type}
+            <If cond={contact.entryType === "Escort"}>
+              <span>({contact.entryType})</span>
+            </If>
+          </div>
           <div className={css.tonnage}>{contact.tonnage.toLocaleString()} tons</div>
           <If cond={contact.entryType === "Escort"}>
             <div>({contact.quality} Crew)</div>
