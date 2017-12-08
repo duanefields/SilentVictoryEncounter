@@ -54,7 +54,7 @@ export default class AboutView extends Component {
         </h2>
 
         <p>
-          If you have some feedback, a question, or an issue pleas <a href="mailto:duane@duanefields.com">email me</a>.
+          If you have some feedback, a question, or an issue please <a href="mailto:duane@duanefields.com">email me</a>.
         </p>
 
         <p>
@@ -64,12 +64,11 @@ export default class AboutView extends Component {
 
         <h2>
           Changes
-          <ul>
-            <li>Fixed: an issue creating patrols in Pearl Harbor 1945</li>
-            <li>Fixed: don't show start dates past June 1945</li>
-          </ul>
         </h2>
-
+        <ul>
+          <li>Fixed: an issue creating patrols in Pearl Harbor 1945</li>
+          <li>Fixed: don't show start dates past June 1945</li>
+        </ul>
       </div>
     );
   }
