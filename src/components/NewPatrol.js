@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { inject, observer } from 'mobx-react';
 import mobx from 'mobx';
-import { If, InputField, SelectBox } from '../lib';
+import { InputField, SelectBox } from '../lib';
 import { Patrol } from '../models';
 
 @inject("appStore") @observer

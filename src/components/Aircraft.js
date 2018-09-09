@@ -1,10 +1,8 @@
 import React from 'react';
 import { inject, observer } from 'mobx-react';
-import { If } from '../lib'
 import css from './Aircraft.css'
 
 export default inject("appStore")(observer(({appStore, contact}) => {
-  const patrol = appStore.patrol;
   let style = { border: "solid 1px black", margin: "1em"};
 
   return (
@@ -13,7 +11,7 @@ export default inject("appStore")(observer(({appStore, contact}) => {
         <div className={css.sky}>
           <div className={css.name}>{contact.name}</div>
           <div>"{contact.codeName}"</div>
-          <img src={contact.image} className={css.image + " img-fluid"}/>
+          <img src={contact.image} className={css.image + " img-fluid"} alt={contact.name}/>
           <div>({contact.quality} Crew)</div>
         </div>
       </div>

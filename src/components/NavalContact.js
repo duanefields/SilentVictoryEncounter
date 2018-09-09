@@ -1,12 +1,9 @@
 import React from 'react';
 import { inject, observer } from 'mobx-react';
-import classNames from 'classnames';
 import { If } from '../lib'
 import css from './NavalContact.css'
 
 export default inject("appStore")(observer(({appStore, contact}) => {
-  const patrol = appStore.patrol;
-
   return (
     <div className="card col-md-4">
       <div className={"card-block " + css.card}>
@@ -14,7 +11,7 @@ export default inject("appStore")(observer(({appStore, contact}) => {
         <div className={css.sky}>
           <div className={css.name}>{contact.name}</div>
           <If cond={contact.image}>
-            <img src={contact.image} className={css.image + " img-fluid"}/>
+            <img src={contact.image} className={css.image + " img-fluid"} alt={contact.name} />
           </If>
         </div>
 

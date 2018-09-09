@@ -129,6 +129,8 @@ export default class Contact {
       case "Fighter":
         return aircraftImage;
 
+      default: return "Invalid Type"
+
     }
   }
 

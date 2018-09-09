@@ -8,10 +8,6 @@ import { Patrol as PatrolModel } from '../models'
 @observer
 export default class PatrolView extends Component {
 
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const patrol = this.props.appStore.patrol;
     const defaultPatrol = PatrolModel.GetPatrolDefaults();

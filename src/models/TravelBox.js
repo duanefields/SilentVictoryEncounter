@@ -30,6 +30,8 @@ export default class TravelBox {
       case 6:
         w = { type:"fog", description:"Fog/Mist",  modifier: "Only short range attacks" };
         break;
+      default:
+        throw new Error("Invalid roll: " + roll)
     }
     this.weather = w;
 

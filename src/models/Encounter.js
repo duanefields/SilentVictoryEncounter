@@ -1,5 +1,4 @@
-import { observable, computed, extendObservable } from 'mobx';
-import { inject, observer } from 'mobx-react';
+import { computed, extendObservable } from 'mobx';
 import random from "../lib/random";
 import Encounters from "../data/encounters.json";
 import { Contact } from "../models"
@@ -20,7 +19,7 @@ export default class Encounter {
 
     const encounterTypes = Encounters[travelBox.name];
     if (encounterTypes.length === 0)
-      throw new Error(`Invalid encounter type ${encounterType} for ${travelBox.name}`);
+      throw new Error(`Invalid encounter for ${travelBox.name}`);
 
     // check for random events
     let encounterType = null;
