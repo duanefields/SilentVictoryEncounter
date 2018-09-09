@@ -25,7 +25,7 @@ export default class Contact {
   @observable type = null;
   @observable quality = null;
 
-  static CreateContacts (encounterType, startDate) {
+  static CreateContacts (encounterType, startDate, patrol) {
     switch(encounterType) {
       case "-":
         return [];
@@ -40,7 +40,10 @@ export default class Contact {
       case "Two Ships+Escort":
         return [Contact.RandomFreighter(), Contact.RandomFreighter(), Contact.RandomMerchantEscort(startDate)];
       case "Convoy":
-        return [Contact.RandomFreighter(), Contact.RandomFreighter(), Contact.RandomFreighter(), Contact.RandomMerchantEscort(startDate)];
+        let contacts = [Contact.RandomFreighter(), Contact.RandomFreighter(), Contact.RandomFreighter(), Contact.RandomMerchantEscort(startDate)];
+        if (patrol.closeApproachConvoys)
+          contacts.push(Contact.RandomFreighter())
+        return contacts
       case "Aircraft":
         return [Contact.RandomAircraft(startDate)];
       default: return [];

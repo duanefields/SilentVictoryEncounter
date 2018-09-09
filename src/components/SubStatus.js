@@ -28,6 +28,15 @@ export default inject("appStore")(observer(({appStore, box, showSelection=false}
           /> SJ Radar
         </label>
       </div>
+
+      <div className="form-check form-check-inline">
+        <label className="form-check-label">
+          <input className="form-check-input" type="checkbox"
+            checked={patrol.closeApproachConvoys}
+            onChange={patrol.toggleCloseApproachConvoys}
+          /> Close Range Convoys
+        </label>
+      </div>
     </form>
   );
 }))

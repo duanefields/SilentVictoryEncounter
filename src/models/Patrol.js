@@ -23,6 +23,7 @@ export default class Patrol {
   @observable isComplete = false;
   @observable SDRadarOperational = true;
   @observable SJRadarFunctional = true;
+  @observable closeApproachConvoys = false;
   @observable currentDate = null;
   randomEventHasHappened = false;
 
@@ -56,6 +57,7 @@ export default class Patrol {
     console.log("Patrol Range", this.startDate, this.endDate);
     this.toggleSJRadarOperational = this.toggleSJRadarOperational.bind(this);
     this.toggleSDRadarOperational = this.toggleSDRadarOperational.bind(this);
+    this.toggleCloseApproachConvoys = this.toggleCloseApproachConvoys.bind(this);
 
     // save defaults for next time
     storage.set("defaults", {
@@ -87,6 +89,12 @@ export default class Patrol {
   toggleSJRadarOperational() {
     this.SJRadarFunctional = !this.SJRadarFunctional;
     console.log(`SJ Radar is now ${this.SJRadarOperational}`);
+  }
+
+  @action
+  toggleCloseApproachConvoys() {
+    this.closeApproachConvoys = !this.closeApproachConvoys;
+    console.log(`Close approach is now ${this.closeApproachConvoys}`);
   }
 
   @action

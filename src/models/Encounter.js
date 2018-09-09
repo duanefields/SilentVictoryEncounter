@@ -52,7 +52,7 @@ export default class Encounter {
       }
     }
 
-    const contacts = Contact.CreateContacts(encounterType, startDate);
+    const contacts = Contact.CreateContacts(encounterType, startDate, patrol);
     const weather = travelBox.weather;
     const date = patrol.currentDate;
     return new Encounter({encounterType, contacts, weather, date, travelBox});

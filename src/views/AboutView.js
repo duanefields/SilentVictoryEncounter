@@ -68,6 +68,7 @@ export default class AboutView extends Component {
         <ul>
           <li>Fixed: an issue creating patrols in Pearl Harbor 1945</li>
           <li>Fixed: don't show start dates past June 1945</li>
+          <li>9/9/18: Added support for close approaches to convoys, which gives you 4 contacts instead of 3, see rule 8.2.1</li>
         </ul>
       </div>
     );
