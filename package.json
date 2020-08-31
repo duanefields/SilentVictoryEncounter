@@ -4,27 +4,31 @@
   "homepage": "http://silentvictory.fastwombat.com",
   "private": true,
   "devDependencies": {
-    "custom-react-scripts": "0.0.23",
     "xmldom": "0.1.27",
     "xpath": "0.0.23"
   },
   "dependencies": {
-    "classnames": "2.2.5",
+    "@babel/plugin-proposal-decorators": "7.10.5",
+    "classnames": "2.2.6",
+    "customize-cra": "1.0.0",
     "lodash": "4.17.4",
-    "mobx": "3.1.0",
-    "mobx-react": "4.1.0",
-    "mobx-react-router": "3.1.2",
+    "mobx": "5.15.6",
+    "mobx-react": "6.3.0",
+    "mobx-react-router": "4.1.0",
     "moment": "2.17.1",
     "random-js": "1.0.8",
-    "react": "15.4.2",
-    "react-dom": "15.4.2",
-    "react-router": "3.0.2",
+    "react": "16.13.1",
+    "react-app-rewired": "2.1.6",
+    "react-dom": "16.13.1",
+    "react-router": "5.2.0",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "3.4.3",
     "store": "2.0.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
     "configure": "aws s3api create-bucket --bucket silentvictory.fastwombat.com && aws s3 website s3://silentvictory.fastwombat.com --index-document index.html --error-document error.html && aws s3api put-bucket-policy --bucket silentvictory.fastwombat.com --policy file://etc/bucketPolicy.json",
     "predeploy-client": "npm run build",
     "deploy": "npm run deploy-client",
@@ -32,5 +36,17 @@
   },
   "engines": {
     "node": "7.5.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

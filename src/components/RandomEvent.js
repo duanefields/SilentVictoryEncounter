@@ -1,6 +1,6 @@
 import React from 'react';
 import { inject, observer } from 'mobx-react';
-import css from './RandomEvent.css'
+import css from './RandomEvent.module.css'
 
 export default inject("appStore")(observer(({appStore}) => {
   const patrol = appStore.patrol;

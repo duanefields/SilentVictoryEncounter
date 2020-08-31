@@ -4,7 +4,7 @@ import moment from 'moment'
 import { If } from '../lib'
 
 @inject("appStore") @observer
-export default class PatrolComplete extends Component {
+class PatrolComplete extends Component {
 
   render() {
     const appStore = this.props.appStore;
@@ -83,3 +83,5 @@ export default class PatrolComplete extends Component {
   }
 
 }
+
+export default PatrolComplete

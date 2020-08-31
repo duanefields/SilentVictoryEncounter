@@ -1,7 +1,7 @@
 import React from 'react';
 import { inject, observer } from 'mobx-react';
 import { If } from '../lib'
-import css from './NavalContact.css'
+import css from './NavalContact.module.css'
 
 export default inject("appStore")(observer(({appStore, contact}) => {
   return (

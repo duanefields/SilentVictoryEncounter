@@ -1,8 +1,8 @@
-import React, {Component, PropTypes} from 'react'
+import React, {Component} from 'react'
 import {observer} from 'mobx-react'
 
 @observer
-export default class SelectBox extends Component {
+class SelectBox extends Component {
   constructor (props) {
     super(props)
     this.onChange = this.onChange.bind(this)
@@ -30,9 +30,4 @@ export default class SelectBox extends Component {
   }
 }
 
-SelectBox.propTypes = {
-  onChange: PropTypes.func.isRequired
-}
-
-SelectBox.defaultProps = {
-}
+export default SelectBox

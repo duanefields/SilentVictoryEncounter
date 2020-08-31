@@ -1,4 +1,4 @@
-import { observable, computed, action, extendObservable } from 'mobx';
+import { observable, computed, action, extendObservable, toJS } from 'mobx';
 import { PatrolAssignment, Encounter } from "../models";
 import _ from 'lodash';
 import moment from 'moment';
@@ -6,7 +6,6 @@ import Promise from 'bluebird'
 import random from "../lib/random";
 import SubNames from "../data/subs.json";
 import storage from 'store';
-import mobx from 'mobx'
 
 export default class Patrol {
   @observable startMonth = null;
@@ -136,7 +135,7 @@ export default class Patrol {
   @action
   clearCurrentEncounter = () => {
     if (this.currentEncounter != null) {
-      let encounter = mobx.toJS(this.currentEncounter);
+      let encounter = toJS(this.currentEncounter);
       //console.log(JSON.stringify(encounter));
       this.encounters.push(encounter);
     }

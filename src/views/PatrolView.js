@@ -6,7 +6,7 @@ import { Patrol as PatrolModel } from '../models'
 
 @inject("appStore") @observer
 @observer
-export default class PatrolView extends Component {
+class PatrolView extends Component {
 
   render() {
     const patrol = this.props.appStore.patrol;
@@ -25,3 +25,5 @@ export default class PatrolView extends Component {
     );
   }
 }
+
+export default PatrolView

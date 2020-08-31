@@ -1,6 +1,6 @@
 import React from 'react';
 import { inject, observer } from 'mobx-react';
-import css from './Aircraft.css'
+import css from './Aircraft.module.css'
 
 export default inject("appStore")(observer(({appStore, contact}) => {
   let style = { border: "solid 1px black", margin: "1em"};

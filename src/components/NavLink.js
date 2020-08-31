@@ -1,8 +1,6 @@
-import React from 'react'
-import { Link } from 'react-router'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-export default React.createClass({
-  render() {
-    return <Link {...this.props} className="nav-link" activeClassName="active"/>
-  }
-})
+export default function NavLink(props) {
+  return <Link {...props} className="nav-link" activeClassName="active"/>
+}

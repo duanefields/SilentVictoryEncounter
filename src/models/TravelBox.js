@@ -1,5 +1,4 @@
 import { computed } from 'mobx';
-import _ from "lodash";
 import random from "../lib/random";
 
 export default class TravelBox {

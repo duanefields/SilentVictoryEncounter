@@ -1,7 +1,7 @@
 import React from 'react';
 import { inject, observer } from 'mobx-react';
 import { TravelBox } from '../components'
-import css from './PatrolTrack.css'
+import css from './PatrolTrack.module.css'
 
 export default inject("appStore")(observer(({appStore}) => {
   const patrol = appStore.patrol;

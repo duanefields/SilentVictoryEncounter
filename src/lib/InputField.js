@@ -1,9 +1,9 @@
-import React, {Component, PropTypes} from 'react'
+import React, {Component} from 'react'
 import {observer} from 'mobx-react'
 import { If } from '../lib';
 
-@observer
-export default class InputField extends Component {
+
+@observer class InputField extends Component {
   constructor (props) {
     super(props)
     this.onChange = this.onChange.bind(this)
@@ -35,10 +35,4 @@ export default class InputField extends Component {
   }
 }
 
-InputField.propTypes = {
-  onChange: PropTypes.func.isRequired
-}
-
-InputField.defaultProps = {
-  type: 'text'
-}
+export default InputField

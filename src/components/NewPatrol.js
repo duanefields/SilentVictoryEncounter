@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { inject, observer } from 'mobx-react';
-import mobx from 'mobx';
 import { InputField, SelectBox } from '../lib';
 import { Patrol } from '../models';
+import { toJS } from "mobx"
 
 @inject("appStore") @observer
-export default class NewPatrol extends Component {
+class NewPatrol extends Component {
   constructor(props) {
     super(props);
     this.updateProperty = this.updateProperty.bind(this);
@@ -104,11 +104,11 @@ export default class NewPatrol extends Component {
     console.log("Submitting form");
     event.preventDefault();
     const {appStore, patrol} = this.props;
-    let patrolSettings = mobx.toJS(patrol);
+    let patrolSettings = toJS(patrol);
     patrolSettings.store = appStore;
     appStore.patrol = new Patrol(patrolSettings);
     appStore.patrol.beginPatrol();
   }
 }
 
-// implement defaultProps?
+export default NewPatrol

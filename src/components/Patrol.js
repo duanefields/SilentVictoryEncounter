@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { inject, observer } from 'mobx-react';
 import { PatrolHeader, PatrolTrack, Encounter, PatrolComplete, RandomEvent, SubStatus } from '../components'
 import { If } from '../lib'
-import css from './Patrol.css'
+import css from './Patrol.module.css'
 
 @inject("appStore") @observer
-export default class Patrol extends Component {
+class Patrol extends Component {
 
   render() {
     const appStore = this.props.appStore;
@@ -120,3 +120,5 @@ export default class Patrol extends Component {
     );
   }
 }
+
+export default Patrol

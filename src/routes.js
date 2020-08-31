@@ -1,16 +1,15 @@
 import React from 'react';
-import { Router, Route, IndexRedirect, hashHistory } from 'react-router'
+import { Route, HashRouter } from 'react-router-dom'
 import { App, PatrolView, AboutView } from './views';
 
 const Routes = () => {
   return (
-    <Router history={hashHistory}>
+    <HashRouter>
       <Route path="/" component={App}>
-        <IndexRedirect to="/patrol"/>
         <Route path="/patrol" component={PatrolView}/>
         <Route path="/about" component={AboutView}/>
       </Route>
-    </Router>
+    </HashRouter>
   );
 }
 

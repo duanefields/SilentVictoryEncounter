@@ -3,7 +3,6 @@ import { TravelBox } from "../models";
 import patrols from "../data/patrols.json";
 import PatrolAssignments from "../data/patrolAssignments.json";
 import random from "../lib/random";
-import _ from 'lodash';
 
 export default class PatrolAssignment {
   name = null;
