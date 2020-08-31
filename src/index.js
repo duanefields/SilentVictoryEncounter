@@ -15,15 +15,3 @@ ReactDOM.render(
   root
 );
 
-if (module.hot) {
-  module.hot.accept('./routes', () => {
-    const NextApp = require('./routes').default;
-    console.log("Hot rendering");
-    ReactDOM.render(
-      <Provider appStore={appStore}>
-        <NextApp/>
-      </Provider>,
-      root
-    );
-  });
-}
