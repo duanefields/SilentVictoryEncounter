@@ -9,12 +9,12 @@ export default class AboutView extends Component {
         <p>
           This is an unofficial companion app for{" "}
           <a
-            href="https://www.gmtgames.com/p-474-silent-victory.aspx"
-            target="_top"
+            href="https://boardgamegeek.com/boardgame/154875/silent-victory-us-submarines-pacific-1941-45"
+            target="blank"
           >
             Silent Victory
           </a>
-          , a solo wargame that simulates US submarine patrols in the Pacifics
+          , a solo wargame that simulates US submarine patrols in the Pacific
           during World War II. It's currently out of print, but hopefully
           another printing will be coming soon. The original game is required to
           play, this is just a player aid for the part of the game where you
@@ -41,7 +41,7 @@ export default class AboutView extends Component {
           as the real game. It rolls 1d6, 2d6, and d100 correctly, so everything
           should work correctly. Let me know if I have missed something. The
           "SJ" and "SD" radar boxes should be selected if your radar is
-          functioning normally. If it's not, uncheck it so that encounters can
+          functioning normally. If it's not, un-check it so that encounters can
           be correctly generated.
         </p>
 
@@ -69,9 +69,10 @@ export default class AboutView extends Component {
           <li>Fixed: an issue creating patrols in Pearl Harbor 1945</li>
           <li>Fixed: don't show start dates past June 1945</li>
           <li>
-            9/9/18: Added support for close approaches to convoys, which gives
+            9/9/2018: Added support for close approaches to convoys, which gives
             you 4 contacts instead of 3, see rule 8.2.1
           </li>
+          <li>8/31/2020: Updated dependencies</li>
         </ul>
       </div>
     )
