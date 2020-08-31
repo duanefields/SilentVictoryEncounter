@@ -4,7 +4,7 @@ import { If } from '../lib'
 import { NewPatrol, Patrol } from '../components'
 import { Patrol as PatrolModel } from '../models'
 
-@inject("appStore") @observer
+@inject("appStore")
 @observer
 class PatrolView extends Component {
 
