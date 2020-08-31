@@ -1,32 +1,33 @@
-import React, { Component } from 'react';
+import React, { Component } from "react"
 
 export default class AboutView extends Component {
   render() {
     return (
       <div>
-        <h1>
-          About This App
-        </h1>
+        <h1>About This App</h1>
 
         <p>
-          This is an unofficial companion app for <a href="https://www.gmtgames.com/p-474-silent-victory.aspx" target="_top">
+          This is an unofficial companion app for{" "}
+          <a
+            href="https://www.gmtgames.com/p-474-silent-victory.aspx"
+            target="_top"
+          >
             Silent Victory
-          </a>,
-          a solo wargame that simulates US submarine patrols in the Pacifics during
-          World War II. It's currently out of print, but hopefully another printing
-          will be coming soon. The original game is required to play, this is just
-          a player aid for the part of the game where you patrol and encounter ships.
+          </a>
+          , a solo wargame that simulates US submarine patrols in the Pacifics
+          during World War II. It's currently out of print, but hopefully
+          another printing will be coming soon. The original game is required to
+          play, this is just a player aid for the part of the game where you
+          patrol and encounter ships.
         </p>
 
-        <h2>
-          What Does it Do?
-        </h2>
+        <h2>What Does it Do?</h2>
 
         <p>
           Basically, given your starting base and year, it will generate the
           patrol assignment, and as you move through the transit boxes generate
-          encounters, rolling for the ships and other contacts.
-          It doesn't do combat for you - you are on your own.
+          encounters, rolling for the ships and other contacts. It doesn't do
+          combat for you - you are on your own.
         </p>
 
         <p>
@@ -36,25 +37,26 @@ export default class AboutView extends Component {
         </p>
 
         <p>
-          As far as I know, it rolls all the same tables with the same chances as the
-          real game. It rolls 1d6, 2d6, and d100 correctly, so everything should work
-          correctly. Let me know if I have missed something.
-          The "SJ" and "SD" radar boxes should be selected if your radar is functioning
-          normally. If it's not, uncheck it so that encounters can be correctly generated.
+          As far as I know, it rolls all the same tables with the same chances
+          as the real game. It rolls 1d6, 2d6, and d100 correctly, so everything
+          should work correctly. Let me know if I have missed something. The
+          "SJ" and "SD" radar boxes should be selected if your radar is
+          functioning normally. If it's not, uncheck it so that encounters can
+          be correctly generated.
         </p>
 
         <p>
           Since the computer is doing all the rolling, it also rolls up all the
-          optional rules, including escort quality, escort names, and weather. It also
-          generates dates and times as you make your way through the patrol.
+          optional rules, including escort quality, escort names, and weather.
+          It also generates dates and times as you make your way through the
+          patrol.
         </p>
 
-        <h2>
-          Feedback
-        </h2>
+        <h2>Feedback</h2>
 
         <p>
-          If you have some feedback, a question, or an issue please <a href="mailto:duane@duanefields.com">email me</a>.
+          If you have some feedback, a question, or an issue please{" "}
+          <a href="mailto:duane@duanefields.com">email me</a>.
         </p>
 
         <p>
@@ -62,15 +64,16 @@ export default class AboutView extends Component {
           point you to the source code.
         </p>
 
-        <h2>
-          Changes
-        </h2>
+        <h2>Changes</h2>
         <ul>
           <li>Fixed: an issue creating patrols in Pearl Harbor 1945</li>
           <li>Fixed: don't show start dates past June 1945</li>
-          <li>9/9/18: Added support for close approaches to convoys, which gives you 4 contacts instead of 3, see rule 8.2.1</li>
+          <li>
+            9/9/18: Added support for close approaches to convoys, which gives
+            you 4 contacts instead of 3, see rule 8.2.1
+          </li>
         </ul>
       </div>
-    );
+    )
   }
 }

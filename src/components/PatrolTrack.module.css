@@ -10,7 +10,8 @@
   text-align: center;
 }
 
-.next, .previous {
+.next,
+.previous {
   white-space: nowrap;
   font-weight: lighter;
   font-size: 0.85em;

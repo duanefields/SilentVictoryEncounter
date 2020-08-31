@@ -1,18 +1,24 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import { NavLink } from '../components';
+import React, { Component } from "react"
+import { Link } from "react-router-dom"
+import { NavLink } from "../components"
 
 export default class App extends Component {
-
   render() {
     return (
       <div>
         <nav className="navbar navbar-toggleable-sm navbar-light bg-faded">
-          <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+          <button
+            className="navbar-toggler navbar-toggler-right"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+          >
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <Link className="navbar-brand" to="/patrol">Silent Victory</Link>
+          <Link className="navbar-brand" to="/patrol">
+            Silent Victory
+          </Link>
 
           <div id="navbarSupportedContent" className="collapse navbar-collapse">
             <ul className="navbar-nav mr-auto">
@@ -28,10 +34,8 @@ export default class App extends Component {
           </div>
         </nav>
 
-        <div className="container">
-          {this.props.children}
-        </div>
+        <div className="container">{this.props.children}</div>
       </div>
-    );
+    )
   }
 }

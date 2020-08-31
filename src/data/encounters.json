@@ -1,17 +1,5 @@
 {
-  "Transit": [
-    "Aircraft",
-    "-",
-    "-",
-    "-",
-    "-",
-    "-",
-    "-",
-    "-",
-    "-",
-    "-",
-    "Ship"
-  ],
+  "Transit": ["Aircraft", "-", "-", "-", "-", "-", "-", "-", "-", "-", "Ship"],
   "China Sea": [
     "Aircraft",
     "Two Ships+Escort",

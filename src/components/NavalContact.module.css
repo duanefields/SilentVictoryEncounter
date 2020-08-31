@@ -7,12 +7,12 @@
 
 .sky {
   background-color: #ecf0f3;
-  padding: .25em .25em 0 .25em;
+  padding: 0.25em 0.25em 0 0.25em;
 }
 
 .water {
   background-color: #57a7c4;
-  padding: .25em;
+  padding: 0.25em;
 }
 
 .damage {
@@ -20,7 +20,7 @@
   padding: 0;
   text-align: center;
   color: black;
-  font-size: .8em;
+  font-size: 0.8em;
   background-color: white;
   border: solid 1px black;
   border-radius: 50%;
