@@ -1,0 +1,9 @@
+{
+  "extends": ["react-app"],
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "no-extend-native": 0
+  }
+}

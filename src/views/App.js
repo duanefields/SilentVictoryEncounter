@@ -12,7 +12,7 @@ export default class App extends Component {
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <Link className="navbar-brand" to="/">Silent Victory</Link>
+          <Link className="navbar-brand" to="/patrol">Silent Victory</Link>
 
           <div id="navbarSupportedContent" className="collapse navbar-collapse">
             <ul className="navbar-nav mr-auto">
