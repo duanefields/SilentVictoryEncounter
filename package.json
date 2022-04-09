@@ -18,7 +18,7 @@
     "mobx": "5.15.6",
     "mobx-react": "6.3.0",
     "mobx-react-router": "4.1.0",
-    "moment": "2.27.0",
+    "moment": "2.29.2",
     "random-js": "1.0.8",
     "react": "16.13.1",
     "react-app-rewired": "2.1.6",
