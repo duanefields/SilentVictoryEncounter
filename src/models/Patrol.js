@@ -44,7 +44,7 @@ export default class Patrol {
     this.startYear = Number(this.startYear)
     extendObservable(this, store)
 
-    // don't start before Perl Harbor
+    // don't start before Pearl Harbor
     const startDay = this.startYear === 1941 ? 8 : 1
     this.startDate = new Date(this.startYear, this.startMonth, startDay)
     // don't always start on the 1st
